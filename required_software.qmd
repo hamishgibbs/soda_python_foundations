@@ -1,0 +1,45 @@
+---
+title: "Required software"
+author: Hamish Gibbs
+---
+
+## Note
+
+*This is a very short course. Please make sure that you come to class ready to participate!* 
+
+*Install the required software listed below, and make sure you have a [Google](https://www.google.com/account/about/) account and a [Github] account. If you have any questions before the course, please [contact me]((mailto:Hamish.Gibbs.21@ucl.ac.uk))!*
+
+## Required Software
+
+*All software is free and open source!*
+
+We will use [VSCode](https://code.visualstudio.com/) as our Integrated Development Environment (IDE) for Python.
+
+* Install [VSCode](https://code.visualstudio.com/Download).
+
+Once you have installed VSCode, install the following extensions:
+
+* [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+* [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+
+We will also use [git](https://git-scm.com/) for version control.
+
+*On Mac:*
+
+* You should already have `git`. To check, [open Terminal](https://support.apple.com/en-gb/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac) and run `git --version`. 
+
+*On Windows:*
+
+* Install [Git BASH](https://gitforwindows.org/). 
+
+For more information / other operating systems, see: [Github – Install Git](https://github.com/git-guides/install-git).
+
+## Other requirements
+
+To get up and running quickly, we will use [Google Colab](https://colab.research.google.com/). Please make sure that you have a [Google](https://www.google.com/account/about/) account and that you can access Colab.
+
+We will also use [GitHub](https://github.com/) for collaboration on the final challenge. If you don't already have an account, please [Register](https://github.com/join).
+
+**Tip:** *Sign up for Github with your `@ucl.ac.uk` email. Github's Education Benefits give you access to a lot of [free stuff](https://education.github.com/benefits)!*
+
+**FYI:** *You can also [link your academic email to an existing Github account](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/adding-an-email-address-to-your-github-account).*

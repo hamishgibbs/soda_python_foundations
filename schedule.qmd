@@ -1,0 +1,54 @@
+---
+title: "Course schedule"
+author: Hamish Gibbs
+---
+
+
+## Where and when
+
+**Dates:** 20th to 23rd May, 2024. 
+
+**Time:** 10:00 – 16:00 every day.
+
+**Location:** [1-19 Torrington Place](https://maps.app.goo.gl/u9iX38uM1TyYpn3E9), Room B07.
+
+## Schedule
+
+### Day 1 (Python basics)
+
+| Time | Session Type | Content |
+|-|-|--|
+| 10:00 – 11:00 | Lecture / Live Coding | introduction.pdf [pdf] [html] |
+| 11:00 – 13:00 | Practical | [variables and data structures] |
+| 13:00 – 14:00 | Lunch | 
+| 14:00 – 14:30 | Lecture / Live Coding | logic.pdf |
+| 15:00 – 16:00 | Practical | [conditionals and for loops] |
+
+### Day 2 (Abstraction & composition)
+
+| Time | Session Type | Content |
+|-|-|--|
+| 10:00 – 11:00 | Lecture / Live Coding | abstraction_and_composition.pdf |
+| 11:00 – 13:00 | Practical | [functions and classes] |
+| 13:00 – 14:00 | Lunch | 
+| 14:00 – 14:30 | Lecture / Live Coding | vscode_python.pdf |
+| 15:00 – 16:00 | Practical | [leaving Jupyter for vscode] |
+
+### Day 3 (Python Data Science)
+
+| Time | Session Type | Content |
+|-|-|--|
+| 10:00 – 11:00 | Lecture / Live Coding | python_data_science.pdf |
+| 11:00 – 13:00 | Practical | [pandas, numpy, matplotlib] |
+| 13:00 – 14:00 | Lunch | 
+| 14:00 – 14:30 | Lecture / Live Coding | collaboration.pdf |
+| 15:00 – 16:00 | Practical | [git and github] |
+
+### Day 4 (Challenge: Regression Analysis)
+
+| Time | Session Type | Content |
+|-|-|--|
+| 10:00 – 11:00 | Lecture / Live Coding | regression.pdf |
+| 11:00 – 13:00 | Challenge | [sklearn / inside AirBnB] |
+| 13:00 – 14:00 | Lunch | 
+| 14:00 – 16:00 | Challenge |
