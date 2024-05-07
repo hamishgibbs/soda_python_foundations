@@ -1,5 +1,5 @@
 ---
-title: "From Jupyter to VSCode"
+title: "Collaboration"
 author: Hamish Gibbs
 format: revealjs
 ---
