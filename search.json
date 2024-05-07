@@ -284,7 +284,7 @@
     "href": "schedule.html#schedule",
     "title": "Course schedule",
     "section": "Schedule",
-    "text": "Schedule\n\nDay 1 (Python basics)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. An informal introduction to python  2. Variables, expressions, and statements  3. Dictionaries\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Conditional execution  2. Iteration  3. More control flow tools §4.1-4.6\n\n\n\n\n\nDay 2 (Abstraction & composition)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. Functions  2. More control flow tools §4.7-4.8 (Optional)  3. Object-oriented programming\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Python Interactive window  2. Continue practicals above\n\n\n\n\n\nDay 3 (Python data science)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. 10 minutes to pandas  2. Chart visualization  3. Start working with the dataset  we will use tomorrow.  For help reading the data: see here.\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Setup GitHub  2. Create a GitHub repository  3. Commit your code (Add, Commit).  4. Push your code to your repository (Remote, Push)\n\n\n\n\n\nDay 4 (Challenge: regression analysis)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nChallenge\n1. Start the Challenge!  For help: sklearn tutorials and Inside AirBnB.\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 16:00\nChallenge\n1. Push your solution file to the shared repository.  2. We will discuss / compare solutions!"
+    "text": "Schedule\n\nDay 1 (Python basics)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. An informal introduction to python  2. Variables, expressions, and statements  3. Dictionaries\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Conditional execution  2. Iteration  3. More control flow tools §4.1-4.6\n\n\n\n\n\nDay 2 (Abstraction & composition)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. Functions  2. More control flow tools §4.7-4.8 (Optional)  3. Object-oriented programming\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Python Interactive window  2. Continue practicals above\n\n\n\n\n\nDay 3 (Python data science)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. 10 minutes to pandas  2. Chart visualization  3. Start working with the [d\n\n\nataset](https://github.com/hamishgibbs/sdi_python_foundations/blob/main/data/2020-08-24-listings.csv.gz)  we will use tomorrow.  For help reading the data: see here.\n\n\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Setup GitHub  2. Create a GitHub repository  3. Commit your code (Add, Commit).  4. Push your code to your repository (Remote, Push)\n\n\n\n\n\nDay 4 (Challenge: regression analysis)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nChallenge\n1. Start the Challenge!  For help see: sklearn tutorials and Inside AirBnB.\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 16:00\nChallenge\n1. Push your solution file to the shared repository.  2. We will discuss / compare solutions!"
   },
   {
     "objectID": "required_software.html",
@@ -359,42 +359,42 @@
   {
     "objectID": "slides/slides_collaboration.html#collaboration",
     "href": "slides/slides_collaboration.html#collaboration",
-    "title": "From Jupyter to VSCode",
+    "title": "Collaboration",
     "section": "Collaboration",
     "text": "Collaboration\nmost projects aren’t solo\nTo collaborate - you need to share code"
   },
   {
     "objectID": "slides/slides_collaboration.html#local-vs.-remote-code",
     "href": "slides/slides_collaboration.html#local-vs.-remote-code",
-    "title": "From Jupyter to VSCode",
+    "title": "Collaboration",
     "section": "Local vs. Remote code",
     "text": "Local vs. Remote code\nLocal: folder. Remote: Repository."
   },
   {
     "objectID": "slides/slides_collaboration.html#google-docs",
     "href": "slides/slides_collaboration.html#google-docs",
-    "title": "From Jupyter to VSCode",
+    "title": "Collaboration",
     "section": "Google docs",
     "text": "Google docs\ngit is kind of like Google docs"
   },
   {
     "objectID": "slides/slides_collaboration.html#version-control",
     "href": "slides/slides_collaboration.html#version-control",
-    "title": "From Jupyter to VSCode",
+    "title": "Collaboration",
     "section": "Version control",
     "text": "Version control\ngit"
   },
   {
     "objectID": "slides/slides_collaboration.html#github",
     "href": "slides/slides_collaboration.html#github",
-    "title": "From Jupyter to VSCode",
+    "title": "Collaboration",
     "section": "Github",
     "text": "Github\nTo edit the same code, you need a shared place to store it. GitHub is this place."
   },
   {
     "objectID": "slides/slides_collaboration.html#tip",
     "href": "slides/slides_collaboration.html#tip",
-    "title": "From Jupyter to VSCode",
+    "title": "Collaboration",
     "section": "Tip",
     "text": "Tip\nGithub education freebies"
   },
