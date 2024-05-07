@@ -1,0 +1,71 @@
+---
+title: "Challenge"
+author: Hamish Gibbs
+---
+
+
+## Challenge Statement
+
+**Objective:** Predict the nightly price of AirBnB listings in London based on their characteristics.
+
+**Data:** [Inside AirBnB](https://insideairbnb.com/) collects publicly-available information from AirBnB listings to estimate the effect of AirBnB on urban economies.
+
+## Guidelines
+
+This challenge aims to give you experience with all of the basic tasks in a data science project. I suggest following a workflow like this:
+
+1. Read the [dataset TODO]() with `pandas`.
+2. Do some exploratory analysis to understand the data.
+3. Choose a methodology to model the price of AirBnBs. Consider:
+    * [Linear regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html).
+    * [Decision trees](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html) and [random forests](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html).
+    * [Neural networks](https://scikit-learn.org/stable/modules/neural_networks_supervised.html) (also see [here](https://scikit-learn.org/stable/modules/neural_networks_supervised.html)).
+    * See more model suggestions [here](https://scikit-learn.org/stable/supervised_learning.html).
+4. Transform the data into relevant variables. Consider:
+    * Handling missing data.
+    * Re-coding categorical variables.
+    * Standardizing / normalizing variables.
+    * Extracting information from text variables.
+5. Fit your regression model.
+6. Evaluate the model performance.
+7. Visualize / communicate the results. 
+
+To help you get started, I have made a basic [project scaffold TODO](). 
+
+I recommend using [sklearn](https://scikit-learn.org/stable/) for statistical modelling, a popular library for machine learning in Python. 
+
+The process of training and testing regression models with sklearn follows the same basic pattern for all supported models. You can find information and example code in the documentation for [individual models](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html), or you can look at the official [sklearn tutorial](https://scikit-learn.org/stable/tutorial/basic/tutorial.html). I don't recommend working through this whole tutorial (it is about image classification). Instead, look through it and try to apply the same methodology (training/testing split, model fitting, model evaluation) to your own workflow.
+
+## Dataset
+
+The Inside AirBnB dataset comes from information "scraped" from AirBnB. This means that the dataset is created by automatically recording information on public AirBnB listings in different urban areas.
+
+I highly recommend that you look through the Inside AirBnB [Documentation](https://insideairbnb.com/) before getting started. 
+
+Also look through the [Data Dictionary](https://docs.google.com/spreadsheets/d/1iWCNJcSutYqpULSQHlNyGInUvHg2BoUGoNRIGa6Szc4/edit#gid=1322284596) to get an understanding of the different dataset variables and which variables might be relevant to your analysis. 
+
+## Recommendations
+
+Before getting started, take a moment to plan your approach. 
+
+Consider:
+
+* How was the dataset collected?
+* What variables are in the dataset?
+* What are the data types of the variables? 
+* Is there any missing data?
+* What regression methodology should you use?
+* What data format does your regression analysis need?
+* Which variables are / are not relevant to your methodology?
+* Do you need to transform these variables in any way?
+
+By the end of the session, aim to make progress on each item in the Guidelines. Start simple, then refine your solution iteratively. 
+
+If you run into any difficulties, document them, adapt your solution, and feel free to ask for help!
+
+## Debrief
+
+On the afternoon of Day 4, I will ask you to add your solution file to a shared GitHub repository. 
+
+We will then compare everyone's solutions, and we will discuss your results, the different challenges that you faced throughout the process, and how you overcame them.
+
