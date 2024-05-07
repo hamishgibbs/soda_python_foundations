@@ -3,7 +3,6 @@ title: "Course schedule"
 author: Hamish Gibbs
 ---
 
-
 ## Where and when
 
 **Dates:** 20th to 23rd May, 2024. 
@@ -18,37 +17,37 @@ author: Hamish Gibbs
 
 | Time | Session Type | Content |
 |-|-|--|
-| 10:00 – 11:00 | Lecture / Live Coding | [introduction.pdf] <br> [variables_and_data_structured.pdf] |
+| 10:00 – 11:00 | Lecture / Live Coding | [[PDF]](./slides/slides_introduction.pdf) [[HTML]](./slides/slides_introduction.qmd) |
 | 11:00 – 13:00 | Practical | 1. [An informal introduction to python](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming) <br> 2. [Variables, expressions, and statements](https://www.py4e.com/html3/02-variables) <br> 3. [Dictionaries](https://www.py4e.com/html3/09-dictionaries) |
 | 13:00 – 14:00 | Lunch | 
-| 14:00 – 14:30 | Lecture / Live Coding | [control_logic.pdf] |
+| 14:00 – 14:30 | Lecture / Live Coding | [[PDF]](./slides/slides_control_logic.pdf) [[HTML]](./slides/slides_control_logic.qmd) |
 | 15:00 – 16:00 | Practical | 1. [Conditional execution](https://www.py4e.com/html3/03-conditional) <br> 2. [Iteration](https://www.py4e.com/html3/05-iterations) <br> 3. [More control flow tools §4.1-4.6](https://docs.python.org/3/tutorial/controlflow.html)
 
 ### Day 2 (Abstraction & composition)
 
 | Time | Session Type | Content |
 |-|-|--|
-| 10:00 – 11:00 | Lecture / Live Coding | [abstraction_and_composition.pdf] |
+| 10:00 – 11:00 | Lecture / Live Coding | [[PDF]](./slides/slides_abstraction_and_composition.pdf) [[HTML]](./slides/slides_abstraction_and_composition.qmd) |
 | 11:00 – 13:00 | Practical | 1. [Functions](https://www.py4e.com/html3/04-functions) <br> 2. [More control flow tools §4.7-4.8 (Optional)](https://docs.python.org/3/tutorial/controlflow.html) <br> 3. [Object-oriented programming](https://www.py4e.com/html3/14-objects)|
 | 13:00 – 14:00 | Lunch | 
-| 14:00 – 14:30 | Lecture / Live Coding | [vscode_python.pdf] |
+| 14:00 – 14:30 | Lecture / Live Coding | [[PDF]](./slides/slides_vscode_python.pdf) [[HTML]](./slides/slides_vscode_python.qmd) |
 | 15:00 – 16:00 | Practical | 1. [Python Interactive window](https://code.visualstudio.com/docs/python/jupyter-support-py) <br> 2. *Continue practicals above* |
 
 ### Day 3 (Python data science)
 
 | Time | Session Type | Content |
 |-|-|--|
-| 10:00 – 11:00 | Lecture / Live Coding | [python_data_science.pdf] |
-| 11:00 – 13:00 | Practical | 1. [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html) <br> 2. [Chart visualization](https://pandas.pydata.org/docs/user_guide/visualization.html) <br> 3. Start working with the dataset [TODO]() <br> we will use tomorrow. <br> For help reading the data: [see here](https://pandas.pydata.org/docs/user_guide/io.html). |
+| 10:00 – 11:00 | Lecture / Live Coding | [[PDF]](./slides/slides_python_data_science.pdf) [[HTML]](./slides/slides_python_data_science.qmd) |
+| 11:00 – 13:00 | Practical | 1. [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html) <br> 2. [Chart visualization](https://pandas.pydata.org/docs/user_guide/visualization.html) <br> 3. Start working with the [dataset](https://github.com/hamishgibbs/sdi_python_foundations/blob/main/data/2020-08-24-listings.csv.gz) <br> we will use tomorrow. <br> For help reading the data: [see here](https://pandas.pydata.org/docs/user_guide/io.html). |
 | 13:00 – 14:00 | Lunch | 
-| 14:00 – 14:30 | Lecture / Live Coding | [collaboration.pdf] |
+| 14:00 – 14:30 | Lecture / Live Coding | [[PDF]](./slides/slides_collaboration.pdf) [[HTML]](./slides/slides_collaboration.qmd) |
 | 15:00 – 16:00 | Practical | 1. Setup [GitHub](https://github.com/) <br> 2. [Create a GitHub repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) <br> 3. Commit your code ([Add](https://github.com/git-guides/git-add), [Commit](https://github.com/git-guides/git-commit)). <br> 4. Push your code to your repository ([Remote](https://github.com/git-guides/git-remote), [Push](https://github.com/git-guides/git-push)) |
 
 ### Day 4 (Challenge: regression analysis)
 
 | Time | Session Type | Content |
 |-|-|--|
-| 10:00 – 11:00 | Lecture / Live Coding | [regression.pdf] |
+| 10:00 – 11:00 | Lecture / Live Coding | [[PDF]](./slides/slides_regression.pdf) [[HTML]](./slides/slides_regression.qmd) |
 | 11:00 – 13:00 | Challenge | 1. Start the [Challenge](./challenge.qmd)! <br> For help: [sklearn](https://scikit-learn.org/stable/tutorial/index.html) tutorials and [Inside AirBnB](https://insideairbnb.com/). |
 | 13:00 – 14:00 | Lunch | 
-| 14:00 – 16:00 | Challenge | 1. Push your solution file to the [shared repository TODO](). <br> 2. We will discuss / compare solutions! |
+| 14:00 – 16:00 | Challenge | 1. Push your solution file to the [shared repository](https://github.com/hamishgibbs/sdi_python_foundations_2024). <br> 2. We will discuss / compare solutions! |

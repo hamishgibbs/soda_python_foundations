@@ -31,7 +31,9 @@ This challenge aims to give you experience with all of the basic tasks in a data
 7. Evaluate the model performance.
 8. Visualize / communicate the results. 
 
-To help you get started, I have made a basic [project scaffold TODO](). 
+To help you get started, I have made a basic [project scaffold](https://github.com/hamishgibbs/sdi_python_foundations/blob/main/challenge_scaffold.py). In this file, I try to predict the price of AirBnB listings with a linear regression based only on the number of bedrooms in the listing. The model performs terribly, but this should be a good starting point. Consider how you can extract more relevant information from the dataset and make a more appropriate model choice to improve the accuracy of your model.
+
+## Regression
 
 I recommend using [sklearn](https://scikit-learn.org/stable/) for statistical modelling, a popular library for machine learning in Python. 
 
@@ -68,5 +70,5 @@ If you run into any difficulties, document them, adapt your solution, and feel f
 
 On the afternoon of Day 4, I will ask you to add your solution file to a shared GitHub repository. 
 
-We will then compare everyone's solutions, and we will discuss your results, the different challenges that you faced throughout the process, and how you overcame them.
+We will then compare everyone's solutions and discuss your results, the different challenges that you faced, and how you overcame them.
 

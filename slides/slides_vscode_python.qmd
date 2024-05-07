@@ -1,0 +1,24 @@
+---
+title: "From Jupyter to VSCode"
+author: Hamish Gibbs
+format: revealjs
+---
+
+## Reusing code
+Code is a recipe
+
+## Jupyter notebooks
+(strengths & weaknesses)  
+Jupyter notebooks combine code and data in a way that can be good or bad
+
+## .py files 
+(what the other approach is)
+
+## .py files 
+(strengths and weaknesses)
+
+## VSCode
+IDE
+
+## Combined workflow
+(Running jupyter cells in a .py file in vscode)

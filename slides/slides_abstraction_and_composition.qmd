@@ -1,0 +1,29 @@
+---
+title: "Day 2: Abstraction and composition"
+author: "Hamish Gibbs"
+format: revealjs
+---
+
+## Writing re-usable code
+
+## Abstraction
+show adding numbers code vs. adding numbers function
+
+## Functions
+Functions are a bundle of logic
+
+## Composition
+show nested function
+
+## Classes
+Functions: logic 
+Classes: data + logic
+attributes, methods
+
+## Inheritance
+classes, inheritance
+
+## Object-oriented programming
+
+## Conclusion
+Programming is less about tricky logic problems, more about abstraction and composition

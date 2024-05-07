@@ -31,9 +31,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # Fit the regression model.
 model = LinearRegression()
 model.fit(X_train, y_train)
-
 #%%
-# Evaluate the model performance (it is very bad!).
+# Evaluate the model performance (very bad!).
 y_pred = model.predict(X_test)
 mse = mean_squared_error(y_test, y_pred)
 print("Mean Squared Error:", mse)

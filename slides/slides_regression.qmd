@@ -1,0 +1,16 @@
+---
+title: "Challenge: regression analysis"
+author: Hamish Gibbs
+format: revealjs
+---
+
+## Challenge statement
+
+## Regression
+
+## Python regression tools
+sklearn
+
+## Challenge scaffold
+
+## Dataset

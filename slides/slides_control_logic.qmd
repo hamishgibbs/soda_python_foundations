@@ -1,0 +1,19 @@
+---
+title: "Control logic"
+author: "Hamish Gibbs"
+format: revealjs
+---
+
+## Conditional logic
+
+(compare R to Python)
+
+## Iteration 
+
+(compare R to Python)
+
+## For loop
+
+## While loop
+
+## List comprehension

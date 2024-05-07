@@ -13,4 +13,4 @@ author: Hamish Gibbs
 
 * [Git Guides (GitHub)](https://github.com/git-guides): *a useful resource for basic `git` commands and installation instructions.*
 * [Cheatsheet: Resolving Conflicts in a Git Repository](https://hamishgibbs.net/pages/cheatsheet-resolving-conflicts-in-a-git-repository/): *my own cheatsheet on how to fix a common issue for people learning git and working in shared repositories.*
-* [Visualizing Git](https://git-school.github.io/visualizing-git/): *a fun tool to visualize how `git` works. Playing around with this can help you "get" how different commands interact with eachother.*
+* [Visualizing Git](https://git-school.github.io/visualizing-git/): *a fun tool to visualize how `git` works. Playing around with this can help you "get" how different commands interact with each other.*

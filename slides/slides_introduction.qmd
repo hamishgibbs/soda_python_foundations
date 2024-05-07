@@ -1,0 +1,80 @@
+---
+title: "Welcome to Foundations of Python"
+author: "Hamish Gibbs"
+format: revealjs
+---
+
+## Introduction
+
+UCL Social Data Institute: Foundations of Python 
+
+![](https://www.ucl.ac.uk/social-data/sites/social_data/files/social_data_institute_banner_image_1400_x_420_2.jpg?sd35v8)
+
+## Course aims
+
+* A foundation in Python programming.  
+    * *Variables, data structures, control logic, functions, classes.*
+* An Introduction to popular Python tools for data science.  
+    * *pandas, matplotlib, sklearn.*
+* A hands-on data science challenge.
+    * Predicting the price of London AirBnBs.
+
+## About me
+
+* Final year PhD student (Supervised by James Cheshire).
+* My research interests: Human mobility, disease transmission, bias & uncertainty.
+* Python experience: 9 years.
+* Python projects: TODO
+
+## About you
+
+* Programming experience?
+* Statistics experience?
+* Installation problems?
+
+## Schedule
+
+* *This is a short course!*
+* **Day 1:** Python basics.
+    * Variables, data structures (`list`, `dict`), control logic (`if`, `for`, `while`).
+* **Day 2:** Abstraction & composition.
+    * Functions, Classes.
+    * *Also:* Using `.py` files, not `.ipynb`.
+
+## Schedule
+
+* **Day 3:** Python data science.
+    * `pandas`, `numpy`, `matplotlib`.
+* **Day 4:** Challenge: regression analysis.
+    * Predicting the price of London AirBnBs using [Inside AirBnB](https://insideairbnb.com/) data.
+
+## Learning python
+
+<div style="text-align: center; vertical-align: middle; height: 100%;">
+  <img src="https://www.writerswrite.co.za/wp-content/uploads/2018/04/Practice-Makes-Perfect.jpg" style="max-height: 80%;">
+  <div style="font-size: 0.7em;"><small>Source: <a href="https://www.instagram.com/p/Bc7d-jxHG4a/">Sarah's Scribbles</small></a></div>
+</div>
+
+## Learning python
+
+* Practice is the most important ingredient to becoming a good programmer.
+* It is easier to "practice" if you find *personally compelling* reasons to use Python.
+    * Coursework, side projects, random curiosity, automating things in your life.
+* Programming is all about trial and error.
+
+## AI
+
+* New AI programming assistants:
+    * Chat GPT, GitHub Copilot, Copilot Chat
+* I recommend using them all, especially as a study aid.
+    * **Bad idea:** Using AI to *generate* code you can't understand.
+    * **Good idea:** Using AI to *explain* code you can't understand.
+
+## Variables
+(compare R to Python)
+
+## Lists
+(compare R to Python)
+
+## Dictionaries
+(compare Python to R - put R last (it is more confusing))

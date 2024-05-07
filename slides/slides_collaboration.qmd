@@ -1,0 +1,24 @@
+---
+title: "From Jupyter to VSCode"
+author: Hamish Gibbs
+format: revealjs
+---
+
+## Collaboration
+most projects aren't solo  
+To collaborate - you need to share code
+
+## Local vs. Remote code
+Local: folder. Remote: Repository.
+
+## Google docs
+git is kind of like Google docs
+
+## Version control
+git
+
+## Github
+To edit the same code, you need a shared place to store it. GitHub is this place.
+
+## Tip
+Github education freebies

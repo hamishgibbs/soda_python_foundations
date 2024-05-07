@@ -13,8 +13,8 @@ then
     exit
 fi
 
-for file in "$HTML_DIR"/slides_*.html; do
-    if [ "$file" = "$HTML_DIR/slides_*.html" ]; then
+for file in "$HTML_DIR"/slides/slides_*.html; do
+    if [ "$file" = "$HTML_DIR/slides/slides_*.html" ]; then
         echo "No slides found in $HTML_DIR"
         break
     fi
