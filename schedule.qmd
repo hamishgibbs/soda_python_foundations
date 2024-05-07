@@ -34,7 +34,7 @@ author: Hamish Gibbs
 | 14:00 – 14:30 | Lecture / Live Coding | [vscode_python.pdf] |
 | 15:00 – 16:00 | Practical | 1. [Python Interactive window](https://code.visualstudio.com/docs/python/jupyter-support-py) <br> 2. *Continue practicals above* |
 
-### Day 3 (Python Data Science)
+### Day 3 (Python data science)
 
 | Time | Session Type | Content |
 |-|-|--|
@@ -44,7 +44,7 @@ author: Hamish Gibbs
 | 14:00 – 14:30 | Lecture / Live Coding | [collaboration.pdf] |
 | 15:00 – 16:00 | Practical | 1. Setup [GitHub](https://github.com/) <br> 2. [Create a GitHub repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) <br> 3. Commit your code ([Add](https://github.com/git-guides/git-add), [Commit](https://github.com/git-guides/git-commit)). <br> 4. Push your code to your repository ([Remote](https://github.com/git-guides/git-remote), [Push](https://github.com/git-guides/git-push)) |
 
-### Day 4 (Challenge: Regression Analysis)
+### Day 4 (Challenge: regression analysis)
 
 | Time | Session Type | Content |
 |-|-|--|

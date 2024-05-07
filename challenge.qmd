@@ -14,21 +14,22 @@ author: Hamish Gibbs
 
 This challenge aims to give you experience with all of the basic tasks in a data science project. I suggest following a workflow like this:
 
-1. Read the [dataset TODO]() with `pandas`.
+1. Read the [dataset](https://github.com/hamishgibbs/sdi_python_foundations/blob/main/data/2020-08-24-listings.csv.gz) with `pandas`.
 2. Do some exploratory analysis to understand the data.
-3. Choose a methodology to model the price of AirBnBs. Consider:
-    * [Linear regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html).
-    * [Decision trees](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html) and [random forests](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html).
-    * [Neural networks](https://scikit-learn.org/stable/modules/neural_networks_supervised.html) (also see [here](https://scikit-learn.org/stable/modules/neural_networks_supervised.html)).
-    * See more model suggestions [here](https://scikit-learn.org/stable/supervised_learning.html).
-4. Transform the data into relevant variables. Consider:
+3. Transform the data into relevant variables. Consider:
     * Handling missing data.
     * Re-coding categorical variables.
     * Standardizing / normalizing variables.
     * Extracting information from text variables.
-5. Fit your regression model.
-6. Evaluate the model performance.
-7. Visualize / communicate the results. 
+4. Split the dataset into training / evaluation datasets.
+5. Choose a regression to model the price of AirBnBs. Consider:
+    * [Linear regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html).
+    * [Decision trees](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html) and [random forests](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html).
+    * [Neural networks](https://scikit-learn.org/stable/modules/neural_networks_supervised.html) (also see [here](https://scikit-learn.org/stable/modules/neural_networks_supervised.html)).
+    * See more model suggestions [here](https://scikit-learn.org/stable/supervised_learning.html).
+6. Fit the regression model.
+7. Evaluate the model performance.
+8. Visualize / communicate the results. 
 
 To help you get started, I have made a basic [project scaffold TODO](). 
 
