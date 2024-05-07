@@ -1,0 +1,45 @@
+name: Build and Deploy Quarto Website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.11'
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc
+        wget -qO- https://deb.nodesource.com/setup_15.x | sudo bash -
+        sudo apt-get install -y nodejs
+        npm install -g decktape
+
+    - name: Render Quarto Project
+      run: |
+        quarto install
+        quarto render
+
+    - name: Convert Slides to PDF
+      run: |
+        for file in _site/slides/slides_*.html; do
+          pdf="${file%.html}.pdf"
+          decktape reveal "$file" "$pdf"
+        done
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
