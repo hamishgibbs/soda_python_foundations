@@ -22,7 +22,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y pandoc
-        wget -qO- https://deb.nodesource.com/setup_15.x | sudo bash -
+        curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -  # Installing Node.js 18 LTS
         sudo apt-get install -y nodejs
         npm install -g decktape
 
