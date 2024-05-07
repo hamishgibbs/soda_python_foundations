@@ -22,13 +22,15 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y pandoc
-        curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -  # Installing Node.js 18 LTS
+        curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - 
         sudo apt-get install -y nodejs
         npm install -g decktape
+    
+    - name: Install Quarto
+      uses: quarto-dev/quarto-actions/setup@v2
 
     - name: Render Quarto Project
       run: |
-        quarto install
         quarto render
 
     - name: Convert Slides to PDF
