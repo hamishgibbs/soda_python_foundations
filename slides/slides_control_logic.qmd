@@ -4,16 +4,130 @@ author: "Hamish Gibbs"
 format: revealjs
 ---
 
-## Conditional logic
+## Tutorial #1: Conditional logic
 
-(compare R to Python)
+* [Conditional execution](https://www.py4e.com/html3/03-conditional)
+* Core concepts: 
+    * Booleans (`True`, `False `)
 
-## Iteration 
+        ```python
+        x = 5 == 5
+        ```
+    * Conditional execution
 
-(compare R to Python)
+        ```python
+        if x > 0 :
+            print('x is positive')
+        ```
+    * Catching exceptions
+        
+        ```python
+        try:
+            # Some code that throws an error
+        except:
+            # A useful error message
+        ```
 
-## For loop
+## Conditional logic: R to Python
 
-## While loop
+* The concept is the same, the Python syntax is simpler.
+    * *In Python, pay attention to your indentation!*
+
+::: {.row height="25%"}
+
+<h4>R</h4>
+```r
+if (x > 0) {
+    print('x is positive')
+}
+```
+:::
+
+::: {.row height="25%"}
+<br>
+<h4>Python</h4>
+
+```python
+if x > 0 :
+    print('x is positive')
+```
+
+:::
+
+## Tutorial #2: Iteration
+
+* [Iteration](https://www.py4e.com/html3/05-iterations)
+* Core concepts: 
+    * Indefinite iteration (`while`)
+
+        ```python
+        while x < 10:
+            # Do something with x
+        ```
+    * Definite iteration (`for`)
+
+        ```python
+        for x in range(10):
+            print(x)
+        ```
+
+## Iteration: R to Python
+
+* Just like `if` statements, the R concept is the same, the Python syntax is simpler.
+
+::: {.row height="25%"}
+
+<h4>R</h4>
+```r
+for (x in 1:3) {
+    print(x)
+}
+```
+:::
+
+::: {.row height="25%"}
+<br>
+<h4>Python</h4>
+
+```python
+for x in [1, 2, 3]:
+    print(x)
+```
+
+:::
 
 ## List comprehension
+
+* Unique to Python: one-line iteration for lists.
+    * Iterate over a list:
+
+    ```python
+    y = [x for x in [1, 2, 3]]
+    ```
+
+    * Manipulate each element of a list:
+
+    ```python
+    [x + 3 for x in y]
+    ```
+
+## Tutorial #3: Iteration
+
+* [More control flow tools §4.1-4.6](https://docs.python.org/3/tutorial/controlflow.html)
+* Core concepts: 
+    * The `range()` function
+
+        ```python
+        range(3)
+        ```
+    * Other control statements (`break`, `continue`, `pass`)
+    * `match` statements
+
+        ```python
+        match point:
+            case 0:
+                print("x is 0")
+            case _:
+                print(f"x is anything else!")
+        ```
+        * *Note: §4.6 mentions **functions** (`def`) which we will work with tomorrow!*
