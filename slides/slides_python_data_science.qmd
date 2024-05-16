@@ -4,15 +4,70 @@ author: Hamish Gibbs
 format: revealjs
 ---
 
+## Today: Python data science
+
+* Introduction to Python data science tools.
+* Introduction to a basic data science workflow.
+* This afternoon: collaborating on a data science project.
+
 ## Data science
-What is data science: "Extract meaningful insights from data". *meaningful* is important - use the tools of programming / statistics to create meaning. You exercise a lot of judgement.
+
+* Definition of data science: 
+    * *"Extracting meaningful insights from data."* 
+* *Meaningful* is important.
+    * Use the tools of programming / statistics to create meaning from your data.
+* Usually, there is no "right" answer, just "better" and "worse" answers.
+    * You exercise a lot of judgement.
 
 ## Data science workflow
-Not just machine learning - most work is data preparation, data transformation, method selection, communicating results.
+
+* Data science is **not** just machine learning.
+    * Most data science work is:
+        * Data preparation
+        * Data transformation 
+        * Method selection
+            * *Statistics / machine learning*
+        * Communicating results
 
 ## Python data science tools
-how these line up with the tasks above
+
+* Today, we will learn about the most popular Python data science "stack"
+    * Data preparation / data transformation 
+        * [`pandas`](https://pandas.pydata.org/), [`numpy`](https://numpy.org/)
+    * Statistics / machine learning
+        * [`sklearn`](https://scikit-learn.org/stable/)
+    * Communicating results
+        * [`matplotlib`](https://matplotlib.org/)
 
 ## R equivalents
-pandas (comparison with R), matplotlib (comparison with ggplot)
-R corollaries" - how these line up with the tools mentioned above
+
+* Python libraries mostly have their R equivalents:
+    * [`pandas`](https://pandas.pydata.org/) : [`dplyr`](https://dplyr.tidyverse.org/)
+    * [`sklearn`](https://scikit-learn.org/stable/) : [`caret`](https://topepo.github.io/caret/)?
+    * [`matplotlib`](https://matplotlib.org/) : [`ggplot2`](https://ggplot2.tidyverse.org/reference/ggsave.html)
+* See what you prefer, I use both languages very regularly!
+
+## Diving deeper
+
+* Python has many other options for data science tools.
+* Alternatives to [`pandas`](https://pandas.pydata.org/):
+    * [`polars`](https://pola.rs/) *(Like Python's version of [`data.table`](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html))*
+    * [`dask`](https://www.dask.org/)
+* Alternatives to [`sklearn`](https://scikit-learn.org/stable/):
+    * ...?
+* Alternatives to [`matplotlib`](https://matplotlib.org/):
+    * [`seaborn`](https://seaborn.pydata.org/)
+    * [`plotnine`](https://plotnine.org/) *(R users might like this one!)*
+
+## Tutorial #1: pandas
+
+* [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
+* Core concepts: 
+    * TODO
+
+## Tutorial #2: pandas / matplotlib
+
+* [Chart visualization](https://pandas.pydata.org/docs/user_guide/visualization.html)
+* Core concepts: 
+    * TODO
+
