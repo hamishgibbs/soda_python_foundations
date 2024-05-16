@@ -29,6 +29,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -339,33 +404,245 @@ Hamish Gibbs
 </section>
 <section id="writing-re-usable-code" class="slide level2">
 <h2>Writing re-usable code</h2>
+<ul>
+<li>Code should be like a recipe.
+<ul>
+<li>Generally: good code tells <em>how</em> to do something, not <em>what</em> you’ve done.</li>
+</ul></li>
+<li>Scripting vs.&nbsp;programming
+<ul>
+<li><strong>Scripting:</strong> Small bits of code that do a single thing.</li>
+<li><strong>Programming:</strong> General-purpose “recipes” for transforming inputs to outputs.</li>
+</ul></li>
+</ul>
 </section>
-<section id="abstraction" class="slide level2">
-<h2>Abstraction</h2>
-<p>show adding numbers code vs.&nbsp;adding numbers function</p>
+<section id="example-scripting-in-python" class="slide level2">
+<h2>Example: scripting in python</h2>
+<ul>
+<li>A simple script for converting Fahrenheit to Celsius</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>temp_f <span class="op">=</span> <span class="dv">100</span></span>
+<span id="cb1-2"><a></a></span>
+<span id="cb1-3"><a></a>temp_c <span class="op">=</span> <span class="dv">5</span><span class="op">/</span><span class="dv">9</span> <span class="op">*</span> (temp_f <span class="op">-</span> <span class="dv">32</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>What’s wrong with this?
+<ul>
+<li>Nothing, it works.</li>
+<li>But what if we want to change the value of <code>temp_f</code>?</li>
+<li>What if we want to convert multiple Fahrenheit values to Celsius?</li>
+</ul></li>
+</ul>
+</section>
+<section id="solution-abstraction" class="slide level2">
+<h2>Solution: Abstraction</h2>
+<ul>
+<li>We want to <strong>abstract</strong> the logic that converts temperatures into a “recipe” with:
+<ul>
+<li><strong>Input:</strong> any value in Fahrenheit.</li>
+<li><strong>Output:</strong> the converted value in Celsius.</li>
+</ul></li>
+<li>Our “recipe” can be written as a <strong>Function</strong>.</li>
+</ul>
+</section>
+<section id="example-programming-in-python" class="slide level2">
+<h2>Example: programming in Python</h2>
+<ul>
+<li>A <strong>function</strong> for converting temperatures:</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="kw">def</span> convert_f_to_c(temp_f):</span>
+<span id="cb2-2"><a></a>    <span class="cf">return</span> <span class="dv">5</span><span class="op">/</span><span class="dv">9</span> <span class="op">*</span> (temp_f <span class="op">-</span> <span class="dv">32</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Now, our logic can be applied to multiple values:</li>
+</ul>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="bu">print</span>(convert_f_to_c(<span class="dv">100</span>))</span>
+<span id="cb3-2"><a></a><span class="bu">print</span>(convert_f_to_c(<span class="dv">120</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Or we can apply our to function to a <code>list</code> of values:</li>
+</ul>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a>temps_f <span class="op">=</span> [<span class="dv">100</span>, <span class="dv">120</span>, <span class="dv">80</span>]</span>
+<span id="cb4-2"><a></a>temps_c <span class="op">=</span> [convert_f_to_c(x) <span class="cf">for</span> x <span class="kw">in</span> temps_f]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="functions" class="slide level2">
 <h2>Functions</h2>
-<p>Functions are a bundle of logic</p>
+<ul>
+<li><strong>Functions</strong> are a named bundle of logic.
+<ul>
+<li>I think of a function as a “pipe” that transforms values into other values.</li>
+</ul></li>
+<li>Example functions (<em>Tip: useful for the challenge!</em>):
+<ul>
+<li><code>model = fit_model(train)</code></li>
+<li><code>fig = plot_scatterplot(data)</code></li>
+<li><code>save_image(img, path)</code></li>
+</ul></li>
+<li>Another analogy: think of functions as the “verbs” and variables as the “nouns” of your program.</li>
+</ul>
 </section>
 <section id="composition" class="slide level2">
 <h2>Composition</h2>
-<p>show nested function</p>
+<ul>
+<li><p>Functions help to break up your code into small, reusable “modules.”</p></li>
+<li><p>These modules can be <strong>composed</strong> together:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="kw">def</span> convert_multiple_f_to_c(temps_f):</span>
+<span id="cb5-2"><a></a>    <span class="cf">return</span> [convert_f_to_c(x) <span class="cf">for</span> x <span class="kw">in</span> temps_f]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Programming is less about tricky logic problems, more about abstraction and composition.</p></li>
+</ul>
+</section>
+<section id="scripting-vs.-programming" class="slide level2">
+<h2>Scripting vs.&nbsp;Programming</h2>
+<ul>
+<li>The line between <strong>scripting</strong> and <strong>programming</strong> is fuzzy.</li>
+<li>Often, you need to re-use bits of a script, so you start re-writing it into functions.</li>
+<li>If these functions are useful enough, you can incorporate them into a library.
+<ul>
+<li>My own example of this (in R): <a href="https://github.com/hamishgibbs/ggutils">ggutils</a>.</li>
+</ul></li>
+</ul>
+</section>
+<section id="classes-logic-data" class="slide level2">
+<h2>Classes: logic + data</h2>
+<ul>
+<li><strong>Functions:</strong> logic (a “recipe”)</li>
+<li><strong>Variables:</strong> data (actual “values”)</li>
+<li><strong>Classes:</strong> An <strong>abstraction</strong> for combining data and logic.</li>
+</ul>
 </section>
 <section id="classes" class="slide level2">
 <h2>Classes</h2>
-<p>Functions: logic Classes: data + logic attributes, methods</p>
+<ul>
+<li>Classes have two components:
+<ul>
+<li><strong>Attributes:</strong> data.</li>
+<li><strong>Methods:</strong> functions.</li>
+</ul></li>
+</ul>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a>    <span class="kw">class</span> WeatherStation:</span>
+<span id="cb6-2"><a></a>        <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temps_f): <span class="co"># Default initialization method</span></span>
+<span id="cb6-3"><a></a>            <span class="va">self</span>.temps_f <span class="op">=</span> temps_f <span class="co"># an "attribute"</span></span>
+<span id="cb6-4"><a></a></span>
+<span id="cb6-5"><a></a>        <span class="kw">def</span> convert_f_to_c(temp_f): <span class="co"># A "method"</span></span>
+<span id="cb6-6"><a></a>            <span class="cf">return</span> <span class="dv">5</span><span class="op">/</span><span class="dv">9</span> <span class="op">*</span> (temp_f <span class="op">-</span> <span class="dv">32</span>)</span>
+<span id="cb6-7"><a></a></span>
+<span id="cb6-8"><a></a>        <span class="kw">def</span> convert_temps_f_to_c(<span class="va">self</span>): <span class="co"># Another "method"</span></span>
+<span id="cb6-9"><a></a>            <span class="cf">return</span> [<span class="va">self</span>.convert_f_to_c(x) <span class="cf">for</span> x <span class="kw">in</span> <span class="va">self</span>.temps_f]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Now, my functions are directly <strong>coupled</strong> to my data and I have given this <code>Object</code> a name: <code>WeatherStation</code>.</li>
+</ul>
+</section>
+<section id="using-a-classes" class="slide level2">
+<h2>Using a classes</h2>
+<ul>
+<li><p>A <strong>class</strong> is a general purpose construct, like a <strong>function</strong>.</p></li>
+<li><p>We have to initialize our class with some data:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a>station <span class="op">=</span> WeatherStation(temps_f <span class="op">=</span> [<span class="dv">100</span>, <span class="dv">120</span>, <span class="dv">80</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Here, <code>station</code> is an <strong>instance</strong> of the class <code>WeatherStation</code>.</p></li>
+<li><p>Then we can use the methods of the class for this instance:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a><span class="bu">print</span>(station.convert_temps_f_to_c())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul>
 </section>
 <section id="inheritance" class="slide level2">
 <h2>Inheritance</h2>
-<p>classes, inheritance</p>
+<ul>
+<li><p>Classes can be <strong>extended</strong> to represent different objects objects with the same <strong>interface</strong>.</p></li>
+<li><p>Here, the <code>WeatherStation</code> has a general purpose method <code>get_temperatures</code> which should always return the temperature in Celsius.</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a>    <span class="kw">class</span> WeatherStation:</span>
+<span id="cb9-2"><a></a>        <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temps):</span>
+<span id="cb9-3"><a></a>            <span class="va">self</span>.temps <span class="op">=</span> temps </span>
+<span id="cb9-4"><a></a></span>
+<span id="cb9-5"><a></a>        <span class="kw">def</span> convert_f_to_c(<span class="va">self</span>, temp_f):</span>
+<span id="cb9-6"><a></a>            <span class="cf">return</span> <span class="dv">5</span> <span class="op">/</span> <span class="dv">9</span> <span class="op">*</span> (temp_f <span class="op">-</span> <span class="dv">32</span>)</span>
+<span id="cb9-7"><a></a></span>
+<span id="cb9-8"><a></a>        <span class="kw">def</span> get_temperatures_c(<span class="va">self</span>):</span>
+<span id="cb9-9"><a></a>            <span class="cf">return</span> <span class="va">self</span>.temps</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul>
 </section>
-<section id="object-oriented-programming" class="slide level2">
-<h2>Object-oriented programming</h2>
+<section id="inheritance-1" class="slide level2">
+<h2>Inheritance</h2>
+<ul>
+<li><p>We could create two child classes which <strong>inherit</strong> the <code>WeatherStation</code> interface.</p></li>
+<li><p>Assuming an <code>AmericanWeatherStation</code> is always initialized with <code>temps</code> in Fahrenheit:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a>    <span class="kw">class</span> AmericanWeatherStation(WeatherStation):</span>
+<span id="cb10-2"><a></a></span>
+<span id="cb10-3"><a></a>        <span class="kw">def</span> get_temperatures_c(<span class="va">self</span>):</span>
+<span id="cb10-4"><a></a>            <span class="cf">return</span> [<span class="va">self</span>.convert_f_to_c(x) <span class="cf">for</span> x <span class="kw">in</span> <span class="va">self</span>.temps]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Assuming a <code>EuropeanWeatherStation</code> is always initialized with <code>temps</code> in Celsius:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a>    <span class="kw">class</span> EuropeanWeatherStation(WeatherStation):</span>
+<span id="cb11-2"><a></a></span>
+<span id="cb11-3"><a></a>        <span class="kw">def</span> get_temperatures_c(<span class="va">self</span>):</span>
+<span id="cb11-4"><a></a>            <span class="cf">return</span> <span class="va">self</span>.temps</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul>
 </section>
-<section id="conclusion" class="slide level2">
-<h2>Conclusion</h2>
-<p>Programming is less about tricky logic problems, more about abstraction and composition</p>
+<section id="inheritance-2" class="slide level2">
+<h2>Inheritance</h2>
+<ul>
+<li><p>Inheritance gives a common <strong>interface</strong>.</p></li>
+<li><p>Now, I can write a function that consumes any <code>WeatherStation</code> object.</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a></a>    <span class="kw">def</span> get_total_temp_c(station):</span>
+<span id="cb12-2"><a></a>        <span class="cf">return</span> <span class="bu">sum</span>(station.get_temperatures_c())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul>
+</section>
+<section id="tutorial-1-functions" class="slide level2">
+<h2>Tutorial #1: Functions</h2>
+<ul>
+<li><a href="https://www.py4e.com/html3/04-functions">Functions</a></li>
+<li>Core concepts:
+<ul>
+<li><p>Using built-in functions (and the standard library)</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a><span class="im">import</span> math</span>
+<span id="cb13-2"><a></a>math.log10(<span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Writing your own functions</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a></a><span class="kw">def</span> add_3(x):</span>
+<span id="cb14-2"><a></a>    <span class="cf">return</span> x <span class="op">+</span> <span class="dv">3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Composing functions</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a></a><span class="kw">def</span> add_5(x):</span>
+<span id="cb15-2"><a></a>    <span class="cf">return</span> add_3(x) <span class="op">+</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul></li>
+</ul>
+</section>
+<section id="tutorial-2-functions-optional" class="slide level2">
+<h2>Tutorial #2: Functions (Optional)</h2>
+<ul>
+<li><a href="https://docs.python.org/3/tutorial/controlflow.html#defining-functions">More control flow tools §4.7-4.8 (Optional)</a>
+<ul>
+<li><em>This is more of a deep dive. If you feel shaky with the basics of functions, jump ahead to classes, then return to this!</em></li>
+</ul></li>
+<li>Core concepts:
+<ul>
+<li><p>Default arguments</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a></a><span class="kw">def</span> add(x, y <span class="op">=</span> <span class="dv">2</span>):</span>
+<span id="cb16-2"><a></a>    <span class="cf">return</span> x <span class="op">+</span> y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Keyword arguments</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a></a>add(<span class="dv">4</span>, x<span class="op">=</span><span class="dv">4</span>) <span class="co"># duplicate value for the same argument</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul></li>
+</ul>
+</section>
+<section id="tutorial-3" class="slide level2">
+<h2>Tutorial #3</h2>
+<ul>
+<li><p><a href="https://www.py4e.com/html3/14-objects">Object-oriented programming</a></p></li>
+<li><p>Core concepts:</p>
+<ul>
+<li><p>Writing custom classes</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a></a><span class="kw">class</span> PartyAnimal:</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Initializing classes</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a></a>an <span class="op">=</span> PartyAnimal()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Class inheritance</p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a></a><span class="kw">class</span> CricketFan(PartyAnimal):</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul></li>
+</ul>
+</section>
+<section id="tutorial-3-possible-pitfall" class="slide level2">
+<h2>Tutorial #3: possible pitfall</h2>
+<ul>
+<li><p>Tutorial #3 includes the following code:</p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a></a><span class="im">from</span> party <span class="im">import</span> PartyAnimal</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>This requires actually breaking our code into different scripts (<code>.py</code> files).</p></li>
+<li><p>We can’t do this because we are still using Colab.</p>
+<ul>
+<li>For now, just carry on in the same Notebook.</li>
+<li>We will introduce <code>.py</code> files this afternoon!</li>
+</ul></li>
+</ul>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

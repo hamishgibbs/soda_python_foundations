@@ -337,30 +337,128 @@ Hamish Gibbs
 </div>
 
 </section>
-<section id="reusing-code" class="slide level2">
-<h2>Reusing code</h2>
-<p>Code is a recipe</p>
+<section id="jupyter-notebooks-.ipynb" class="slide level2">
+<h2>Jupyter notebooks (.ipynb)</h2>
+<ul>
+<li>Google Colab runs a <a href="https://jupyter.org/">Jupyter Notebook</a>
+<ul>
+<li><strong>Pros:</strong>
+<ul>
+<li>Minimal set-up</li>
+<li>Interactive coding</li>
+</ul></li>
+<li><strong>Cons:</strong>
+<ul>
+<li>Difficult to re-use code</li>
+<li>Insufficient for larger projects</li>
+<li>Hard to integrate with other programming tools</li>
+</ul></li>
+</ul></li>
+</ul>
 </section>
-<section id="jupyter-notebooks" class="slide level2">
-<h2>Jupyter notebooks</h2>
-<p>(strengths &amp; weaknesses)<br>
-Jupyter notebooks combine code and data in a way that can be good or bad</p>
+<section id="python-files-.py" class="slide level2">
+<h2>Python files (.py)</h2>
+<ul>
+<li>In the <strong>scripting</strong> vs.&nbsp;<strong>programming</strong> dichotomy:
+<ul>
+<li>Jupyter Notebooks are better for <strong>scripting.</strong></li>
+</ul></li>
+<li>In practice, Python programs are usually composed of <strong>Functions</strong> and <strong>Classes</strong> in <code>.py</code> files.</li>
+<li><em>Example:</em> check out the <a href="https://github.com/pandas-dev/pandas/tree/main/pandas/core">pandas</a> codebase.</li>
+<li>Writing Python like this requires a different development environment.</li>
+</ul>
 </section>
-<section id="py-files" class="slide level2">
-<h2>.py files</h2>
-<p>(what the other approach is)</p>
+<section id="advanced-python-development" class="slide level2">
+<h2>Advanced Python development</h2>
+<ul>
+<li>Enter: <a href="https://code.visualstudio.com/">Visual Studio Code</a> (VSCode).
+<ul>
+<li>VSCode is an Integrated Development Environment (IDE).</li>
+<li>Another (probably familiar) IDE: <a href="https://posit.co/downloads/">RStudio</a>!</li>
+</ul></li>
+<li>IDEs offer an integrated terminal (for running code), auto-complete, debugging, extensions.</li>
+<li>Why VSCode?
+<ul>
+<li>The best open source IDE (my opinion) with lots of Python extensions.</li>
+<li>Other Python IDE options: <a href="https://www.spyder-ide.org/">Spyder</a>, <a href="https://www.jetbrains.com/pycharm/">PyCharm</a>, <a href="https://www.sublimetext.com/">Sublime</a>.</li>
+</ul></li>
+</ul>
 </section>
-<section id="py-files-1" class="slide level2">
-<h2>.py files</h2>
-<p>(strengths and weaknesses)</p>
-</section>
-<section id="vscode" class="slide level2">
-<h2>VSCode</h2>
-<p>IDE</p>
+<section id="python-files-.py-1" class="slide level2">
+<h2>Python files (.py)</h2>
+<ul>
+<li>Programming in a text editor (not a Notebook):
+<ul>
+<li><strong>Pros:</strong>
+<ul>
+<li>Easy to write re-usable code</li>
+<li>Can scale to larger projects</li>
+<li>Easier to collaborate</li>
+</ul></li>
+<li><strong>Cons:</strong>
+<ul>
+<li>More difficult setup</li>
+<li>No interactivity by default</li>
+</ul></li>
+</ul></li>
+</ul>
 </section>
 <section id="combined-workflow" class="slide level2">
 <h2>Combined workflow</h2>
-<p>(Running jupyter cells in a .py file in vscode)</p>
+<ul>
+<li>Can’t we have our cake and eat it to?</li>
+<li>We want:
+<ul>
+<li>Minimal set-up</li>
+<li>Interactive coding</li>
+<li>Easy to write re-usable code</li>
+<li>Can scale to larger projects</li>
+<li>Easier to collaborate</li>
+</ul></li>
+</ul>
+</section>
+<section id="combined-workflow-1" class="slide level2">
+<h2>Combined workflow</h2>
+<ul>
+<li>Combining VsCode with Python plugins, we get:
+<ul>
+<li>Minimal set-up ❌</li>
+<li>Interactive coding ✅</li>
+<li>Easy to write re-usable code ✅</li>
+<li>Can scale to larger projects ✅</li>
+<li>Easier to collaborate ✅</li>
+</ul></li>
+</ul>
+</section>
+<section id="aims-this-afternoon" class="slide level2">
+<h2>Aims: this afternoon</h2>
+<ul>
+<li>Unfortunately, VSCode requires a bit more set up (and can cause installation headaches).
+<ul>
+<li><em>That’s why I’m here!</em></li>
+</ul></li>
+<li>Aims:
+<ol type="1">
+<li><a href="https://code.visualstudio.com/download">Download VSCode</a></li>
+<li>Download VSCode plugins: <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Python</a> and <a href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter">Jupyter</a>.</li>
+<li>Get Python code to run interactively in code cells: <code># %%</code>.
+<ul>
+<li>See: <a href="https://code.visualstudio.com/docs/python/jupyter-support-py">Python Interactive window</a>.</li>
+</ul></li>
+</ol></li>
+</ul>
+</section>
+<section id="extra" class="slide level2">
+<h2>Extra</h2>
+<ul>
+<li>If you breeze through the VSCode setup process:
+<ul>
+<li>Finish this morning’s tutorials.</li>
+<li>Then, try to import functions between <code>.py</code> files. <a href="https://stackoverflow.com/questions/20309456/how-do-i-call-a-function-from-another-py-file">[hint]</a></li>
+<li>Then, try running your <code>.py</code> file from the command line. <a href="https://realpython.com/run-python-scripts/">[hint]</a></li>
+<li>Then, try to use <code>if __name__ == "__main__":</code> in your <code>.py</code> file. <a href="https://stackoverflow.com/questions/419163/what-does-if-name-main-do">[hint]</a></li>
+</ul></li>
+</ul>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

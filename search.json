@@ -1,292 +1,5 @@
 [
   {
-    "objectID": "challenge.html",
-    "href": "challenge.html",
-    "title": "Challenge",
-    "section": "",
-    "text": "Objective: Predict the nightly price of AirBnB listings in London based on their characteristics.\nData: Inside AirBnB collects publicly-available information from AirBnB listings to estimate the effect of AirBnB on urban economies."
-  },
-  {
-    "objectID": "challenge.html#challenge-statement",
-    "href": "challenge.html#challenge-statement",
-    "title": "Challenge",
-    "section": "",
-    "text": "Objective: Predict the nightly price of AirBnB listings in London based on their characteristics.\nData: Inside AirBnB collects publicly-available information from AirBnB listings to estimate the effect of AirBnB on urban economies."
-  },
-  {
-    "objectID": "challenge.html#guidelines",
-    "href": "challenge.html#guidelines",
-    "title": "Challenge",
-    "section": "Guidelines",
-    "text": "Guidelines\nThis challenge aims to give you experience with all of the basic tasks in a data science project. I suggest following a workflow like this:\n\nRead the dataset with pandas.\nDo some exploratory analysis to understand the data.\nTransform the data into relevant variables. Consider:\n\nHandling missing data.\nRe-coding categorical variables.\nStandardizing / normalizing variables.\nExtracting information from text variables.\n\nSplit the dataset into training / evaluation datasets.\nChoose a regression to model the price of AirBnBs. Consider:\n\nLinear regression.\nDecision trees and random forests.\nNeural networks (also see here).\nSee more model suggestions here.\n\nFit the regression model.\nEvaluate the model performance.\nVisualize / communicate the results.\n\nTo help you get started, I have made a basic project scaffold. In this file, I try to predict the price of AirBnB listings with a linear regression based only on the number of bedrooms in the listing. The model performs terribly, but this should be a good starting point. Consider how you can extract more relevant information from the dataset and make a more appropriate model choice to improve the accuracy of your model."
-  },
-  {
-    "objectID": "challenge.html#regression",
-    "href": "challenge.html#regression",
-    "title": "Challenge",
-    "section": "Regression",
-    "text": "Regression\nI recommend using sklearn for statistical modelling, a popular library for machine learning in Python.\nThe process of training and testing regression models with sklearn follows the same basic pattern for all supported models. You can find information and example code in the documentation for individual models, or you can look at the official sklearn tutorial. I don’t recommend working through this whole tutorial (it is about image classification). Instead, look through it and try to apply the same methodology (training/testing split, model fitting, model evaluation) to your own workflow."
-  },
-  {
-    "objectID": "challenge.html#dataset",
-    "href": "challenge.html#dataset",
-    "title": "Challenge",
-    "section": "Dataset",
-    "text": "Dataset\nThe Inside AirBnB dataset comes from information “scraped” from AirBnB. This means that the dataset is created by automatically recording information on public AirBnB listings in different urban areas.\nI highly recommend that you look through the Inside AirBnB Documentation before getting started.\nAlso look through the Data Dictionary to get an understanding of the different dataset variables and which variables might be relevant to your analysis."
-  },
-  {
-    "objectID": "challenge.html#recommendations",
-    "href": "challenge.html#recommendations",
-    "title": "Challenge",
-    "section": "Recommendations",
-    "text": "Recommendations\nBefore getting started, take a moment to plan your approach.\nConsider:\n\nHow was the dataset collected?\nWhat variables are in the dataset?\nWhat are the data types of the variables?\nIs there any missing data?\nWhat regression methodology should you use?\nWhat data format does your regression analysis need?\nWhich variables are / are not relevant to your methodology?\nDo you need to transform these variables in any way?\n\nBy the end of the session, aim to make progress on each item in the Guidelines. Start simple, then refine your solution iteratively.\nIf you run into any difficulties, document them, adapt your solution, and feel free to ask for help!"
-  },
-  {
-    "objectID": "challenge.html#debrief",
-    "href": "challenge.html#debrief",
-    "title": "Challenge",
-    "section": "Debrief",
-    "text": "Debrief\nOn the afternoon of Day 4, I will ask you to add your solution file to a shared GitHub repository.\nWe will then compare everyone’s solutions and discuss your results, the different challenges that you faced, and how you overcame them."
-  },
-  {
-    "objectID": "slides/slides_introduction.html#introduction",
-    "href": "slides/slides_introduction.html#introduction",
-    "title": "Welcome to Foundations of Python",
-    "section": "Introduction",
-    "text": "Introduction\nUCL Social Data Institute: Foundations of Python"
-  },
-  {
-    "objectID": "slides/slides_introduction.html#course-aims",
-    "href": "slides/slides_introduction.html#course-aims",
-    "title": "Welcome to Foundations of Python",
-    "section": "Course aims",
-    "text": "Course aims\n\nA foundation in Python programming.\n\nVariables, data structures, control logic, functions, classes.\n\nAn Introduction to popular Python tools for data science.\n\npandas, matplotlib, sklearn.\n\nA hands-on data science challenge.\n\nPredicting the price of London AirBnBs."
-  },
-  {
-    "objectID": "slides/slides_introduction.html#about-me",
-    "href": "slides/slides_introduction.html#about-me",
-    "title": "Welcome to Foundations of Python",
-    "section": "About me",
-    "text": "About me\n\nFinal year PhD student (Supervised by James Cheshire).\nMy research interests: Human mobility, disease transmission, bias & uncertainty.\nPython experience: 9 years.\nPython projects: TODO"
-  },
-  {
-    "objectID": "slides/slides_introduction.html#about-you",
-    "href": "slides/slides_introduction.html#about-you",
-    "title": "Welcome to Foundations of Python",
-    "section": "About you",
-    "text": "About you\n\nProgramming experience?\nStatistics experience?\nInstallation problems?"
-  },
-  {
-    "objectID": "slides/slides_introduction.html#schedule",
-    "href": "slides/slides_introduction.html#schedule",
-    "title": "Welcome to Foundations of Python",
-    "section": "Schedule",
-    "text": "Schedule\n\nThis is a short course!\nDay 1: Python basics.\n\nVariables, data structures (list, dict), control logic (if, for, while).\n\nDay 2: Abstraction & composition.\n\nFunctions, Classes.\nAlso: Using .py files, not .ipynb."
-  },
-  {
-    "objectID": "slides/slides_introduction.html#schedule-1",
-    "href": "slides/slides_introduction.html#schedule-1",
-    "title": "Welcome to Foundations of Python",
-    "section": "Schedule",
-    "text": "Schedule\n\nDay 3: Python data science.\n\npandas, numpy, matplotlib.\n\nDay 4: Challenge: regression analysis.\n\nPredicting the price of London AirBnBs using Inside AirBnB data."
-  },
-  {
-    "objectID": "slides/slides_introduction.html#learning-python",
-    "href": "slides/slides_introduction.html#learning-python",
-    "title": "Welcome to Foundations of Python",
-    "section": "Learning python",
-    "text": "Learning python\n\n\n\nSource: Sarah’s Scribbles"
-  },
-  {
-    "objectID": "slides/slides_introduction.html#learning-python-1",
-    "href": "slides/slides_introduction.html#learning-python-1",
-    "title": "Welcome to Foundations of Python",
-    "section": "Learning python",
-    "text": "Learning python\n\nPractice is the most important ingredient to becoming a good programmer.\nIt is easier to “practice” if you find personally compelling reasons to use Python.\n\nCoursework, side projects, random curiosity, automating things in your life.\n\nProgramming is all about trial and error."
-  },
-  {
-    "objectID": "slides/slides_introduction.html#ai",
-    "href": "slides/slides_introduction.html#ai",
-    "title": "Welcome to Foundations of Python",
-    "section": "AI",
-    "text": "AI\n\nNew AI programming assistants:\n\nChat GPT, GitHub Copilot, Copilot Chat\n\nI recommend using them all, especially as a study aid.\n\nBad idea: Using AI to generate code you can’t understand.\nGood idea: Using AI to explain code you can’t understand."
-  },
-  {
-    "objectID": "slides/slides_introduction.html#variables",
-    "href": "slides/slides_introduction.html#variables",
-    "title": "Welcome to Foundations of Python",
-    "section": "Variables",
-    "text": "Variables\n(compare R to Python)"
-  },
-  {
-    "objectID": "slides/slides_introduction.html#lists",
-    "href": "slides/slides_introduction.html#lists",
-    "title": "Welcome to Foundations of Python",
-    "section": "Lists",
-    "text": "Lists\n(compare R to Python)"
-  },
-  {
-    "objectID": "slides/slides_introduction.html#dictionaries",
-    "href": "slides/slides_introduction.html#dictionaries",
-    "title": "Welcome to Foundations of Python",
-    "section": "Dictionaries",
-    "text": "Dictionaries\n(compare Python to R - put R last (it is more confusing))"
-  },
-  {
-    "objectID": "slides/slides_abstraction_and_composition.html#writing-re-usable-code",
-    "href": "slides/slides_abstraction_and_composition.html#writing-re-usable-code",
-    "title": "Day 2: Abstraction and composition",
-    "section": "Writing re-usable code",
-    "text": "Writing re-usable code"
-  },
-  {
-    "objectID": "slides/slides_abstraction_and_composition.html#abstraction",
-    "href": "slides/slides_abstraction_and_composition.html#abstraction",
-    "title": "Day 2: Abstraction and composition",
-    "section": "Abstraction",
-    "text": "Abstraction\nshow adding numbers code vs. adding numbers function"
-  },
-  {
-    "objectID": "slides/slides_abstraction_and_composition.html#functions",
-    "href": "slides/slides_abstraction_and_composition.html#functions",
-    "title": "Day 2: Abstraction and composition",
-    "section": "Functions",
-    "text": "Functions\nFunctions are a bundle of logic"
-  },
-  {
-    "objectID": "slides/slides_abstraction_and_composition.html#composition",
-    "href": "slides/slides_abstraction_and_composition.html#composition",
-    "title": "Day 2: Abstraction and composition",
-    "section": "Composition",
-    "text": "Composition\nshow nested function"
-  },
-  {
-    "objectID": "slides/slides_abstraction_and_composition.html#classes",
-    "href": "slides/slides_abstraction_and_composition.html#classes",
-    "title": "Day 2: Abstraction and composition",
-    "section": "Classes",
-    "text": "Classes\nFunctions: logic Classes: data + logic attributes, methods"
-  },
-  {
-    "objectID": "slides/slides_abstraction_and_composition.html#inheritance",
-    "href": "slides/slides_abstraction_and_composition.html#inheritance",
-    "title": "Day 2: Abstraction and composition",
-    "section": "Inheritance",
-    "text": "Inheritance\nclasses, inheritance"
-  },
-  {
-    "objectID": "slides/slides_abstraction_and_composition.html#object-oriented-programming",
-    "href": "slides/slides_abstraction_and_composition.html#object-oriented-programming",
-    "title": "Day 2: Abstraction and composition",
-    "section": "Object-oriented programming",
-    "text": "Object-oriented programming"
-  },
-  {
-    "objectID": "slides/slides_abstraction_and_composition.html#conclusion",
-    "href": "slides/slides_abstraction_and_composition.html#conclusion",
-    "title": "Day 2: Abstraction and composition",
-    "section": "Conclusion",
-    "text": "Conclusion\nProgramming is less about tricky logic problems, more about abstraction and composition"
-  },
-  {
-    "objectID": "slides/slides_regression.html#challenge-statement",
-    "href": "slides/slides_regression.html#challenge-statement",
-    "title": "Challenge: regression analysis",
-    "section": "Challenge statement",
-    "text": "Challenge statement"
-  },
-  {
-    "objectID": "slides/slides_regression.html#regression",
-    "href": "slides/slides_regression.html#regression",
-    "title": "Challenge: regression analysis",
-    "section": "Regression",
-    "text": "Regression"
-  },
-  {
-    "objectID": "slides/slides_regression.html#python-regression-tools",
-    "href": "slides/slides_regression.html#python-regression-tools",
-    "title": "Challenge: regression analysis",
-    "section": "Python regression tools",
-    "text": "Python regression tools\nsklearn"
-  },
-  {
-    "objectID": "slides/slides_regression.html#challenge-scaffold",
-    "href": "slides/slides_regression.html#challenge-scaffold",
-    "title": "Challenge: regression analysis",
-    "section": "Challenge scaffold",
-    "text": "Challenge scaffold"
-  },
-  {
-    "objectID": "slides/slides_regression.html#dataset",
-    "href": "slides/slides_regression.html#dataset",
-    "title": "Challenge: regression analysis",
-    "section": "Dataset",
-    "text": "Dataset"
-  },
-  {
-    "objectID": "slides/slides_vscode_python.html#reusing-code",
-    "href": "slides/slides_vscode_python.html#reusing-code",
-    "title": "From Jupyter to VSCode",
-    "section": "Reusing code",
-    "text": "Reusing code\nCode is a recipe"
-  },
-  {
-    "objectID": "slides/slides_vscode_python.html#jupyter-notebooks",
-    "href": "slides/slides_vscode_python.html#jupyter-notebooks",
-    "title": "From Jupyter to VSCode",
-    "section": "Jupyter notebooks",
-    "text": "Jupyter notebooks\n(strengths & weaknesses)\nJupyter notebooks combine code and data in a way that can be good or bad"
-  },
-  {
-    "objectID": "slides/slides_vscode_python.html#py-files",
-    "href": "slides/slides_vscode_python.html#py-files",
-    "title": "From Jupyter to VSCode",
-    "section": ".py files",
-    "text": ".py files\n(what the other approach is)"
-  },
-  {
-    "objectID": "slides/slides_vscode_python.html#py-files-1",
-    "href": "slides/slides_vscode_python.html#py-files-1",
-    "title": "From Jupyter to VSCode",
-    "section": ".py files",
-    "text": ".py files\n(strengths and weaknesses)"
-  },
-  {
-    "objectID": "slides/slides_vscode_python.html#vscode",
-    "href": "slides/slides_vscode_python.html#vscode",
-    "title": "From Jupyter to VSCode",
-    "section": "VSCode",
-    "text": "VSCode\nIDE"
-  },
-  {
-    "objectID": "slides/slides_vscode_python.html#combined-workflow",
-    "href": "slides/slides_vscode_python.html#combined-workflow",
-    "title": "From Jupyter to VSCode",
-    "section": "Combined workflow",
-    "text": "Combined workflow\n(Running jupyter cells in a .py file in vscode)"
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Course schedule",
-    "section": "",
-    "text": "Dates: 20th to 23rd May, 2024.\nTime: 10:00 – 16:00 every day.\nLocation: 1-19 Torrington Place, Room B07."
-  },
-  {
-    "objectID": "schedule.html#where-and-when",
-    "href": "schedule.html#where-and-when",
-    "title": "Course schedule",
-    "section": "",
-    "text": "Dates: 20th to 23rd May, 2024.\nTime: 10:00 – 16:00 every day.\nLocation: 1-19 Torrington Place, Room B07."
-  },
-  {
-    "objectID": "schedule.html#schedule",
-    "href": "schedule.html#schedule",
-    "title": "Course schedule",
-    "section": "Schedule",
-    "text": "Schedule\n\nDay 1 (Python basics)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. An informal introduction to python  2. Variables, expressions, and statements  3. Dictionaries\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Conditional execution  2. Iteration  3. More control flow tools §4.1-4.6\n\n\n\n\n\nDay 2 (Abstraction & composition)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. Functions  2. More control flow tools §4.7-4.8 (Optional)  3. Object-oriented programming\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Python Interactive window  2. Continue practicals above\n\n\n\n\n\nDay 3 (Python data science)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. 10 minutes to pandas  2. Chart visualization  3. Start working with the [d\n\n\nataset](https://github.com/hamishgibbs/sdi_python_foundations/blob/main/data/2020-08-24-listings.csv.gz)  we will use tomorrow.  For help reading the data: see here.\n\n\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Setup GitHub  2. Create a GitHub repository  3. Commit your code (Add, Commit).  4. Push your code to your repository (Remote, Push)\n\n\n\n\n\nDay 4 (Challenge: regression analysis)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nChallenge\n1. Start the Challenge!  For help see: sklearn tutorials and Inside AirBnB.\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 16:00\nChallenge\n1. Push your solution file to the shared repository.  2. We will discuss / compare solutions!"
-  },
-  {
     "objectID": "required_software.html",
     "href": "required_software.html",
     "title": "Required software",
@@ -399,67 +112,116 @@
     "text": "Tip\nGithub education freebies"
   },
   {
-    "objectID": "slides/slides_control_logic.html#conditional-logic",
-    "href": "slides/slides_control_logic.html#conditional-logic",
-    "title": "Control logic",
-    "section": "Conditional logic",
-    "text": "Conditional logic\n(compare R to Python)"
+    "objectID": "slides/slides_vscode_python.html#jupyter-notebooks-.ipynb",
+    "href": "slides/slides_vscode_python.html#jupyter-notebooks-.ipynb",
+    "title": "From Jupyter to VSCode",
+    "section": "Jupyter notebooks (.ipynb)",
+    "text": "Jupyter notebooks (.ipynb)\n\nGoogle Colab runs a Jupyter Notebook\n\nPros:\n\nMinimal set-up\nInteractive coding\n\nCons:\n\nDifficult to re-use code\nInsufficient for larger projects\nHard to integrate with other programming tools"
   },
   {
-    "objectID": "slides/slides_control_logic.html#iteration",
-    "href": "slides/slides_control_logic.html#iteration",
-    "title": "Control logic",
-    "section": "Iteration",
-    "text": "Iteration\n(compare R to Python)"
+    "objectID": "slides/slides_vscode_python.html#python-files-.py",
+    "href": "slides/slides_vscode_python.html#python-files-.py",
+    "title": "From Jupyter to VSCode",
+    "section": "Python files (.py)",
+    "text": "Python files (.py)\n\nIn the scripting vs. programming dichotomy:\n\nJupyter Notebooks are better for scripting.\n\nIn practice, Python programs are usually composed of Functions and Classes in .py files.\nExample: check out the pandas codebase.\nWriting Python like this requires a different development environment."
   },
   {
-    "objectID": "slides/slides_control_logic.html#for-loop",
-    "href": "slides/slides_control_logic.html#for-loop",
-    "title": "Control logic",
-    "section": "For loop",
-    "text": "For loop"
+    "objectID": "slides/slides_vscode_python.html#advanced-python-development",
+    "href": "slides/slides_vscode_python.html#advanced-python-development",
+    "title": "From Jupyter to VSCode",
+    "section": "Advanced Python development",
+    "text": "Advanced Python development\n\nEnter: Visual Studio Code (VSCode).\n\nVSCode is an Integrated Development Environment (IDE).\nAnother (probably familiar) IDE: RStudio!\n\nIDEs offer an integrated terminal (for running code), auto-complete, debugging, extensions.\nWhy VSCode?\n\nThe best open source IDE (my opinion) with lots of Python extensions.\nOther Python IDE options: Spyder, PyCharm, Sublime."
   },
   {
-    "objectID": "slides/slides_control_logic.html#while-loop",
-    "href": "slides/slides_control_logic.html#while-loop",
-    "title": "Control logic",
-    "section": "While loop",
-    "text": "While loop"
+    "objectID": "slides/slides_vscode_python.html#python-files-.py-1",
+    "href": "slides/slides_vscode_python.html#python-files-.py-1",
+    "title": "From Jupyter to VSCode",
+    "section": "Python files (.py)",
+    "text": "Python files (.py)\n\nProgramming in a text editor (not a Notebook):\n\nPros:\n\nEasy to write re-usable code\nCan scale to larger projects\nEasier to collaborate\n\nCons:\n\nMore difficult setup\nNo interactivity by default"
   },
   {
-    "objectID": "slides/slides_control_logic.html#list-comprehension",
-    "href": "slides/slides_control_logic.html#list-comprehension",
-    "title": "Control logic",
-    "section": "List comprehension",
-    "text": "List comprehension"
+    "objectID": "slides/slides_vscode_python.html#combined-workflow",
+    "href": "slides/slides_vscode_python.html#combined-workflow",
+    "title": "From Jupyter to VSCode",
+    "section": "Combined workflow",
+    "text": "Combined workflow\n\nCan’t we have our cake and eat it to?\nWe want:\n\nMinimal set-up\nInteractive coding\nEasy to write re-usable code\nCan scale to larger projects\nEasier to collaborate"
+  },
+  {
+    "objectID": "slides/slides_vscode_python.html#combined-workflow-1",
+    "href": "slides/slides_vscode_python.html#combined-workflow-1",
+    "title": "From Jupyter to VSCode",
+    "section": "Combined workflow",
+    "text": "Combined workflow\n\nCombining VsCode with Python plugins, we get:\n\nMinimal set-up ❌\nInteractive coding ✅\nEasy to write re-usable code ✅\nCan scale to larger projects ✅\nEasier to collaborate ✅"
+  },
+  {
+    "objectID": "slides/slides_vscode_python.html#aims-this-afternoon",
+    "href": "slides/slides_vscode_python.html#aims-this-afternoon",
+    "title": "From Jupyter to VSCode",
+    "section": "Aims: this afternoon",
+    "text": "Aims: this afternoon\n\nUnfortunately, VSCode requires a bit more set up (and can cause installation headaches).\n\nThat’s why I’m here!\n\nAims:\n\nDownload VSCode\nDownload VSCode plugins: Python and Jupyter.\nGet Python code to run interactively in code cells: # %%.\n\nSee: Python Interactive window."
+  },
+  {
+    "objectID": "slides/slides_vscode_python.html#extra",
+    "href": "slides/slides_vscode_python.html#extra",
+    "title": "From Jupyter to VSCode",
+    "section": "Extra",
+    "text": "Extra\n\nIf you breeze through the VSCode setup process:\n\nFinish this morning’s tutorials.\nThen, try to import functions between .py files. [hint]\nThen, try running your .py file from the command line. [hint]\nThen, try to use if __name__ == \"__main__\": in your .py file. [hint]"
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#today-python-data-science",
+    "href": "slides/slides_python_data_science.html#today-python-data-science",
+    "title": "Python data science",
+    "section": "Today: Python data science",
+    "text": "Today: Python data science\n\nIntroduction to Python data science tools.\nIntroduction to a basic data science workflow.\nThis afternoon: collaborating on a data science project."
   },
   {
     "objectID": "slides/slides_python_data_science.html#data-science",
     "href": "slides/slides_python_data_science.html#data-science",
     "title": "Python data science",
     "section": "Data science",
-    "text": "Data science\nWhat is data science: “Extract meaningful insights from data”. meaningful is important - use the tools of programming / statistics to create meaning. You exercise a lot of judgement."
+    "text": "Data science\n\nDefinition of data science:\n\n“Extracting meaningful insights from data.”\n\nMeaningful is important.\n\nUse the tools of programming / statistics to create meaning from your data.\n\nUsually, there is no “right” answer, just “better” and “worse” answers.\n\nYou exercise a lot of judgement."
   },
   {
     "objectID": "slides/slides_python_data_science.html#data-science-workflow",
     "href": "slides/slides_python_data_science.html#data-science-workflow",
     "title": "Python data science",
     "section": "Data science workflow",
-    "text": "Data science workflow\nNot just machine learning - most work is data preparation, data transformation, method selection, communicating results."
+    "text": "Data science workflow\n\nData science is not just machine learning.\n\nMost data science work is:\n\nData preparation\nData transformation\nMethod selection\n\nStatistics / machine learning\n\nCommunicating results"
   },
   {
     "objectID": "slides/slides_python_data_science.html#python-data-science-tools",
     "href": "slides/slides_python_data_science.html#python-data-science-tools",
     "title": "Python data science",
     "section": "Python data science tools",
-    "text": "Python data science tools\nhow these line up with the tasks above"
+    "text": "Python data science tools\n\nToday, we will learn about the most popular Python data science “stack”\n\nData preparation / data transformation\n\npandas, numpy\n\nStatistics / machine learning\n\nsklearn\n\nCommunicating results\n\nmatplotlib"
   },
   {
     "objectID": "slides/slides_python_data_science.html#r-equivalents",
     "href": "slides/slides_python_data_science.html#r-equivalents",
     "title": "Python data science",
     "section": "R equivalents",
-    "text": "R equivalents\npandas (comparison with R), matplotlib (comparison with ggplot) R corollaries” - how these line up with the tools mentioned above"
+    "text": "R equivalents\n\nPython libraries mostly have their R equivalents:\n\npandas : dplyr\nsklearn : caret?\nmatplotlib : ggplot2\n\nSee what you prefer, I use both languages very regularly!"
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#diving-deeper",
+    "href": "slides/slides_python_data_science.html#diving-deeper",
+    "title": "Python data science",
+    "section": "Diving deeper",
+    "text": "Diving deeper\n\nPython has many other options for data science tools.\nAlternatives to pandas:\n\npolars (Like Python’s version of data.table)\ndask\n\nAlternatives to sklearn:\n\n…?\n\nAlternatives to matplotlib:\n\nseaborn\nplotnine (R users might like this one!)"
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#tutorial-1-pandas",
+    "href": "slides/slides_python_data_science.html#tutorial-1-pandas",
+    "title": "Python data science",
+    "section": "Tutorial #1: pandas",
+    "text": "Tutorial #1: pandas\n\n10 minutes to pandas\nCore concepts:\n\nTODO"
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#tutorial-2-pandas-matplotlib",
+    "href": "slides/slides_python_data_science.html#tutorial-2-pandas-matplotlib",
+    "title": "Python data science",
+    "section": "Tutorial #2: pandas / matplotlib",
+    "text": "Tutorial #2: pandas / matplotlib\n\nChart visualization\nCore concepts:\n\nTODO"
   },
   {
     "objectID": "resources.html",
@@ -481,5 +243,404 @@
     "title": "Resources",
     "section": "Git",
     "text": "Git\n\nGit Guides (GitHub): a useful resource for basic git commands and installation instructions.\nCheatsheet: Resolving Conflicts in a Git Repository: my own cheatsheet on how to fix a common issue for people learning git and working in shared repositories.\nVisualizing Git: a fun tool to visualize how git works. Playing around with this can help you “get” how different commands interact with each other."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Course schedule",
+    "section": "",
+    "text": "Dates: 20th to 23rd May, 2024.\nTime: 10:00 – 16:00 every day.\nLocation: 1-19 Torrington Place, Room B07."
+  },
+  {
+    "objectID": "schedule.html#where-and-when",
+    "href": "schedule.html#where-and-when",
+    "title": "Course schedule",
+    "section": "",
+    "text": "Dates: 20th to 23rd May, 2024.\nTime: 10:00 – 16:00 every day.\nLocation: 1-19 Torrington Place, Room B07."
+  },
+  {
+    "objectID": "schedule.html#schedule",
+    "href": "schedule.html#schedule",
+    "title": "Course schedule",
+    "section": "Schedule",
+    "text": "Schedule\n\nDay 1 (Python basics)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. Variables, expressions, and statements  2. An informal introduction to python §3.1.3  3. Dictionaries §1\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Conditional execution  2. Iteration  3. More control flow tools §4.1-4.6\n\n\n\n\n\nDay 2 (Abstraction & composition)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. Functions  2. More control flow tools §4.7-4.8 (Optional)  3. Object-oriented programming\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Python Interactive window  2. Continue practicals above\n\n\n\n\n\nDay 3 (Python data science)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. 10 minutes to pandas  2. Chart visualization  3. Start working with the dataset  we will use tomorrow.  For help reading the data: see here.\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Setup GitHub  2. Create a GitHub repository  3. Commit your code (Add, Commit).  4. Push your code to your repository (Remote, Push)\n\n\n\n\n\nDay 4 (Challenge: regression analysis)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nChallenge\n1. Start the Challenge!  For help see: sklearn tutorials and Inside AirBnB.\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 16:00\nChallenge\n1. Push your solution file to the shared repository.  2. We will discuss / compare solutions!"
+  },
+  {
+    "objectID": "slides/slides_introduction.html#introduction",
+    "href": "slides/slides_introduction.html#introduction",
+    "title": "Welcome to Foundations of Python",
+    "section": "Introduction",
+    "text": "Introduction\nUCL Social Data Institute: Foundations of Python"
+  },
+  {
+    "objectID": "slides/slides_introduction.html#course-aims",
+    "href": "slides/slides_introduction.html#course-aims",
+    "title": "Welcome to Foundations of Python",
+    "section": "Course aims",
+    "text": "Course aims\n\nA foundation in Python programming.\n\nVariables, data structures, control logic, functions, classes.\n\nAn Introduction to popular Python tools for data science.\n\npandas, matplotlib, sklearn.\n\nSide quest: Collaboration tools.\n\ngit, GitHub\n\nA hands-on data science challenge.\n\nPredicting the price of AirBnBs in London."
+  },
+  {
+    "objectID": "slides/slides_introduction.html#about-you",
+    "href": "slides/slides_introduction.html#about-you",
+    "title": "Welcome to Foundations of Python",
+    "section": "About you",
+    "text": "About you\n\nProgramming experience?\nStatistics experience?\nAny installation problems?"
+  },
+  {
+    "objectID": "slides/slides_introduction.html#about-me",
+    "href": "slides/slides_introduction.html#about-me",
+    "title": "Welcome to Foundations of Python",
+    "section": "About me",
+    "text": "About me\n\n\n\nFinal year PhD student\n\nSupervised by James Cheshire\n\nMy research interests:\n\nHuman mobility, disease transmission, bias & uncertainty\n\nPython experience:\n\n9 years\n\n\n\n\n\nGibbs et. al., Detecting behavioural changes in human movement to inform the spatial scale of interventions against COVID-19, PLOS Computational Biology (2021)"
+  },
+  {
+    "objectID": "slides/slides_introduction.html#course-format",
+    "href": "slides/slides_introduction.html#course-format",
+    "title": "Welcome to Foundations of Python",
+    "section": "Course format",
+    "text": "Course format\n\nThis is a short course!\nDays 1 – 3: lectures and practicals.\n\nPractical sessions rely on existing Python tutorials.\nOnce you have worked through a practical, try to play around with the concepts it introduces until you “get it”.\n\nDay 4: Working together on a collaborative challenge."
+  },
+  {
+    "objectID": "slides/slides_introduction.html#schedule",
+    "href": "slides/slides_introduction.html#schedule",
+    "title": "Welcome to Foundations of Python",
+    "section": "Schedule",
+    "text": "Schedule\n\nDay 1: Python basics.\n\nVariables, data structures (list, dict), control logic (if, for, while).\n\nDay 2: Abstraction & composition.\n\nFunctions (def), Classes (class).\nAlso: Using .py files, not .ipynb."
+  },
+  {
+    "objectID": "slides/slides_introduction.html#schedule-1",
+    "href": "slides/slides_introduction.html#schedule-1",
+    "title": "Welcome to Foundations of Python",
+    "section": "Schedule",
+    "text": "Schedule\n\nDay 3: Python data science.\n\npandas, numpy, matplotlib.\nAlso: Collaboration with git and GitHub.\n\nDay 4: Challenge: regression analysis.\n\nPredicting the price of London AirBnBs using Inside AirBnB data."
+  },
+  {
+    "objectID": "slides/slides_introduction.html#learning-python",
+    "href": "slides/slides_introduction.html#learning-python",
+    "title": "Welcome to Foundations of Python",
+    "section": "Learning python",
+    "text": "Learning python\n\n\n\nSource: Sarah’s Scribbles"
+  },
+  {
+    "objectID": "slides/slides_introduction.html#learning-python-1",
+    "href": "slides/slides_introduction.html#learning-python-1",
+    "title": "Welcome to Foundations of Python",
+    "section": "Learning python",
+    "text": "Learning python\n\nPractice is the most important ingredient to becoming a good programmer.\nIt is easier to “practice” if you find personally compelling reasons to use Python.\n\nCoursework, side projects, random curiosity, automating things in your life.\n\nProgramming is all about trial and error."
+  },
+  {
+    "objectID": "slides/slides_introduction.html#ai",
+    "href": "slides/slides_introduction.html#ai",
+    "title": "Welcome to Foundations of Python",
+    "section": "AI",
+    "text": "AI\n\nNew AI programming assistants:\n\nChat GPT, GitHub Copilot, Copilot Chat.\n\nI recommend using them all, especially as a study aid.\n\nBad idea: Using AI to generate code you can’t understand.\nGood idea: Using AI to explain code you can’t understand."
+  },
+  {
+    "objectID": "slides/slides_introduction.html#any-questions",
+    "href": "slides/slides_introduction.html#any-questions",
+    "title": "Welcome to Foundations of Python",
+    "section": "Any questions?",
+    "text": "Any questions?"
+  },
+  {
+    "objectID": "slides/slides_introduction.html#basic-data-types",
+    "href": "slides/slides_introduction.html#basic-data-types",
+    "title": "Welcome to Foundations of Python",
+    "section": "Basic data types",
+    "text": "Basic data types\n\n\n\nInteger\n\nas.integer(10) # R\nint(10) # Python\n\n\n\nFloat\n\nas.numeric(10.3) # R\nfloat(10.3) # Python\n\n\n\nString\n\nas.character(\"Hello\") # R\nstr(\"Hello\") # Python\n\n\n\nType checking\n\nclass(\"Hello\") # R\ntype(\"Hello\") # Python"
+  },
+  {
+    "objectID": "slides/slides_introduction.html#tutorial-1-variables",
+    "href": "slides/slides_introduction.html#tutorial-1-variables",
+    "title": "Welcome to Foundations of Python",
+    "section": "Tutorial #1: Variables",
+    "text": "Tutorial #1: Variables\n\nVariables, expressions, and statements\nCore concepts:\n\nVariable assignment and basic math\nminute = 20\nminute + 32\nWorking with strings\nfirst = '100'\nsecond = '150'\nprint(first + second)\nSub setting strings\nword = 'Python'\nword[0]"
+  },
+  {
+    "objectID": "slides/slides_introduction.html#tutorial-2-lists",
+    "href": "slides/slides_introduction.html#tutorial-2-lists",
+    "title": "Welcome to Foundations of Python",
+    "section": "Tutorial #2: Lists",
+    "text": "Tutorial #2: Lists\n\nAn informal introduction to python §3.1.3\nCore concepts:\n\nList indexing\nsquares = [1, 4, 9, 16, 25]\nsquares[0]\nList manipulation\nsquares + [36, 49, 64, 81, 100]\nsquares.append(10)\nList mutability\nrgb = [\"Red\", \"Green\", \"Blue\"]\nrgba = rgb\nid(rgb) == id(rgba)  # they reference the same object"
+  },
+  {
+    "objectID": "slides/slides_introduction.html#one-more-data-structure-tuples",
+    "href": "slides/slides_introduction.html#one-more-data-structure-tuples",
+    "title": "Welcome to Foundations of Python",
+    "section": "One more data structure: tuples",
+    "text": "One more data structure: tuples\n\nA tuple is an immutable collection of values.\n\ncoord = (0, 1) # a single tuple\ncoords = [coord, coord] # a list of tuples\n\nUnlike a list, the values in a tuple cannot be changed.\n\nThis means no .append() or .sort() methods (which both change the values in a list).\n\nTuples are faster than lists and good when you have a collection of values that won’t have to change once it has been created."
+  },
+  {
+    "objectID": "slides/slides_introduction.html#just-one-more-data-structure-set",
+    "href": "slides/slides_introduction.html#just-one-more-data-structure-set",
+    "title": "Welcome to Foundations of Python",
+    "section": "Just one more data structure: set",
+    "text": "Just one more data structure: set\n\nA set is an unordered collection with no duplicate elements.\nset1 = {0, 1} # a set\nset2 = set([0, 1]) # creating a set from a list\nA set is mutable (its values can be changed).\nIt is very quick to check if an element is in a set:\n1 in {0, 1} # I'm faster!\n1 in [0, 1]\n\nThis doesn’t matter for a collection of 2 values, but matters a lot for larger collections."
+  },
+  {
+    "objectID": "slides/slides_introduction.html#tutorial-3-dictionaries",
+    "href": "slides/slides_introduction.html#tutorial-3-dictionaries",
+    "title": "Welcome to Foundations of Python",
+    "section": "Tutorial #3: Dictionaries",
+    "text": "Tutorial #3: Dictionaries\n\nDictionaries §1\n\nTo start, only work on the first section of this tutorial!\nIf you “get it,” try some of the exercises in Tutorial #1, or move on to this afternoon’s tutorials.\n\nCore concepts:\n\nThe {key: value} format of dictionaries\neng2sp = dict()\neng2sp['one'] = 'uno'\neng2sp['one']\nThe .items(), .keys(), and .values() methods"
+  },
+  {
+    "objectID": "slides/slides_introduction.html#using-python",
+    "href": "slides/slides_introduction.html#using-python",
+    "title": "Welcome to Foundations of Python",
+    "section": "Using Python",
+    "text": "Using Python\n\nInteractive shell\n&gt;&gt;&gt; print(\"Hello\")\nHello\n\nClunky, ephemeral, hard to use for anything ‘real’.\n\nGoogle Colab\n\nGoogle-hosted version of a Jupyter Notebook\nA very easy way to start!\n\nVisual Studio Code\n\nA “serious” integrated development environment.\nGood for larger projects, collaboration."
+  },
+  {
+    "objectID": "slides/slides_introduction.html#setting-up-colab",
+    "href": "slides/slides_introduction.html#setting-up-colab",
+    "title": "Welcome to Foundations of Python",
+    "section": "Setting up Colab",
+    "text": "Setting up Colab\n\nDoes everyone have a Google account?\nGo to colab.research.google.com.\nOpen a new notebook.\n\nRename your notebook.\nGet started!"
+  },
+  {
+    "objectID": "slides/slides_regression.html#challenge-statement",
+    "href": "slides/slides_regression.html#challenge-statement",
+    "title": "Challenge: regression analysis",
+    "section": "Challenge statement",
+    "text": "Challenge statement"
+  },
+  {
+    "objectID": "slides/slides_regression.html#regression",
+    "href": "slides/slides_regression.html#regression",
+    "title": "Challenge: regression analysis",
+    "section": "Regression",
+    "text": "Regression"
+  },
+  {
+    "objectID": "slides/slides_regression.html#python-regression-tools",
+    "href": "slides/slides_regression.html#python-regression-tools",
+    "title": "Challenge: regression analysis",
+    "section": "Python regression tools",
+    "text": "Python regression tools\nsklearn"
+  },
+  {
+    "objectID": "slides/slides_regression.html#challenge-scaffold",
+    "href": "slides/slides_regression.html#challenge-scaffold",
+    "title": "Challenge: regression analysis",
+    "section": "Challenge scaffold",
+    "text": "Challenge scaffold"
+  },
+  {
+    "objectID": "slides/slides_regression.html#dataset",
+    "href": "slides/slides_regression.html#dataset",
+    "title": "Challenge: regression analysis",
+    "section": "Dataset",
+    "text": "Dataset"
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#writing-re-usable-code",
+    "href": "slides/slides_abstraction_and_composition.html#writing-re-usable-code",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Writing re-usable code",
+    "text": "Writing re-usable code\n\nCode should be like a recipe.\n\nGenerally: good code tells how to do something, not what you’ve done.\n\nScripting vs. programming\n\nScripting: Small bits of code that do a single thing.\nProgramming: General-purpose “recipes” for transforming inputs to outputs."
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#example-scripting-in-python",
+    "href": "slides/slides_abstraction_and_composition.html#example-scripting-in-python",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Example: scripting in python",
+    "text": "Example: scripting in python\n\nA simple script for converting Fahrenheit to Celsius\n\ntemp_f = 100\n\ntemp_c = 5/9 * (temp_f - 32)\n\nWhat’s wrong with this?\n\nNothing, it works.\nBut what if we want to change the value of temp_f?\nWhat if we want to convert multiple Fahrenheit values to Celsius?"
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#solution-abstraction",
+    "href": "slides/slides_abstraction_and_composition.html#solution-abstraction",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Solution: Abstraction",
+    "text": "Solution: Abstraction\n\nWe want to abstract the logic that converts temperatures into a “recipe” with:\n\nInput: any value in Fahrenheit.\nOutput: the converted value in Celsius.\n\nOur “recipe” can be written as a Function."
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#example-programming-in-python",
+    "href": "slides/slides_abstraction_and_composition.html#example-programming-in-python",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Example: programming in Python",
+    "text": "Example: programming in Python\n\nA function for converting temperatures:\n\ndef convert_f_to_c(temp_f):\n    return 5/9 * (temp_f - 32)\n\nNow, our logic can be applied to multiple values:\n\nprint(convert_f_to_c(100))\nprint(convert_f_to_c(120))\n\nOr we can apply our to function to a list of values:\n\ntemps_f = [100, 120, 80]\ntemps_c = [convert_f_to_c(x) for x in temps_f]"
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#functions",
+    "href": "slides/slides_abstraction_and_composition.html#functions",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Functions",
+    "text": "Functions\n\nFunctions are a named bundle of logic.\n\nI think of a function as a “pipe” that transforms values into other values.\n\nExample functions (Tip: useful for the challenge!):\n\nmodel = fit_model(train)\nfig = plot_scatterplot(data)\nsave_image(img, path)\n\nAnother analogy: think of functions as the “verbs” and variables as the “nouns” of your program."
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#composition",
+    "href": "slides/slides_abstraction_and_composition.html#composition",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Composition",
+    "text": "Composition\n\nFunctions help to break up your code into small, reusable “modules.”\nThese modules can be composed together:\ndef convert_multiple_f_to_c(temps_f):\n    return [convert_f_to_c(x) for x in temps_f]\nProgramming is less about tricky logic problems, more about abstraction and composition."
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#scripting-vs.-programming",
+    "href": "slides/slides_abstraction_and_composition.html#scripting-vs.-programming",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Scripting vs. Programming",
+    "text": "Scripting vs. Programming\n\nThe line between scripting and programming is fuzzy.\nOften, you need to re-use bits of a script, so you start re-writing it into functions.\nIf these functions are useful enough, you can incorporate them into a library.\n\nMy own example of this (in R): ggutils."
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#classes-logic-data",
+    "href": "slides/slides_abstraction_and_composition.html#classes-logic-data",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Classes: logic + data",
+    "text": "Classes: logic + data\n\nFunctions: logic (a “recipe”)\nVariables: data (actual “values”)\nClasses: An abstraction for combining data and logic."
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#classes",
+    "href": "slides/slides_abstraction_and_composition.html#classes",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Classes",
+    "text": "Classes\n\nClasses have two components:\n\nAttributes: data.\nMethods: functions.\n\n\n    class WeatherStation:\n        def __init__(self, temps_f): # Default initialization method\n            self.temps_f = temps_f # an \"attribute\"\n\n        def convert_f_to_c(temp_f): # A \"method\"\n            return 5/9 * (temp_f - 32)\n\n        def convert_temps_f_to_c(self): # Another \"method\"\n            return [self.convert_f_to_c(x) for x in self.temps_f]\n\nNow, my functions are directly coupled to my data and I have given this Object a name: WeatherStation."
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#using-a-classes",
+    "href": "slides/slides_abstraction_and_composition.html#using-a-classes",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Using a classes",
+    "text": "Using a classes\n\nA class is a general purpose construct, like a function.\nWe have to initialize our class with some data:\nstation = WeatherStation(temps_f = [100, 120, 80])\nHere, station is an instance of the class WeatherStation.\nThen we can use the methods of the class for this instance:\nprint(station.convert_temps_f_to_c())"
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#inheritance",
+    "href": "slides/slides_abstraction_and_composition.html#inheritance",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Inheritance",
+    "text": "Inheritance\n\nClasses can be extended to represent different objects objects with the same interface.\nHere, the WeatherStation has a general purpose method get_temperatures which should always return the temperature in Celsius.\n    class WeatherStation:\n        def __init__(self, temps):\n            self.temps = temps \n\n        def convert_f_to_c(self, temp_f):\n            return 5 / 9 * (temp_f - 32)\n\n        def get_temperatures_c(self):\n            return self.temps"
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#inheritance-1",
+    "href": "slides/slides_abstraction_and_composition.html#inheritance-1",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Inheritance",
+    "text": "Inheritance\n\nWe could create two child classes which inherit the WeatherStation interface.\nAssuming an AmericanWeatherStation is always initialized with temps in Fahrenheit:\n    class AmericanWeatherStation(WeatherStation):\n\n        def get_temperatures_c(self):\n            return [self.convert_f_to_c(x) for x in self.temps]\nAssuming a EuropeanWeatherStation is always initialized with temps in Celsius:\n    class EuropeanWeatherStation(WeatherStation):\n\n        def get_temperatures_c(self):\n            return self.temps"
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#inheritance-2",
+    "href": "slides/slides_abstraction_and_composition.html#inheritance-2",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Inheritance",
+    "text": "Inheritance\n\nInheritance gives a common interface.\nNow, I can write a function that consumes any WeatherStation object.\n    def get_total_temp_c(station):\n        return sum(station.get_temperatures_c())"
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#tutorial-1-functions",
+    "href": "slides/slides_abstraction_and_composition.html#tutorial-1-functions",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Tutorial #1: Functions",
+    "text": "Tutorial #1: Functions\n\nFunctions\nCore concepts:\n\nUsing built-in functions (and the standard library)\nimport math\nmath.log10(10)\nWriting your own functions\ndef add_3(x):\n    return x + 3\nComposing functions\ndef add_5(x):\n    return add_3(x) + 2"
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#tutorial-2-functions-optional",
+    "href": "slides/slides_abstraction_and_composition.html#tutorial-2-functions-optional",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Tutorial #2: Functions (Optional)",
+    "text": "Tutorial #2: Functions (Optional)\n\nMore control flow tools §4.7-4.8 (Optional)\n\nThis is more of a deep dive. If you feel shaky with the basics of functions, jump ahead to classes, then return to this!\n\nCore concepts:\n\nDefault arguments\ndef add(x, y = 2):\n    return x + y\nKeyword arguments\nadd(4, x=4) # duplicate value for the same argument"
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#tutorial-3",
+    "href": "slides/slides_abstraction_and_composition.html#tutorial-3",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Tutorial #3",
+    "text": "Tutorial #3\n\nObject-oriented programming\nCore concepts:\n\nWriting custom classes\nclass PartyAnimal:\nInitializing classes\nan = PartyAnimal()\nClass inheritance\nclass CricketFan(PartyAnimal):"
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#tutorial-3-possible-pitfall",
+    "href": "slides/slides_abstraction_and_composition.html#tutorial-3-possible-pitfall",
+    "title": "Day 2: Abstraction and composition",
+    "section": "Tutorial #3: possible pitfall",
+    "text": "Tutorial #3: possible pitfall\n\nTutorial #3 includes the following code:\nfrom party import PartyAnimal\nThis requires actually breaking our code into different scripts (.py files).\nWe can’t do this because we are still using Colab.\n\nFor now, just carry on in the same Notebook.\nWe will introduce .py files this afternoon!"
+  },
+  {
+    "objectID": "slides/slides_control_logic.html#tutorial-1-conditional-logic",
+    "href": "slides/slides_control_logic.html#tutorial-1-conditional-logic",
+    "title": "Control logic",
+    "section": "Tutorial #1: Conditional logic",
+    "text": "Tutorial #1: Conditional logic\n\nConditional execution\nCore concepts:\n\nBooleans (True, False)\nx = 5 == 5\nConditional execution\nif x &gt; 0 :\n    print('x is positive')\nCatching exceptions\ntry:\n    # Some code that throws an error\nexcept:\n    # A useful error message"
+  },
+  {
+    "objectID": "slides/slides_control_logic.html#conditional-logic-r-to-python",
+    "href": "slides/slides_control_logic.html#conditional-logic-r-to-python",
+    "title": "Control logic",
+    "section": "Conditional logic: R to Python",
+    "text": "Conditional logic: R to Python\n\nThe concept is the same, the Python syntax is simpler.\n\nIn Python, pay attention to your indentation!\n\n\n\n\nR\n\nif (x &gt; 0) {\n    print('x is positive')\n}\n\n\n\n\nPython\n\nif x &gt; 0 :\n    print('x is positive')"
+  },
+  {
+    "objectID": "slides/slides_control_logic.html#tutorial-2-iteration",
+    "href": "slides/slides_control_logic.html#tutorial-2-iteration",
+    "title": "Control logic",
+    "section": "Tutorial #2: Iteration",
+    "text": "Tutorial #2: Iteration\n\nIteration\nCore concepts:\n\nIndefinite iteration (while)\nwhile x &lt; 10:\n    # Do something with x\nDefinite iteration (for)\nfor x in range(10):\n    print(x)"
+  },
+  {
+    "objectID": "slides/slides_control_logic.html#iteration-r-to-python",
+    "href": "slides/slides_control_logic.html#iteration-r-to-python",
+    "title": "Control logic",
+    "section": "Iteration: R to Python",
+    "text": "Iteration: R to Python\n\nJust like if statements, the R concept is the same, the Python syntax is simpler.\n\n\n\nR\n\nfor (x in 1:3) {\n    print(x)\n}\n\n\n\n\nPython\n\nfor x in [1, 2, 3]:\n    print(x)"
+  },
+  {
+    "objectID": "slides/slides_control_logic.html#list-comprehension",
+    "href": "slides/slides_control_logic.html#list-comprehension",
+    "title": "Control logic",
+    "section": "List comprehension",
+    "text": "List comprehension\n\nUnique to Python: one-line iteration for lists.\n\nIterate over a list:\n\ny = [x for x in [1, 2, 3]]\n\nManipulate each element of a list:\n\n[x + 3 for x in y]"
+  },
+  {
+    "objectID": "slides/slides_control_logic.html#tutorial-3-iteration",
+    "href": "slides/slides_control_logic.html#tutorial-3-iteration",
+    "title": "Control logic",
+    "section": "Tutorial #3: Iteration",
+    "text": "Tutorial #3: Iteration\n\nMore control flow tools §4.1-4.6\nCore concepts:\n\nThe range() function\nrange(3)\nOther control statements (break, continue, pass)\nmatch statements\nmatch point:\n    case 0:\n        print(\"x is 0\")\n    case _:\n        print(f\"x is anything else!\")\n\nNote: §4.6 mentions functions (def) which we will work with tomorrow!"
+  },
+  {
+    "objectID": "challenge.html",
+    "href": "challenge.html",
+    "title": "Challenge",
+    "section": "",
+    "text": "Objective: Predict the nightly price of AirBnB listings in London based on their characteristics.\nData: Inside AirBnB collects publicly-available information from AirBnB listings to estimate the effect of AirBnB on urban economies."
+  },
+  {
+    "objectID": "challenge.html#challenge-statement",
+    "href": "challenge.html#challenge-statement",
+    "title": "Challenge",
+    "section": "",
+    "text": "Objective: Predict the nightly price of AirBnB listings in London based on their characteristics.\nData: Inside AirBnB collects publicly-available information from AirBnB listings to estimate the effect of AirBnB on urban economies."
+  },
+  {
+    "objectID": "challenge.html#guidelines",
+    "href": "challenge.html#guidelines",
+    "title": "Challenge",
+    "section": "Guidelines",
+    "text": "Guidelines\nThis challenge aims to give you experience with all of the basic tasks in a data science project. I suggest following a workflow like this:\n\nRead the dataset with pandas.\nDo some exploratory analysis to understand the data.\nTransform the data into relevant variables. Consider:\n\nHandling missing data.\nRe-coding categorical variables.\nStandardizing / normalizing variables.\nExtracting information from text variables.\n\nSplit the dataset into training / evaluation datasets.\nChoose a regression to model the price of AirBnBs. Consider:\n\nLinear regression.\nDecision trees and random forests.\nNeural networks (also see here).\nSee more model suggestions here.\n\nFit the regression model.\nEvaluate the model performance.\nVisualize / communicate the results.\n\nTo help you get started, I have made a basic project scaffold. In this file, I try to predict the price of AirBnB listings with a linear regression based only on the number of bedrooms in the listing. The model performs terribly, but this should be a good starting point. Consider how you can extract more relevant information from the dataset and make a more appropriate model choice to improve the accuracy of your model."
+  },
+  {
+    "objectID": "challenge.html#regression",
+    "href": "challenge.html#regression",
+    "title": "Challenge",
+    "section": "Regression",
+    "text": "Regression\nI recommend using sklearn for statistical modelling, a popular library for machine learning in Python.\nThe process of training and testing regression models with sklearn follows the same basic pattern for all supported models. You can find information and example code in the documentation for individual models, or you can look at the official sklearn tutorial. I don’t recommend working through this whole tutorial (it is about image classification). Instead, look through it and try to apply the same methodology (training/testing split, model fitting, model evaluation) to your own workflow."
+  },
+  {
+    "objectID": "challenge.html#dataset",
+    "href": "challenge.html#dataset",
+    "title": "Challenge",
+    "section": "Dataset",
+    "text": "Dataset\nThe Inside AirBnB dataset comes from information “scraped” from AirBnB. This means that the dataset is created by automatically recording information on public AirBnB listings in different urban areas.\nI highly recommend that you look through the Inside AirBnB Documentation before getting started.\nAlso look through the Data Dictionary to get an understanding of the different dataset variables and which variables might be relevant to your analysis."
+  },
+  {
+    "objectID": "challenge.html#recommendations",
+    "href": "challenge.html#recommendations",
+    "title": "Challenge",
+    "section": "Recommendations",
+    "text": "Recommendations\nBefore getting started, take a moment to plan your approach.\nConsider:\n\nHow was the dataset collected?\nWhat variables are in the dataset?\nWhat are the data types of the variables?\nIs there any missing data?\nWhat regression methodology should you use?\nWhat data format does your regression analysis need?\nWhich variables are / are not relevant to your methodology?\nDo you need to transform these variables in any way?\n\nBy the end of the session, aim to make progress on each item in the Guidelines. Start simple, then refine your solution iteratively.\nIf you run into any difficulties, document them, adapt your solution, and feel free to ask for help!"
+  },
+  {
+    "objectID": "challenge.html#debrief",
+    "href": "challenge.html#debrief",
+    "title": "Challenge",
+    "section": "Debrief",
+    "text": "Debrief\nOn the afternoon of Day 4, I will ask you to add your solution file to a shared GitHub repository.\nWe will then compare everyone’s solutions and discuss your results, the different challenges that you faced, and how you overcame them."
   }
 ]
