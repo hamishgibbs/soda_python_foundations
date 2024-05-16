@@ -214,14 +214,35 @@
     "href": "slides/slides_python_data_science.html#tutorial-1-pandas",
     "title": "Python data science",
     "section": "Tutorial #1: pandas",
-    "text": "Tutorial #1: pandas\n\n10 minutes to pandas\nCore concepts:\n\nTODO"
+    "text": "Tutorial #1: pandas\n\n10 minutes to pandas\n\nThis is a detailed tutorial with everything in pandas you will need to know for tomorrow!\n\nCore concepts:\n\nCreating a DataFrame\nSelection\nMissing data\nGrouping"
   },
   {
-    "objectID": "slides/slides_python_data_science.html#tutorial-2-pandas-matplotlib",
-    "href": "slides/slides_python_data_science.html#tutorial-2-pandas-matplotlib",
+    "objectID": "slides/slides_python_data_science.html#tutorial-2-plotting-in-pandas-with-matplotlib",
+    "href": "slides/slides_python_data_science.html#tutorial-2-plotting-in-pandas-with-matplotlib",
     "title": "Python data science",
-    "section": "Tutorial #2: pandas / matplotlib",
-    "text": "Tutorial #2: pandas / matplotlib\n\nChart visualization\nCore concepts:\n\nTODO"
+    "section": "Tutorial #2: plotting in pandas with matplotlib",
+    "text": "Tutorial #2: plotting in pandas with matplotlib\n\nChart visualization\n\nThis picks up where the previous tutorial leaves off.\n\nCore concepts:\n\nDifferent types of visualizations\nPlot formatting\nSubplots\n\nGood question: This is a pandas tutorials. Where is matplotlib in all of this?"
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#tutorial-3-sklearn",
+    "href": "slides/slides_python_data_science.html#tutorial-3-sklearn",
+    "title": "Python data science",
+    "section": "Tutorial #3: sklearn",
+    "text": "Tutorial #3: sklearn\n\nsklearn - Getting Started\n\nA very basic introduction to the way sklearn models work.\n\nCore concepts:\n\nFitting a model to data\nclf.fit(X, y)\nMaking predictions with a model\nclf.predict(X)\nModel evaluation\nresult = cross_validate(lr, X, y)"
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#tutorial-4-pandas-matplotlib",
+    "href": "slides/slides_python_data_science.html#tutorial-4-pandas-matplotlib",
+    "title": "Python data science",
+    "section": "Tutorial #4: pandas / matplotlib",
+    "text": "Tutorial #4: pandas / matplotlib\n\nLinear model: from regression to sparsity\nCore concepts:\n\nLinear regression\n\nI recommend focusing on the (small) linear regression section.\nTip: print out each variable and try to understand how data flows through the model. What format is it in? How could you format a different dataset in the same way?"
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#extra",
+    "href": "slides/slides_python_data_science.html#extra",
+    "title": "Python data science",
+    "section": "Extra",
+    "text": "Extra\n\nStart working with the dataset we will use tomorrow.\n\nFor help reading the data: see here.\n\nWork on a few of the items in the challenge:\n\nWhat variables are in the dataset?\nWhat are the data types of the variables?\nIs there any missing data?"
   },
   {
     "objectID": "resources.html",
@@ -263,7 +284,7 @@
     "href": "schedule.html#schedule",
     "title": "Course schedule",
     "section": "Schedule",
-    "text": "Schedule\n\nDay 1 (Python basics)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. Variables, expressions, and statements  2. An informal introduction to python §3.1.3  3. Dictionaries §1\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Conditional execution  2. Iteration  3. More control flow tools §4.1-4.6\n\n\n\n\n\nDay 2 (Abstraction & composition)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. Functions  2. More control flow tools §4.7-4.8 (Optional)  3. Object-oriented programming\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Python Interactive window  2. Continue practicals above\n\n\n\n\n\nDay 3 (Python data science)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. 10 minutes to pandas  2. Chart visualization  3. Start working with the dataset  we will use tomorrow.  For help reading the data: see here.\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Setup GitHub  2. Create a GitHub repository  3. Commit your code (Add, Commit).  4. Push your code to your repository (Remote, Push)\n\n\n\n\n\nDay 4 (Challenge: regression analysis)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nChallenge\n1. Start the Challenge!  For help see: sklearn tutorials and Inside AirBnB.\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 16:00\nChallenge\n1. Push your solution file to the shared repository.  2. We will discuss / compare solutions!"
+    "text": "Schedule\n\nDay 1 (Python basics)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. Variables, expressions, and statements  2. An informal introduction to python §3.1.3  3. Dictionaries §1\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Conditional execution  2. Iteration  3. More control flow tools §4.1-4.6\n\n\n\n\n\nDay 2 (Abstraction & composition)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. Functions  2. More control flow tools §4.7-4.8 (Optional)  3. Object-oriented programming\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Python Interactive window  2. Continue practicals above\n\n\n\n\n\nDay 3 (Python data science)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. 10 minutes to pandas  2. Chart visualization  3. sklearn - Getting Started  4. Linear model: from regression to sparsity\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Setup GitHub  2. Create a GitHub repository  3. Commit your code (Add, Commit).  4. Push your code to your repository (Remote, Push)\n\n\n\n\n\nDay 4 (Challenge: regression analysis)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nChallenge\n1. Start the Challenge!  For help see: sklearn tutorials and Inside AirBnB.\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 16:00\nChallenge\n1. Push your solution file to the shared repository.  2. We will discuss / compare solutions!"
   },
   {
     "objectID": "slides/slides_introduction.html#introduction",
