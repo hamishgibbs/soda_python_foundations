@@ -62,12 +62,60 @@ format: revealjs
 ## Tutorial #1: pandas
 
 * [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
+    * *This is a detailed tutorial with everything in `pandas` you will need to know for tomorrow!*
 * Core concepts: 
-    * TODO
+    * Creating a DataFrame
+    * Selection
+    * Missing data
+    * Grouping
 
-## Tutorial #2: pandas / matplotlib
+## Tutorial #2: plotting in pandas with matplotlib
 
 * [Chart visualization](https://pandas.pydata.org/docs/user_guide/visualization.html)
+    * *This picks up where the previous tutorial leaves off.*
 * Core concepts: 
-    * TODO
+    * Different types of visualizations
+    * Plot formatting
+    * Subplots
 
+* **Good question:** This is a `pandas` tutorials. Where is `matplotlib` in all of this?
+
+## Tutorial #3: sklearn
+
+* [sklearn - Getting Started](https://scikit-learn.org/stable/getting_started.html)
+    * *A very basic introduction to the way `sklearn` models work.* 
+* Core concepts: 
+    * Fitting a model to data
+    
+        ```python
+        clf.fit(X, y)
+        ```
+    * Making predictions with a model
+
+        ```python
+        clf.predict(X)
+        ```
+    
+    * Model evaluation
+    
+        ```python
+        result = cross_validate(lr, X, y)
+        ```
+
+
+## Tutorial #4: pandas / matplotlib
+
+* [Linear model: from regression to sparsity](https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html#linear-model-from-regression-to-sparsity)
+* Core concepts: 
+    * [Linear regression](https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html#linear-regression)
+        * I recommend focusing on the (small) linear regression section.
+        * *Tip: print out each variable and try to understand how data flows through the model. What format is it in? How could you format a different dataset in the same way?*
+
+## Extra
+
+* Start working with the [dataset](https://github.com/hamishgibbs/sdi_python_foundations/blob/main/data/2020-08-24-listings.csv.gz) we will use tomorrow. 
+    * For help reading the data: [see here](https://pandas.pydata.org/docs/user_guide/io.html).
+* Work on a few of the items in the challenge: 
+    * *What variables are in the dataset?*
+    * *What are the data types of the variables?*
+    * *Is there any missing data?*
