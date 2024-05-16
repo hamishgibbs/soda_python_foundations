@@ -4,21 +4,79 @@ author: Hamish Gibbs
 format: revealjs
 ---
 
-## Reusing code
-Code is a recipe
+## Jupyter notebooks (.ipynb)
 
-## Jupyter notebooks
-(strengths & weaknesses)  
-Jupyter notebooks combine code and data in a way that can be good or bad
+* Google Colab runs a [Jupyter Notebook](https://jupyter.org/)
+    * **Pros:**
+        * Minimal set-up
+        * Interactive coding
+    * **Cons:**
+        * Difficult to re-use code
+        * Insufficient for larger projects
+        * Hard to integrate with other programming tools
 
-## .py files 
-(what the other approach is)
+## Python files (.py)
 
-## .py files 
-(strengths and weaknesses)
+* In the **scripting** vs. **programming** dichotomy: 
+    * Jupyter Notebooks are better for **scripting.**
+* In practice, Python programs are usually composed of **Functions** and **Classes** in `.py` files.
+* *Example:* check out the [pandas](https://github.com/pandas-dev/pandas/tree/main/pandas/core) codebase.
+* Writing Python like this requires a different development environment.
 
-## VSCode
-IDE
+## Advanced Python development
+
+* Enter: [Visual Studio Code](https://code.visualstudio.com/) (VSCode).
+    * VSCode is an Integrated Development Environment (IDE). 
+    * Another (probably familiar) IDE: [RStudio](https://posit.co/downloads/)!
+* IDEs offer an integrated terminal (for running code), auto-complete, debugging, extensions.
+* Why VSCode? 
+    * The best open source IDE (my opinion) with lots of Python extensions.
+    * Other Python IDE options: [Spyder](https://www.spyder-ide.org/), [PyCharm](https://www.jetbrains.com/pycharm/), [Sublime](https://www.sublimetext.com/).
+
+## Python files (.py)
+* Programming in a text editor (not a Notebook):
+    * **Pros:**
+        * Easy to write re-usable code
+        * Can scale to larger projects
+        * Easier to collaborate
+    * **Cons:**
+        * More difficult setup
+        * No interactivity by default
 
 ## Combined workflow
-(Running jupyter cells in a .py file in vscode)
+
+* Can't we have our cake and eat it to?
+* We want: 
+    * Minimal set-up
+    * Interactive coding
+    * Easy to write re-usable code
+    * Can scale to larger projects
+    * Easier to collaborate
+
+## Combined workflow
+
+* Combining VsCode with Python plugins, we get:
+    * Minimal set-up ❌
+    * Interactive coding ✅
+    * Easy to write re-usable code ✅
+    * Can scale to larger projects ✅
+    * Easier to collaborate ✅
+
+## Aims: this afternoon
+
+* Unfortunately, VSCode requires a bit more set up (and can cause installation headaches).
+    * *That's why I'm here!*
+
+* Aims:
+    1. [Download VSCode](https://code.visualstudio.com/download)
+    2. Download VSCode plugins: [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) and [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter).
+    3. Get Python code to run interactively in code cells: `# %%`.
+        * See: [Python Interactive window](https://code.visualstudio.com/docs/python/jupyter-support-py).
+
+## Extra
+
+* If you breeze through the VSCode setup process:
+    * Finish this morning's tutorials.
+    * Then, try to import functions between `.py` files. [[hint]](https://stackoverflow.com/questions/20309456/how-do-i-call-a-function-from-another-py-file)
+    * Then, try running your `.py` file from the command line. [[hint]](https://realpython.com/run-python-scripts/)
+    * Then, try to use `if __name__ == "__main__":` in your `.py` file. [[hint]](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)
