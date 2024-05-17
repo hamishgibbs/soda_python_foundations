@@ -45,7 +45,7 @@ format: revealjs
 
 ## Combined workflow
 
-* Can't we have our cake and eat it to?
+* Can't we have our cake and eat it too?
 * We want: 
     * Minimal set-up
     * Interactive coding
