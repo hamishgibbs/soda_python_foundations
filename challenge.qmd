@@ -62,7 +62,7 @@ Consider:
 * Which variables are / are not relevant to your methodology?
 * Do you need to transform these variables in any way?
 
-By the end of the session, aim to make progress on each item in the Guidelines. Start simple, then refine your solution iteratively. 
+By the end of the session, aim to make progress on each major item in the Guidelines. Start simple, then refine your solution iteratively. 
 
 If you run into any difficulties, document them, adapt your solution, and feel free to ask for help!
 

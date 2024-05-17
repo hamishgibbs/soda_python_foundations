@@ -6,11 +6,29 @@ format: revealjs
 
 ## Challenge statement
 
-## Regression
+**Objective:** *Predict the nightly price of AirBnB listings in London based on their characteristics.*
 
-## Python regression tools
-sklearn
+**Data source:** *[Inside AirBnB](https://insideairbnb.com/)*
+
+**Dataset:** [2020-08-24-listings.csv.gz](https://github.com/hamishgibbs/soda_python_foundations/blob/main/data/2020-08-24-listings.csv.gz)
+
+**Guidelines:** [Challenge](../challenge.qmd)
 
 ## Challenge scaffold
 
-## Dataset
+* Because we have so little time, I have made a "scaffold of the project"
+    * [challenge_scaffold.py](https://github.com/hamishgibbs/soda_python_foundations/blob/main/challenge_scaffold.py)
+* This is a *bad* solution, but it should be give you a foundation to improve from!
+
+## Aims
+* See the [Challenge Guidelines](https://hamishgibbs.github.io/soda_python_foundations/challenge.html#guidelines).
+* By the end of the session:
+    * Aim to make progress on each major item in the Guidelines. 
+    * Start simple, then refine your solution iteratively. 
+
+## Help: Regression
+
+<p align="center">
+  <img src="https://scikit-learn.org/stable/_static/ml_map.png" alt="Git Repos">
+</p>
+<small>Image credit: [sklearn – Choosing the right estimator](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)</small>
