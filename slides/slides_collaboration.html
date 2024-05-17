@@ -339,28 +339,171 @@ Hamish Gibbs
 </section>
 <section id="collaboration" class="slide level2">
 <h2>Collaboration</h2>
-<p>most projects aren’t solo<br>
-To collaborate - you need to share code</p>
-</section>
-<section id="local-vs.-remote-code" class="slide level2">
-<h2>Local vs.&nbsp;Remote code</h2>
-<p>Local: folder. Remote: Repository.</p>
-</section>
-<section id="google-docs" class="slide level2">
-<h2>Google docs</h2>
-<p>git is kind of like Google docs</p>
+<ul>
+<li>Most programming isn’t solo.</li>
+<li>In companies / research, you are often working on a small part of a larger project.</li>
+<li>To collaborate - you need to share code!</li>
+</ul>
 </section>
 <section id="version-control" class="slide level2">
 <h2>Version control</h2>
-<p>git</p>
+<ul>
+<li>To collaborate, we need:
+<ul>
+<li>A place to store a shared version of our code.</li>
+<li>A way to track changes to different parts of the code.</li>
+</ul></li>
+<li>Solution:
+<ul>
+<li>A “repository” to share our code</li>
+<li>A <a href="https://en.wikipedia.org/wiki/Version_control">version control</a> system to track changes to the code</li>
+</ul></li>
+</ul>
 </section>
-<section id="github" class="slide level2">
-<h2>Github</h2>
-<p>To edit the same code, you need a shared place to store it. GitHub is this place.</p>
+<section id="local-vs.-remote-code" class="slide level2">
+<h2>Local vs.&nbsp;Remote code</h2>
+<ul>
+<li>A repository stores the code for a specific project.</li>
+<li>There are two different types of repository:
+<ul>
+<li><strong>Local:</strong>
+<ul>
+<li><em>Think: a file folder on your computer.</em></li>
+</ul></li>
+<li><strong>Remote:</strong>
+<ul>
+<li><em>Think: a Google Drive folder.</em></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="local-vs.-remote-code-1" class="slide level2">
+<h2>Local vs.&nbsp;Remote code</h2>
+<ul>
+<li>With version control, I want my <strong>local</strong> changes to be reflected in the <strong>remote</strong> repository.</li>
+</ul>
+<p align="center">
+<img src="https://www.cs.swarthmore.edu/git/git-repos.svg" alt="Git Repos">
+</p>
+<p><small>Image credit: <a href="https://www.cs.swarthmore.edu/git/">Swarthmore Computer Science</a></small></p>
+</section>
+<section id="git-and-github" class="slide level2">
+<h2>git and GitHub</h2>
+<ul>
+<li><strong>git</strong> is an open source version control system.
+<ul>
+<li>Purpose: recording and reconciling changes to code.</li>
+</ul></li>
+<li><strong>GitHub</strong> is a place to store <strong>remote</strong> repositories.
+<ul>
+<li>Here is the repository for <a href="https://github.com/hamishgibbs/soda_python_foundations">this course</a>!</li>
+</ul></li>
+</ul>
+</section>
+<section id="google-docs" class="slide level2">
+<h2>Google docs</h2>
+<ul>
+<li><code>git</code> is kind of like Google Docs.
+<ul>
+<li>I make a change to a document.</li>
+<li>You make changes to the same document.</li>
+<li>Our changes are combined together.</li>
+</ul></li>
+<li>Except: <code>git</code> is <em>very manual</em>.</li>
+</ul>
+</section>
+<section id="version-control-1" class="slide level2">
+<h2>Version control</h2>
+<ul>
+<li>With <code>git</code> you need to be explicit about:
+<ul>
+<li>Saving <strong>local</strong> changes.</li>
+<li>‘Pushing’ <strong>local</strong> changes to the <strong>remote</strong> repository.</li>
+<li>‘Pulling’ changes from the <strong>remote</strong> repository.</li>
+<li>Merging changes together.</li>
+</ul></li>
+<li><em><strong>Good question:</strong> Why does this have to be explicit?</em></li>
+</ul>
+</section>
+<section id="aims-this-afternoon" class="slide level2">
+<h2>Aims: this afternoon</h2>
+<ul>
+<li>Create a <strong>local</strong> <code>git</code> repository with some of the code you have written.</li>
+<li>Create a <strong>remote</strong> repository on GitHub.</li>
+<li>Push your code from your <strong>local</strong> repository to your <strong>remote</strong> repository.</li>
+</ul>
+</section>
+<section id="aims-tomorrow" class="slide level2">
+<h2>Aims: tomorrow</h2>
+<ul>
+<li>After the challenge, we will each:
+<ul>
+<li>Push our code to a shared repository.</li>
+<li>Compare solutions.</li>
+</ul></li>
+<li>Shared repository URL:
+<ul>
+<li><a href="https://github.com/hamishgibbs/soda_python_foundations_challenge_2024">soda_python_foundations_challenge_2024</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="tutorial-1" class="slide level2">
+<h2>Tutorial #1</h2>
+<ol type="1">
+<li>Setup a <a href="https://github.com/">GitHub</a> account.</li>
+<li><a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository">Create a GitHub repository</a>.</li>
+<li>Commit your <strong>local</strong> code (<a href="https://github.com/git-guides/git-add">Add</a>, <a href="https://github.com/git-guides/git-commit">Commit</a>).</li>
+<li>Push your code to your <strong>remote</strong> repository (<a href="https://github.com/git-guides/git-remote">Remote</a>).</li>
+</ol>
+</section>
+<section id="extra" class="slide level2">
+<h2>Extra</h2>
+<ul>
+<li>If you breeze through the GitHub setup / repository creation:
+<ul>
+<li>Try editing files in the <strong>remote</strong>, then <code>pull</code> the changes to your <strong>local</strong> repository.</li>
+<li>Try creating a <strong>local</strong> <code>branch</code>, then <code>push</code> the branch to the <strong>remote</strong> repository.</li>
+<li>Try setting up a repository with someone else, making changes to the same file.</li>
+</ul></li>
+</ul>
 </section>
 <section id="tip" class="slide level2">
 <h2>Tip</h2>
-<p>Github education freebies</p>
+<ul>
+<li>Github’s Education Benefits give you access to a lot of <a href="https://education.github.com/benefits">free stuff</a>!
+<ul>
+<li>GitHub Copilot</li>
+<li>GitHub Copilot Chat</li>
+<li>Free web hosting</li>
+</ul></li>
+</ul>
+</section>
+<section id="what-about-github-alternatives" class="slide level2">
+<h2>What about GitHub alternatives?</h2>
+<ul>
+<li><code>git</code> is open source and is the <em>de facto</em> version control software</li>
+<li>GitHub is a for-profit company owned by Microsoft.</li>
+<li>There are alternatives to GtiHub:
+<ul>
+<li><a href="https://about.gitlab.com/">GitLab</a></li>
+<li><a href="https://circleci.com/">CircleCI</a></li>
+<li>Many more…</li>
+</ul></li>
+</ul>
+</section>
+<section id="what-about-git-clients" class="slide level2">
+<h2>What about git clients?</h2>
+<ul>
+<li>There are lots of (allegedly) “easier” ways to interact with <code>git</code> repositories through a graphical user interface (GUI).
+<ul>
+<li>Example: <a href="https://desktop.github.com/">GitHub Desktop</a>.</li>
+</ul></li>
+<li>I recommend the command line because:
+<ul>
+<li>Most basic git interactions are simple commands.</li>
+<li>You aren’t linked to a particulat <code>git</code> hosting service.</li>
+</ul></li>
+</ul>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

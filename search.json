@@ -74,42 +74,98 @@
     "href": "slides/slides_collaboration.html#collaboration",
     "title": "Collaboration",
     "section": "Collaboration",
-    "text": "Collaboration\nmost projects aren’t solo\nTo collaborate - you need to share code"
-  },
-  {
-    "objectID": "slides/slides_collaboration.html#local-vs.-remote-code",
-    "href": "slides/slides_collaboration.html#local-vs.-remote-code",
-    "title": "Collaboration",
-    "section": "Local vs. Remote code",
-    "text": "Local vs. Remote code\nLocal: folder. Remote: Repository."
-  },
-  {
-    "objectID": "slides/slides_collaboration.html#google-docs",
-    "href": "slides/slides_collaboration.html#google-docs",
-    "title": "Collaboration",
-    "section": "Google docs",
-    "text": "Google docs\ngit is kind of like Google docs"
+    "text": "Collaboration\n\nMost programming isn’t solo.\nIn companies / research, you are often working on a small part of a larger project.\nTo collaborate - you need to share code!"
   },
   {
     "objectID": "slides/slides_collaboration.html#version-control",
     "href": "slides/slides_collaboration.html#version-control",
     "title": "Collaboration",
     "section": "Version control",
-    "text": "Version control\ngit"
+    "text": "Version control\n\nTo collaborate, we need:\n\nA place to store a shared version of our code.\nA way to track changes to different parts of the code.\n\nSolution:\n\nA “repository” to share our code\nA version control system to track changes to the code"
   },
   {
-    "objectID": "slides/slides_collaboration.html#github",
-    "href": "slides/slides_collaboration.html#github",
+    "objectID": "slides/slides_collaboration.html#local-vs.-remote-code",
+    "href": "slides/slides_collaboration.html#local-vs.-remote-code",
     "title": "Collaboration",
-    "section": "Github",
-    "text": "Github\nTo edit the same code, you need a shared place to store it. GitHub is this place."
+    "section": "Local vs. Remote code",
+    "text": "Local vs. Remote code\n\nA repository stores the code for a specific project.\nThere are two different types of repository:\n\nLocal:\n\nThink: a file folder on your computer.\n\nRemote:\n\nThink: a Google Drive folder."
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#local-vs.-remote-code-1",
+    "href": "slides/slides_collaboration.html#local-vs.-remote-code-1",
+    "title": "Collaboration",
+    "section": "Local vs. Remote code",
+    "text": "Local vs. Remote code\n\nWith version control, I want my local changes to be reflected in the remote repository.\n\n\n\n\nImage credit: Swarthmore Computer Science"
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#git-and-github",
+    "href": "slides/slides_collaboration.html#git-and-github",
+    "title": "Collaboration",
+    "section": "git and GitHub",
+    "text": "git and GitHub\n\ngit is an open source version control system.\n\nPurpose: recording and reconciling changes to code.\n\nGitHub is a place to store remote repositories.\n\nHere is the repository for this course!"
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#google-docs",
+    "href": "slides/slides_collaboration.html#google-docs",
+    "title": "Collaboration",
+    "section": "Google docs",
+    "text": "Google docs\n\ngit is kind of like Google Docs.\n\nI make a change to a document.\nYou make changes to the same document.\nOur changes are combined together.\n\nExcept: git is very manual."
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#version-control-1",
+    "href": "slides/slides_collaboration.html#version-control-1",
+    "title": "Collaboration",
+    "section": "Version control",
+    "text": "Version control\n\nWith git you need to be explicit about:\n\nSaving local changes.\n‘Pushing’ local changes to the remote repository.\n‘Pulling’ changes from the remote repository.\nMerging changes together.\n\nGood question: Why does this have to be explicit?"
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#aims-this-afternoon",
+    "href": "slides/slides_collaboration.html#aims-this-afternoon",
+    "title": "Collaboration",
+    "section": "Aims: this afternoon",
+    "text": "Aims: this afternoon\n\nCreate a local git repository with some of the code you have written.\nCreate a remote repository on GitHub.\nPush your code from your local repository to your remote repository."
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#aims-tomorrow",
+    "href": "slides/slides_collaboration.html#aims-tomorrow",
+    "title": "Collaboration",
+    "section": "Aims: tomorrow",
+    "text": "Aims: tomorrow\n\nAfter the challenge, we will each:\n\nPush our code to a shared repository.\nCompare solutions.\n\nShared repository URL:\n\nsoda_python_foundations_challenge_2024"
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#tutorial-1",
+    "href": "slides/slides_collaboration.html#tutorial-1",
+    "title": "Collaboration",
+    "section": "Tutorial #1",
+    "text": "Tutorial #1\n\nSetup a GitHub account.\nCreate a GitHub repository.\nCommit your local code (Add, Commit).\nPush your code to your remote repository (Remote)."
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#extra",
+    "href": "slides/slides_collaboration.html#extra",
+    "title": "Collaboration",
+    "section": "Extra",
+    "text": "Extra\n\nIf you breeze through the GitHub setup / repository creation:\n\nTry editing files in the remote, then pull the changes to your local repository.\nTry creating a local branch, then push the branch to the remote repository.\nTry setting up a repository with someone else, making changes to the same file."
   },
   {
     "objectID": "slides/slides_collaboration.html#tip",
     "href": "slides/slides_collaboration.html#tip",
     "title": "Collaboration",
     "section": "Tip",
-    "text": "Tip\nGithub education freebies"
+    "text": "Tip\n\nGithub’s Education Benefits give you access to a lot of free stuff!\n\nGitHub Copilot\nGitHub Copilot Chat\nFree web hosting"
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#what-about-github-alternatives",
+    "href": "slides/slides_collaboration.html#what-about-github-alternatives",
+    "title": "Collaboration",
+    "section": "What about GitHub alternatives?",
+    "text": "What about GitHub alternatives?\n\ngit is open source and is the de facto version control software\nGitHub is a for-profit company owned by Microsoft.\nThere are alternatives to GtiHub:\n\nGitLab\nCircleCI\nMany more…"
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#what-about-git-clients",
+    "href": "slides/slides_collaboration.html#what-about-git-clients",
+    "title": "Collaboration",
+    "section": "What about git clients?",
+    "text": "What about git clients?\n\nThere are lots of (allegedly) “easier” ways to interact with git repositories through a graphical user interface (GUI).\n\nExample: GitHub Desktop.\n\nI recommend the command line because:\n\nMost basic git interactions are simple commands.\nYou aren’t linked to a particulat git hosting service."
   },
   {
     "objectID": "slides/slides_vscode_python.html#jupyter-notebooks-.ipynb",
@@ -144,7 +200,7 @@
     "href": "slides/slides_vscode_python.html#combined-workflow",
     "title": "From Jupyter to VSCode",
     "section": "Combined workflow",
-    "text": "Combined workflow\n\nCan’t we have our cake and eat it to?\nWe want:\n\nMinimal set-up\nInteractive coding\nEasy to write re-usable code\nCan scale to larger projects\nEasier to collaborate"
+    "text": "Combined workflow\n\nCan’t we have our cake and eat it too?\nWe want:\n\nMinimal set-up\nInteractive coding\nEasy to write re-usable code\nCan scale to larger projects\nEasier to collaborate"
   },
   {
     "objectID": "slides/slides_vscode_python.html#combined-workflow-1",
@@ -284,7 +340,7 @@
     "href": "schedule.html#schedule",
     "title": "Course schedule",
     "section": "Schedule",
-    "text": "Schedule\n\nDay 1 (Python basics)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. Variables, expressions, and statements  2. An informal introduction to python §3.1.3  3. Dictionaries §1\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Conditional execution  2. Iteration  3. More control flow tools §4.1-4.6\n\n\n\n\n\nDay 2 (Abstraction & composition)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. Functions  2. More control flow tools §4.7-4.8 (Optional)  3. Object-oriented programming\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Python Interactive window  2. Continue practicals above\n\n\n\n\n\nDay 3 (Python data science)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. 10 minutes to pandas  2. Chart visualization  3. sklearn - Getting Started  4. Linear model: from regression to sparsity\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Setup GitHub  2. Create a GitHub repository  3. Commit your code (Add, Commit).  4. Push your code to your repository (Remote, Push)\n\n\n\n\n\nDay 4 (Challenge: regression analysis)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nChallenge\n1. Start the Challenge!  For help see: sklearn tutorials and Inside AirBnB.\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 16:00\nChallenge\n1. Push your solution file to the shared repository.  2. We will discuss / compare solutions!"
+    "text": "Schedule\n\nDay 1 (Python basics)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. Variables, expressions, and statements  2. An informal introduction to python §3.1.3  3. Dictionaries §1\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Conditional execution  2. Iteration  3. More control flow tools §4.1-4.6\n\n\n\n\n\nDay 2 (Abstraction & composition)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. Functions  2. More control flow tools §4.7-4.8 (Optional)  3. Object-oriented programming\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Python Interactive window  2. Continue practicals above\n\n\n\n\n\nDay 3 (Python data science)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nPractical\n1. 10 minutes to pandas  2. Chart visualization  3. sklearn - Getting Started  4. Linear model: from regression to sparsity\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n15:00 – 16:00\nPractical\n1. Setup a GitHub account  2. Create a GitHub repository  3. Commit your code (Add, Commit).  4. Push your code to your repository (Remote, Push)\n\n\n\n\n\nDay 4 (Challenge: regression analysis)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 13:00\nChallenge\n1. Start the Challenge!  For help see: sklearn tutorials and Inside AirBnB.\n\n\n13:00 – 14:00\nLunch\n\n\n\n14:00 – 16:00\nChallenge\n1. Push your solution file to the shared repository.  2. We will discuss / compare solutions!"
   },
   {
     "objectID": "slides/slides_introduction.html#introduction",
@@ -424,35 +480,28 @@
     "href": "slides/slides_regression.html#challenge-statement",
     "title": "Challenge: regression analysis",
     "section": "Challenge statement",
-    "text": "Challenge statement"
-  },
-  {
-    "objectID": "slides/slides_regression.html#regression",
-    "href": "slides/slides_regression.html#regression",
-    "title": "Challenge: regression analysis",
-    "section": "Regression",
-    "text": "Regression"
-  },
-  {
-    "objectID": "slides/slides_regression.html#python-regression-tools",
-    "href": "slides/slides_regression.html#python-regression-tools",
-    "title": "Challenge: regression analysis",
-    "section": "Python regression tools",
-    "text": "Python regression tools\nsklearn"
+    "text": "Challenge statement\nObjective: Predict the nightly price of AirBnB listings in London based on their characteristics.\nData source: Inside AirBnB\nDataset: 2020-08-24-listings.csv.gz\nGuidelines: Challenge"
   },
   {
     "objectID": "slides/slides_regression.html#challenge-scaffold",
     "href": "slides/slides_regression.html#challenge-scaffold",
     "title": "Challenge: regression analysis",
     "section": "Challenge scaffold",
-    "text": "Challenge scaffold"
+    "text": "Challenge scaffold\n\nBecause we have so little time, I have made a “scaffold of the project”\n\nchallenge_scaffold.py\n\nThis is a bad solution, but it should be give you a foundation to improve from!"
   },
   {
-    "objectID": "slides/slides_regression.html#dataset",
-    "href": "slides/slides_regression.html#dataset",
+    "objectID": "slides/slides_regression.html#aims",
+    "href": "slides/slides_regression.html#aims",
     "title": "Challenge: regression analysis",
-    "section": "Dataset",
-    "text": "Dataset"
+    "section": "Aims",
+    "text": "Aims\n\nSee the Challenge Guidelines.\nBy the end of the session:\n\nAim to make progress on each major item in the Guidelines.\nStart simple, then refine your solution iteratively."
+  },
+  {
+    "objectID": "slides/slides_regression.html#help-regression",
+    "href": "slides/slides_regression.html#help-regression",
+    "title": "Challenge: regression analysis",
+    "section": "Help: Regression",
+    "text": "Help: Regression\n\n\n\nImage credit: sklearn – Choosing the right estimator"
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#writing-re-usable-code",
@@ -518,11 +567,11 @@
     "text": "Classes\n\nClasses have two components:\n\nAttributes: data.\nMethods: functions.\n\n\n    class WeatherStation:\n        def __init__(self, temps_f): # Default initialization method\n            self.temps_f = temps_f # an \"attribute\"\n\n        def convert_f_to_c(temp_f): # A \"method\"\n            return 5/9 * (temp_f - 32)\n\n        def convert_temps_f_to_c(self): # Another \"method\"\n            return [self.convert_f_to_c(x) for x in self.temps_f]\n\nNow, my functions are directly coupled to my data and I have given this Object a name: WeatherStation."
   },
   {
-    "objectID": "slides/slides_abstraction_and_composition.html#using-a-classes",
-    "href": "slides/slides_abstraction_and_composition.html#using-a-classes",
+    "objectID": "slides/slides_abstraction_and_composition.html#using-a-class",
+    "href": "slides/slides_abstraction_and_composition.html#using-a-class",
     "title": "Day 2: Abstraction and composition",
-    "section": "Using a classes",
-    "text": "Using a classes\n\nA class is a general purpose construct, like a function.\nWe have to initialize our class with some data:\nstation = WeatherStation(temps_f = [100, 120, 80])\nHere, station is an instance of the class WeatherStation.\nThen we can use the methods of the class for this instance:\nprint(station.convert_temps_f_to_c())"
+    "section": "Using a class",
+    "text": "Using a class\n\nA class is a general purpose construct, like a function.\nWe have to initialize our class with some data:\nstation = WeatherStation(temps_f = [100, 120, 80])\nHere, station is an instance of the class WeatherStation.\nThen we can use the methods of the class for this instance:\nprint(station.convert_temps_f_to_c())"
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#inheritance",
@@ -557,7 +606,7 @@
     "href": "slides/slides_abstraction_and_composition.html#tutorial-2-functions-optional",
     "title": "Day 2: Abstraction and composition",
     "section": "Tutorial #2: Functions (Optional)",
-    "text": "Tutorial #2: Functions (Optional)\n\nMore control flow tools §4.7-4.8 (Optional)\n\nThis is more of a deep dive. If you feel shaky with the basics of functions, jump ahead to classes, then return to this!\n\nCore concepts:\n\nDefault arguments\ndef add(x, y = 2):\n    return x + y\nKeyword arguments\nadd(4, x=4) # duplicate value for the same argument"
+    "text": "Tutorial #2: Functions (Optional)\n\nMore control flow tools §4.7-4.8 (Optional)\n\nThis is more of a deep dive. If you feel shaky with the basics of functions, jump ahead to classes, then return to this!\n\nCore concepts:\n\nDefault arguments\ndef add(x, y = 2):\n    return x + y\nKeyword arguments\nadd(4, x=4) # Error: duplicate value for the same argument"
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#tutorial-3",
@@ -655,7 +704,7 @@
     "href": "challenge.html#recommendations",
     "title": "Challenge",
     "section": "Recommendations",
-    "text": "Recommendations\nBefore getting started, take a moment to plan your approach.\nConsider:\n\nHow was the dataset collected?\nWhat variables are in the dataset?\nWhat are the data types of the variables?\nIs there any missing data?\nWhat regression methodology should you use?\nWhat data format does your regression analysis need?\nWhich variables are / are not relevant to your methodology?\nDo you need to transform these variables in any way?\n\nBy the end of the session, aim to make progress on each item in the Guidelines. Start simple, then refine your solution iteratively.\nIf you run into any difficulties, document them, adapt your solution, and feel free to ask for help!"
+    "text": "Recommendations\nBefore getting started, take a moment to plan your approach.\nConsider:\n\nHow was the dataset collected?\nWhat variables are in the dataset?\nWhat are the data types of the variables?\nIs there any missing data?\nWhat regression methodology should you use?\nWhat data format does your regression analysis need?\nWhich variables are / are not relevant to your methodology?\nDo you need to transform these variables in any way?\n\nBy the end of the session, aim to make progress on each major item in the Guidelines. Start simple, then refine your solution iteratively.\nIf you run into any difficulties, document them, adapt your solution, and feel free to ask for help!"
   },
   {
     "objectID": "challenge.html#debrief",
