@@ -109,7 +109,7 @@ temps_c = [convert_f_to_c(x) for x in temps_f]
 ```
 * Now, my functions are directly **coupled** to my data and I have given this `Object` a name: `WeatherStation`.
 
-## Using a classes
+## Using a class
 
 * A **class** is a general purpose construct, like a **function**. 
 * We have to initialize our class with some data:
@@ -208,7 +208,7 @@ temps_c = [convert_f_to_c(x) for x in temps_f]
     * Keyword arguments
 
         ```python
-        add(4, x=4) # duplicate value for the same argument
+        add(4, x=4) # Error: duplicate value for the same argument
         ```
 
 ## Tutorial #3
