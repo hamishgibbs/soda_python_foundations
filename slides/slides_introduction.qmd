@@ -6,11 +6,6 @@ execute:
   enabled: true
 ---
 
-## Introduction
-
-UCL Social Data Institute: Foundations of Python 
-
-![](https://www.ucl.ac.uk/social-data/sites/social_data/files/social_data_institute_banner_image_1400_x_420_2.jpg?sd35v8)
 
 ## Course aims
 
@@ -18,10 +13,39 @@ UCL Social Data Institute: Foundations of Python
     * *Variables, data structures, control logic, functions, classes.*
 * An Introduction to popular Python tools for data science.  
     * *pandas, matplotlib, sklearn.*
-* *Side quest:* Collaboration tools.
-    * *git, GitHub*
 * A hands-on data science challenge.
     * Predicting the price of AirBnBs in London.
+
+## Also: tools of 'professional' Python
+
+* Using an Integrated Development Environment
+    * *VSCode*
+* Using collaboration tools
+    * `git`, *GitHub*
+
+## Course format
+* *This is a short course!*
+* Days 1 – 3: lectures and practicals.
+    * Practical sessions rely on existing Python tutorials.
+    * Once you have worked through a practical, try to change the examples it provides until you *"get it"*.
+    * We are using a variety of open source Python learning resources.
+* Day 4: Working together on a collaborative challenge.
+
+## Schedule
+
+* **Day 1:** Python basics
+    * Variables, data structures (`list`, `dict`), control logic (`if`, `for`, `while`).
+* **Day 2:** Abstraction & composition
+    * Functions (`def`), Classes (`class`).
+    * *Also:* Using `.py` files, not `.ipynb` in VSCode.
+
+## Schedule
+
+* **Day 3:** Python data science
+    * `pandas`, `numpy`, `matplotlib`.
+    * *Also:* Collaboration with `git` and GitHub.
+* **Day 4:** Challenge: regression analysis
+    * Predicting the price of London AirBnBs using [Inside AirBnB](https://insideairbnb.com/) data.
 
 ## About you
 
@@ -46,29 +70,6 @@ UCL Social Data Institute: Foundations of Python
 <div style="font-size: 0.7em;"><small>Gibbs et. al., *Detecting behavioural changes in human movement to inform the spatial scale of interventions against COVID-19*, PLOS Computational Biology (2021)</small></div>
 :::
 :::
-
-## Course format
-* *This is a short course!*
-* Days 1 – 3: lectures and practicals.
-    * Practical sessions rely on existing Python tutorials.
-    * Once you have worked through a practical, try to play around with the concepts it introduces until you *"get it"*.
-* Day 4: Working together on a collaborative challenge.
-
-## Schedule
-
-* **Day 1:** Python basics.
-    * Variables, data structures (`list`, `dict`), control logic (`if`, `for`, `while`).
-* **Day 2:** Abstraction & composition.
-    * Functions (`def`), Classes (`class`).
-    * *Also:* Using `.py` files, not `.ipynb`.
-
-## Schedule
-
-* **Day 3:** Python data science.
-    * `pandas`, `numpy`, `matplotlib`.
-    * *Also:* Collaboration with `git` and GitHub.
-* **Day 4:** Challenge: regression analysis.
-    * Predicting the price of London AirBnBs using [Inside AirBnB](https://insideairbnb.com/) data.
 
 ## Learning python
 
@@ -165,7 +166,7 @@ type("Hello") # Python
         second = '150'
         print(first + second)
         ```
-    * Sub setting strings
+    * Subsetting strings
         
         ```python
         word = 'Python'
@@ -232,7 +233,7 @@ coords = [coord, coord] # a list of tuples
 
 * [Dictionaries §1](https://www.py4e.com/html3/09-dictionaries)
     * *To start, only work on the first section of this tutorial!*
-    * *If you "get it," try some of the exercises in Tutorial #1, or move on to this afternoon's tutorials.*
+    * *If you "get it," try some of the exercises in Tutorial #1.*
 * Core concepts: 
     * The `{key: value}` format of dictionaries
 

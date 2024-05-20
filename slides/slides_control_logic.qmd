@@ -130,4 +130,7 @@ for x in [1, 2, 3]:
             case _:
                 print(f"x is anything else!")
         ```
-        * *Note: §4.6 mentions **functions** (`def`) which we will work with tomorrow!*
+
+## Tutorial #3: Iteration
+
+* *Note: §4.6 mentions **functions** (`def`) which we will work with tomorrow!*
