@@ -459,7 +459,7 @@
     "href": "slides/slides_introduction.html#tutorial-3-dictionaries",
     "title": "Welcome to Foundations of Python",
     "section": "Tutorial #3: Dictionaries",
-    "text": "Tutorial #3: Dictionaries\n\nDictionaries §1\n\nTo start, only work on the first section of this tutorial!\nIf you “get it,” try some of the exercises in Tutorial #1.\n\nCore concepts:\n\nThe {key: value} format of dictionaries\neng2sp = dict()\neng2sp['one'] = 'uno'\neng2sp['one']\nThe .items(), .keys(), and .values() methods"
+    "text": "Tutorial #3: Dictionaries\n\nDictionaries §1\n\nTo start, only work on the first section of this tutorial!\nIf you “get it,” move on to this afternoon’s tutorials\n\nCore concepts:\n\nThe {key: value} format of dictionaries\neng2sp = dict()\neng2sp['one'] = 'uno'\neng2sp['one']\nThe .items(), .keys(), and .values() methods"
   },
   {
     "objectID": "slides/slides_introduction.html#using-python",
