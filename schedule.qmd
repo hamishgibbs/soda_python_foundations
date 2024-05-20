@@ -21,7 +21,7 @@ author: Hamish Gibbs
 | 11:00 – 13:00 | Practical | 1. [Variables, expressions, and statements](https://www.py4e.com/html3/02-variables) <br> 2. [An informal introduction to python §3.1.3](https://docs.python.org/3/tutorial/introduction.html#lists) <br> 3. [Dictionaries §1](https://www.py4e.com/html3/09-dictionaries) |
 | 13:00 – 14:00 | Lunch | 
 | 14:00 – 14:30 | Lecture / Live Coding | [[PDF]](./slides/slides_control_logic.pdf) [[HTML]](./slides/slides_control_logic.qmd) |
-| 15:00 – 16:00 | Practical | 1. [Conditional execution](https://www.py4e.com/html3/03-conditional) <br> 2. [Iteration](https://www.py4e.com/html3/05-iterations) <br> 3. [More control flow tools §4.1-4.6](https://docs.python.org/3/tutorial/controlflow.html)
+| 14:30 – 16:00 | Practical | 1. [Conditional execution](https://www.py4e.com/html3/03-conditional) <br> 2. [Iteration](https://www.py4e.com/html3/05-iterations) <br> 3. [More control flow tools §4.1-4.6](https://docs.python.org/3/tutorial/controlflow.html)
 
 ### Day 2 (Abstraction & composition)
 
@@ -31,7 +31,7 @@ author: Hamish Gibbs
 | 11:00 – 13:00 | Practical | 1. [Functions](https://www.py4e.com/html3/04-functions) <br> 2. [More control flow tools §4.7-4.8 (Optional)](https://docs.python.org/3/tutorial/controlflow.html#defining-functions) <br> 3. [Object-oriented programming](https://www.py4e.com/html3/14-objects)|
 | 13:00 – 14:00 | Lunch | 
 | 14:00 – 14:30 | Lecture / Live Coding | [[PDF]](./slides/slides_vscode_python.pdf) [[HTML]](./slides/slides_vscode_python.qmd) |
-| 15:00 – 16:00 | Practical | 1. [Python Interactive window](https://code.visualstudio.com/docs/python/jupyter-support-py) <br> 2. *Continue practicals above* |
+| 14:30 – 16:00 | Practical | 1. [Python Interactive window](https://code.visualstudio.com/docs/python/jupyter-support-py) <br> 2. *Continue practicals above* |
 
 ### Day 3 (Python data science)
 
@@ -41,7 +41,7 @@ author: Hamish Gibbs
 | 11:00 – 13:00 | Practical | 1. [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html) <br> 2. [Chart visualization](https://pandas.pydata.org/docs/user_guide/visualization.html) <br> 3. [sklearn - Getting Started](https://scikit-learn.org/stable/getting_started.html) <br> 4. [Linear model: from regression to sparsity](https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html#linear-model-from-regression-to-sparsity) |
 | 13:00 – 14:00 | Lunch | 
 | 14:00 – 14:30 | Lecture / Live Coding | [[PDF]](./slides/slides_collaboration.pdf) [[HTML]](./slides/slides_collaboration.qmd) |
-| 15:00 – 16:00 | Practical | 1. Setup a [GitHub](https://github.com/) account <br> 2. [Create a GitHub repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) <br> 3. Commit your code ([Add](https://github.com/git-guides/git-add), [Commit](https://github.com/git-guides/git-commit)). <br> 4. Push your code to your repository ([Remote](https://github.com/git-guides/git-remote), [Push](https://github.com/git-guides/git-push)) |
+| 14:30 – 16:00 | Practical | 1. Setup a [GitHub](https://github.com/) account <br> 2. [Create a GitHub repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) <br> 3. Commit your code ([Add](https://github.com/git-guides/git-add), [Commit](https://github.com/git-guides/git-commit)). <br> 4. Push your code to your repository ([Remote](https://github.com/git-guides/git-remote), [Push](https://github.com/git-guides/git-push)) |
 
 ### Day 4 (Challenge: regression analysis)
 
