@@ -14,3 +14,18 @@ author: Hamish Gibbs
 * [Git Guides (GitHub)](https://github.com/git-guides): *a useful resource for basic `git` commands and installation instructions.*
 * [Cheatsheet: Resolving Conflicts in a Git Repository](https://hamishgibbs.net/pages/cheatsheet-resolving-conflicts-in-a-git-repository/): *my own cheatsheet on how to fix a common issue for people learning git and working in shared repositories.*
 * [Visualizing Git](https://git-school.github.io/visualizing-git/): *a fun tool to visualize how `git` works. Playing around with this can help you "get" how different commands interact with each other.*
+
+## Personal projects
+
+I recommend finding *personally compelling* reasons to learn Python, beyond what is available in online tutorials.  
+
+Here are a few of the small projects I have made to learn about different aspects of Python programming:
+
+* [https://github.com/hamishgibbs/lit_review_graph](https://github.com/hamishgibbs/lit_review_graph)
+    * *An app to visualize the citation network connecting academic publications.*
+* [https://github.com/hamishgibbs/meal_prep_ai](https://github.com/hamishgibbs/meal_prep_ai)
+    * *The backend to an AI chatbot that can make my weekly grocery shopping list.*
+* [https://github.com/hamishgibbs/yui](https://github.com/hamishgibbs/yui)
+    * *A very simple command line todo list.*
+* [https://github.com/hamishgibbs/scrape_transfermarkt](https://github.com/hamishgibbs/scrape_transfermarkt)
+    * *A web scraper to download football match attendance counts.*
