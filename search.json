@@ -662,7 +662,7 @@
     "href": "slides/slides_control_logic.html#tutorial-3-iteration",
     "title": "Control logic",
     "section": "Tutorial #3: Iteration",
-    "text": "Tutorial #3: Iteration\n\nMore control flow tools §4.1-4.6\nCore concepts:\n\nThe range() function\nrange(3)\nOther control statements (break, continue, pass)\nmatch statements\nmatch point:\n    case 0:\n        print(\"x is 0\")\n    case _:\n        print(f\"x is anything else!\")"
+    "text": "Tutorial #3: Iteration\n\nMore control flow tools §4.1-4.6\nCore concepts:\n\nThe range() function\nrange(3)\nOther control statements (break, continue, pass)\nmatch statements\nmatch x:\n    case 0:\n        print(\"x is 0\")\n    case _:\n        print(f\"x is anything else!\")"
   },
   {
     "objectID": "slides/slides_control_logic.html#tutorial-3-iteration-1",
