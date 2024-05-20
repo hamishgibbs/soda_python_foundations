@@ -233,7 +233,7 @@ coords = [coord, coord] # a list of tuples
 
 * [Dictionaries §1](https://www.py4e.com/html3/09-dictionaries)
     * *To start, only work on the first section of this tutorial!*
-    * *If you "get it," try some of the exercises in Tutorial #1.*
+    * *If you "get it," move on to this afternoon's tutorials*
 * Core concepts: 
     * The `{key: value}` format of dictionaries
 
