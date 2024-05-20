@@ -402,11 +402,6 @@ Hamish Gibbs
 </div>
 
 </section>
-<section id="introduction" class="slide level2">
-<h2>Introduction</h2>
-<p>UCL Social Data Institute: Foundations of Python</p>
-
-<img data-src="https://www.ucl.ac.uk/social-data/sites/social_data/files/social_data_institute_banner_image_1400_x_420_2.jpg?sd35v8" class="r-stretch"></section>
 <section id="course-aims" class="slide level2">
 <h2>Course aims</h2>
 <ul>
@@ -418,13 +413,63 @@ Hamish Gibbs
 <ul>
 <li><em>pandas, matplotlib, sklearn.</em></li>
 </ul></li>
-<li><em>Side quest:</em> Collaboration tools.
-<ul>
-<li><em>git, GitHub</em></li>
-</ul></li>
 <li>A hands-on data science challenge.
 <ul>
 <li>Predicting the price of AirBnBs in London.</li>
+</ul></li>
+</ul>
+</section>
+<section id="also-tools-of-professional-python" class="slide level2">
+<h2>Also: tools of ‘professional’ Python</h2>
+<ul>
+<li>Using an Integrated Development Environment
+<ul>
+<li><em>VSCode</em></li>
+</ul></li>
+<li>Using collaboration tools
+<ul>
+<li><code>git</code>, <em>GitHub</em></li>
+</ul></li>
+</ul>
+</section>
+<section id="course-format" class="slide level2">
+<h2>Course format</h2>
+<ul>
+<li><em>This is a short course!</em></li>
+<li>Days 1 –&nbsp;3: lectures and practicals.
+<ul>
+<li>Practical sessions rely on existing Python tutorials.</li>
+<li>Once you have worked through a practical, try to change the examples it provides until you <em>“get it”</em>.</li>
+<li>We are using a variety of open source Python learning resources.</li>
+</ul></li>
+<li>Day 4: Working together on a collaborative challenge.</li>
+</ul>
+</section>
+<section id="schedule" class="slide level2">
+<h2>Schedule</h2>
+<ul>
+<li><strong>Day 1:</strong> Python basics
+<ul>
+<li>Variables, data structures (<code>list</code>, <code>dict</code>), control logic (<code>if</code>, <code>for</code>, <code>while</code>).</li>
+</ul></li>
+<li><strong>Day 2:</strong> Abstraction &amp; composition
+<ul>
+<li>Functions (<code>def</code>), Classes (<code>class</code>).</li>
+<li><em>Also:</em> Using <code>.py</code> files, not <code>.ipynb</code> in VSCode.</li>
+</ul></li>
+</ul>
+</section>
+<section id="schedule-1" class="slide level2">
+<h2>Schedule</h2>
+<ul>
+<li><strong>Day 3:</strong> Python data science
+<ul>
+<li><code>pandas</code>, <code>numpy</code>, <code>matplotlib</code>.</li>
+<li><em>Also:</em> Collaboration with <code>git</code> and GitHub.</li>
+</ul></li>
+<li><strong>Day 4:</strong> Challenge: regression analysis
+<ul>
+<li>Predicting the price of London AirBnBs using <a href="https://insideairbnb.com/">Inside AirBnB</a> data.</li>
 </ul></li>
 </ul>
 </section>
@@ -461,46 +506,6 @@ Hamish Gibbs
 </div>
 </div>
 </div>
-</section>
-<section id="course-format" class="slide level2">
-<h2>Course format</h2>
-<ul>
-<li><em>This is a short course!</em></li>
-<li>Days 1 –&nbsp;3: lectures and practicals.
-<ul>
-<li>Practical sessions rely on existing Python tutorials.</li>
-<li>Once you have worked through a practical, try to play around with the concepts it introduces until you <em>“get it”</em>.</li>
-</ul></li>
-<li>Day 4: Working together on a collaborative challenge.</li>
-</ul>
-</section>
-<section id="schedule" class="slide level2">
-<h2>Schedule</h2>
-<ul>
-<li><strong>Day 1:</strong> Python basics.
-<ul>
-<li>Variables, data structures (<code>list</code>, <code>dict</code>), control logic (<code>if</code>, <code>for</code>, <code>while</code>).</li>
-</ul></li>
-<li><strong>Day 2:</strong> Abstraction &amp; composition.
-<ul>
-<li>Functions (<code>def</code>), Classes (<code>class</code>).</li>
-<li><em>Also:</em> Using <code>.py</code> files, not <code>.ipynb</code>.</li>
-</ul></li>
-</ul>
-</section>
-<section id="schedule-1" class="slide level2">
-<h2>Schedule</h2>
-<ul>
-<li><strong>Day 3:</strong> Python data science.
-<ul>
-<li><code>pandas</code>, <code>numpy</code>, <code>matplotlib</code>.</li>
-<li><em>Also:</em> Collaboration with <code>git</code> and GitHub.</li>
-</ul></li>
-<li><strong>Day 4:</strong> Challenge: regression analysis.
-<ul>
-<li>Predicting the price of London AirBnBs using <a href="https://insideairbnb.com/">Inside AirBnB</a> data.</li>
-</ul></li>
-</ul>
 </section>
 <section id="learning-python" class="slide level2">
 <h2>Learning python</h2>
@@ -585,7 +590,7 @@ Type checking
 <div class="sourceCode" id="cb10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a>first <span class="op">=</span> <span class="st">'100'</span></span>
 <span id="cb10-2"><a></a>second <span class="op">=</span> <span class="st">'150'</span></span>
 <span id="cb10-3"><a></a><span class="bu">print</span>(first <span class="op">+</span> second)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p>Sub setting strings</p>
+<li><p>Subsetting strings</p>
 <div class="sourceCode" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a>word <span class="op">=</span> <span class="st">'Python'</span></span>
 <span id="cb11-2"><a></a>word[<span class="dv">0</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ul></li>
@@ -646,7 +651,7 @@ Type checking
 <li><a href="https://www.py4e.com/html3/09-dictionaries">Dictionaries §1</a>
 <ul>
 <li><em>To start, only work on the first section of this tutorial!</em></li>
-<li><em>If you “get it,” try some of the exercises in Tutorial #1, or move on to this afternoon’s tutorials.</em></li>
+<li><em>If you “get it,” try some of the exercises in Tutorial #1.</em></li>
 </ul></li>
 <li>Core concepts:
 <ul>
