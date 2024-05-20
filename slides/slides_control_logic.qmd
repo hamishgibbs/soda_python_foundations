@@ -124,7 +124,7 @@ for x in [1, 2, 3]:
     * `match` statements
 
         ```python
-        match point:
+        match x:
             case 0:
                 print("x is 0")
             case _:
