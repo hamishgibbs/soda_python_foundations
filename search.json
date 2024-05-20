@@ -322,6 +322,13 @@
     "text": "Git\n\nGit Guides (GitHub): a useful resource for basic git commands and installation instructions.\nCheatsheet: Resolving Conflicts in a Git Repository: my own cheatsheet on how to fix a common issue for people learning git and working in shared repositories.\nVisualizing Git: a fun tool to visualize how git works. Playing around with this can help you “get” how different commands interact with each other."
   },
   {
+    "objectID": "resources.html#personal-projects",
+    "href": "resources.html#personal-projects",
+    "title": "Resources",
+    "section": "Personal projects",
+    "text": "Personal projects\nI recommend finding personally compelling reasons to learn Python, beyond what is available in online tutorials.\nHere are a few of the small projects I have made to learn about different aspects of Python programming:\n\nhttps://github.com/hamishgibbs/lit_review_graph\n\nAn app to visualize the citation network connecting academic publications.\n\nhttps://github.com/hamishgibbs/meal_prep_ai\n\nThe backend to an AI chatbot that can make my weekly grocery shopping list.\n\nhttps://github.com/hamishgibbs/yui\n\nA very simple command line todo list.\n\nhttps://github.com/hamishgibbs/scrape_transfermarkt\n\nA web scraper to download football match attendance counts."
+  },
+  {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Course schedule",
