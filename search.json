@@ -599,7 +599,7 @@
     "href": "slides/slides_abstraction_and_composition.html#inheritance",
     "title": "Day 2: Functions and classes",
     "section": "Inheritance",
-    "text": "Inheritance\n\nClasses can be extended to represent different objects objects with the same interface.\nHere, the WeatherStation has a general purpose method get_temperatures which should always return the temperature in Celsius.\n    class WeatherStation:\n        def __init__(self, temps):\n            self.temps = temps \n\n        def convert_f_to_c(self, temp_f):\n            return 5 / 9 * (temp_f - 32)\n\n        def get_temperatures_c(self):\n            return self.temps"
+    "text": "Inheritance\n\nClasses can be extended to represent different objects objects with the same interface.\nHere, the WeatherStation has a general purpose method get_temperatures_c which should always return the temperature in Celsius.\n    class WeatherStation:\n        def __init__(self, temps):\n            self.temps = temps \n\n        def convert_f_to_c(self, temp_f):\n            return 5 / 9 * (temp_f - 32)\n\n        def get_temperatures_c(self):\n            return self.temps"
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#inheritance-1",
