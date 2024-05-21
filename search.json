@@ -179,14 +179,14 @@
     "href": "slides/slides_vscode_python.html#python-files-.py",
     "title": "From Jupyter to VSCode",
     "section": "Python files (.py)",
-    "text": "Python files (.py)\n\nIn the scripting vs. programming dichotomy:\n\nJupyter Notebooks are better for scripting.\n\nIn practice, Python programs are usually composed of Functions and Classes in .py files.\nExample: check out the pandas codebase.\nWriting Python like this requires a different development environment."
+    "text": "Python files (.py)\n\nIn the scripting vs. programming dichotomy:\n\nJupyter Notebooks are better for scripting.\n\nIn practice, Python programs are usually composed of Functions and Classes in different .py files.\nExample: check out the pandas codebase again.\nWriting Python like this requires a different development environment."
   },
   {
     "objectID": "slides/slides_vscode_python.html#advanced-python-development",
     "href": "slides/slides_vscode_python.html#advanced-python-development",
     "title": "From Jupyter to VSCode",
     "section": "Advanced Python development",
-    "text": "Advanced Python development\n\nEnter: Visual Studio Code (VSCode).\n\nVSCode is an Integrated Development Environment (IDE).\nAnother (probably familiar) IDE: RStudio!\n\nIDEs offer an integrated terminal (for running code), auto-complete, debugging, extensions.\nWhy VSCode?\n\nThe best open source IDE (my opinion) with lots of Python extensions.\nOther Python IDE options: Spyder, PyCharm, Sublime."
+    "text": "Advanced Python development\n\nEnter: Visual Studio Code (VSCode).\n\nVSCode is an Integrated Development Environment (IDE).\nAnother (probably familiar) IDE: RStudio\n\nIDEs offer an integrated terminal (for running code), auto-complete, debugging, extensions.\nWhy VSCode?\n\nThe best open source IDE (my opinion) with lots of Python extensions.\nOther Python IDE options: Spyder, PyCharm, Sublime."
   },
   {
     "objectID": "slides/slides_vscode_python.html#python-files-.py-1",
@@ -200,7 +200,7 @@
     "href": "slides/slides_vscode_python.html#combined-workflow",
     "title": "From Jupyter to VSCode",
     "section": "Combined workflow",
-    "text": "Combined workflow\n\nCan’t we have our cake and eat it too?\nWe want:\n\nMinimal set-up\nInteractive coding\nEasy to write re-usable code\nCan scale to larger projects\nEasier to collaborate"
+    "text": "Combined workflow\n\nWe want:\n\nMinimal set-up\nInteractive coding\nEasy to write re-usable code\nCan scale to larger projects\nEasier to collaborate"
   },
   {
     "objectID": "slides/slides_vscode_python.html#combined-workflow-1",
@@ -221,7 +221,7 @@
     "href": "slides/slides_vscode_python.html#extra",
     "title": "From Jupyter to VSCode",
     "section": "Extra",
-    "text": "Extra\n\nIf you breeze through the VSCode setup process:\n\nFinish this morning’s tutorials.\nThen, try to import functions between .py files. [hint]\nThen, try running your .py file from the command line. [hint]\nThen, try to use if __name__ == \"__main__\": in your .py file. [hint]"
+    "text": "Extra\n\nIf you breeze through the VSCode setup process:\n\nFinish this morning’s tutorials an extra exercises.\nThen, try to import functions between .py files. [hint]\nThen, try running your .py file from the command line. [hint]\nThen, try to use if __name__ == \"__main__\": in your .py file. [hint]"
   },
   {
     "objectID": "slides/slides_python_data_science.html#today-python-data-science",
