@@ -143,7 +143,7 @@ temps_c = [convert_f_to_c(x) for x in temps_f]
 ## Inheritance
 
 * Classes can be **extended** to represent different objects objects with the same **interface**.
-* Here, the `WeatherStation` has a general purpose method `get_temperatures` which should always return the temperature in Celsius.
+* Here, the `WeatherStation` has a general purpose method `get_temperatures_c` which should always return the temperature in Celsius.
 
     ```python
         class WeatherStation:
