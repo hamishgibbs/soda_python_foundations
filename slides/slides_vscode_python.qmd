@@ -19,15 +19,15 @@ format: revealjs
 
 * In the **scripting** vs. **programming** dichotomy: 
     * Jupyter Notebooks are better for **scripting.**
-* In practice, Python programs are usually composed of **Functions** and **Classes** in `.py` files.
-* *Example:* check out the [pandas](https://github.com/pandas-dev/pandas/tree/main/pandas/core) codebase.
+* In practice, Python programs are usually composed of **Functions** and **Classes** in different `.py` files.
+* *Example:* check out the [pandas](https://github.com/pandas-dev/pandas/tree/main/pandas/core) codebase again.
 * Writing Python like this requires a different development environment.
 
 ## Advanced Python development
 
 * Enter: [Visual Studio Code](https://code.visualstudio.com/) (VSCode).
     * VSCode is an Integrated Development Environment (IDE). 
-    * Another (probably familiar) IDE: [RStudio](https://posit.co/downloads/)!
+    * Another (probably familiar) IDE: [RStudio](https://posit.co/downloads/)
 * IDEs offer an integrated terminal (for running code), auto-complete, debugging, extensions.
 * Why VSCode? 
     * The best open source IDE (my opinion) with lots of Python extensions.
@@ -45,7 +45,6 @@ format: revealjs
 
 ## Combined workflow
 
-* Can't we have our cake and eat it too?
 * We want: 
     * Minimal set-up
     * Interactive coding
@@ -76,7 +75,7 @@ format: revealjs
 ## Extra
 
 * If you breeze through the VSCode setup process:
-    * Finish this morning's tutorials.
+    * Finish this morning's tutorials an extra exercises.
     * Then, try to import functions between `.py` files. [[hint]](https://stackoverflow.com/questions/20309456/how-do-i-call-a-function-from-another-py-file)
     * Then, try running your `.py` file from the command line. [[hint]](https://realpython.com/run-python-scripts/)
     * Then, try to use `if __name__ == "__main__":` in your `.py` file. [[hint]](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)
