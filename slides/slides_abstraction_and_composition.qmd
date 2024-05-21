@@ -213,7 +213,7 @@ temps_c = [convert_f_to_c(x) for x in temps_f]
             return add_3(x) + 2
         ```
 
-## Tutorial #2
+## Tutorial #2: Classes
 
 * [Object-oriented programming](https://www.py4e.com/html3/14-objects)
 
