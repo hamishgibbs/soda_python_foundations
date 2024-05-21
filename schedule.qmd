@@ -28,7 +28,7 @@ author: Hamish Gibbs
 | Time | Session Type | Content |
 |-|-|--|
 | 10:00 – 11:00 | Lecture / Live Coding | [[PDF]](./slides/slides_abstraction_and_composition.pdf) [[HTML]](./slides/slides_abstraction_and_composition.qmd) |
-| 11:00 – 12:30 | Practical | 1. [Functions](https://www.py4e.com/html3/04-functions) <br> 2. [More control flow tools §4.7-4.8 (Optional)](https://docs.python.org/3/tutorial/controlflow.html#defining-functions) <br> 3. [Object-oriented programming](https://www.py4e.com/html3/14-objects)|
+| 11:00 – 12:30 | Practical | 1. [Functions](https://www.py4e.com/html3/04-functions) <br> 2. [Object-oriented programming](https://www.py4e.com/html3/14-objects) <br> 3. [More control flow tools §4.7-4.8 (Optional)](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)|
 | 12:30 – 13:30 | Lunch | 
 | 13:30 – 14:30 | Lecture / Live Coding | [[PDF]](./slides/slides_vscode_python.pdf) [[HTML]](./slides/slides_vscode_python.qmd) |
 | 14:30 – 16:00 | Practical | 1. [Python Interactive window](https://code.visualstudio.com/docs/python/jupyter-support-py) <br> 2. *Continue practicals above* |

@@ -1,13 +1,21 @@
 ---
-title: "Day 2: Abstraction and composition"
+title: "Day 2: Functions and classes"
 author: "Hamish Gibbs"
 format: revealjs
 ---
 
+## Schedule
+
+* This morning: 
+    * Tutorials on **functions** and **classes**
+* This afternoon: 
+    * Getting Visual Studio Code set up for everyone.
+    * Working on the optional tutorial or the "Extra" exercise.
+
 ## Writing re-usable code
 
 * Code should be like a recipe.
-    * Generally: good code tells *how* to do something, not *what* you've done.
+    * Generally: good code tells *how* to do something, **and** *what* you've done (separately).
 * Scripting vs. programming
     * **Scripting:** Small bits of code that do a single thing.
     * **Programming:** General-purpose "recipes" for transforming inputs to outputs.
@@ -23,7 +31,7 @@ temp_c = 5/9 * (temp_f - 32)
 ```
 
 * What's wrong with this? 
-    * Nothing, it works. 
+    * Nothing! it works. 
     * But what if we want to change the value of `temp_f`? 
     * What if we want to convert multiple Fahrenheit values to Celsius?
 
@@ -75,7 +83,7 @@ temps_c = [convert_f_to_c(x) for x in temps_f]
     def convert_multiple_f_to_c(temps_f):
         return [convert_f_to_c(x) for x in temps_f]
     ```
-* Programming is less about tricky logic problems, more about abstraction and composition.
+* Programming is less about tricky logic problems, more about writing abstractions and composing them together.
 
 ## Scripting vs. Programming
 
@@ -124,6 +132,14 @@ temps_c = [convert_f_to_c(x) for x in temps_f]
     print(station.convert_temps_f_to_c())
     ```
 
+## Who cares?
+
+* Tomorrow, we will use classes *a lot*.
+    * But, classes written by someone else!
+* See the `pandas` DataFrameDescriber class: [here](https://github.com/pandas-dev/pandas/blob/1e3bf39dc560948aac32a42f8266634d375fa53a/pandas/core/methods/describe.py#L136-L202).
+    * You don't have to understand what this code does!
+    * The important thing is that you see how larger libraries are made up of classes.
+
 ## Inheritance
 
 * Classes can be **extended** to represent different objects objects with the same **interface**.
@@ -152,6 +168,9 @@ temps_c = [convert_f_to_c(x) for x in temps_f]
             def get_temperatures_c(self):
                 return [self.convert_f_to_c(x) for x in self.temps]
     ```
+
+## Inheritance
+
 * Assuming a `EuropeanWeatherStation` is always initialized with `temps` in Celsius:
     
     ```python
@@ -175,7 +194,7 @@ temps_c = [convert_f_to_c(x) for x in temps_f]
 
 * [Functions](https://www.py4e.com/html3/04-functions)
 * Core concepts: 
-    * Using built-in functions (and the standard library)
+    * Using built-in functions (and the [standard library](https://docs.python.org/3/library/index.html))
 
         ```python
         import math
@@ -194,24 +213,7 @@ temps_c = [convert_f_to_c(x) for x in temps_f]
             return add_3(x) + 2
         ```
 
-## Tutorial #2: Functions (Optional)
-
-* [More control flow tools §4.7-4.8 (Optional)](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
-    * *This is more of a deep dive. If you feel shaky with the basics of functions, jump ahead to classes, then return to this!*
-* Core concepts: 
-    * Default arguments
-
-        ```python
-        def add(x, y = 2):
-            return x + y
-        ```
-    * Keyword arguments
-
-        ```python
-        add(4, x=4) # Error: duplicate value for the same argument
-        ```
-
-## Tutorial #3
+## Tutorial #2
 
 * [Object-oriented programming](https://www.py4e.com/html3/14-objects)
 
@@ -232,9 +234,9 @@ temps_c = [convert_f_to_c(x) for x in temps_f]
         class CricketFan(PartyAnimal):
         ```
 
-## Tutorial #3: possible pitfall
+## Tutorial #2: possible pitfall
 
-* Tutorial #3 includes the following code:
+* Tutorial #2 includes the following code:
 
     ```python
     from party import PartyAnimal
@@ -244,3 +246,31 @@ temps_c = [convert_f_to_c(x) for x in temps_f]
 * We can't do this because we are still using Colab. 
     * For now, just carry on in the same Notebook.
     * We will introduce `.py` files this afternoon!
+
+## Tutorial #3: Functions (Optional)
+
+* [More control flow tools §4.7-4.8 (Optional)](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
+    * *This is more of a deep dive. If you feel shaky with the basics of functions, work on that!*
+* Core concepts: 
+    * Default arguments
+
+        ```python
+        def add(x, y = 2):
+            return x + y
+        ```
+    * Keyword arguments
+
+        ```python
+        add(4, x=4) # Error: duplicate value for the same argument
+        ```
+
+## Extra
+ 
+* Try [this](https://python.pages.doc.ic.ac.uk/2020/modules/module-oop/lab-2) class composition exercise (Exercise #2).
+    * *Define and implement the classes required to represent a music playlist: `Artist`, `Song`, `Album`, and `Playlist`.*
+
+## Recommendations
+
+* Take your time understanding functions. 
+    * Functions will be more immediately useful to improve your programming!
+* If you have time, try the "Extra" exercise, it will help you think about how functions and classes fit together.
