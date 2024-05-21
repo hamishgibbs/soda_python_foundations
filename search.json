@@ -630,11 +630,11 @@
     "text": "Tutorial #1: Functions\n\nFunctions\nCore concepts:\n\nUsing built-in functions (and the standard library)\nimport math\nmath.log10(10)\nWriting your own functions\ndef add_3(x):\n    return x + 3\nComposing functions\ndef add_5(x):\n    return add_3(x) + 2"
   },
   {
-    "objectID": "slides/slides_abstraction_and_composition.html#tutorial-2",
-    "href": "slides/slides_abstraction_and_composition.html#tutorial-2",
+    "objectID": "slides/slides_abstraction_and_composition.html#tutorial-2-classes",
+    "href": "slides/slides_abstraction_and_composition.html#tutorial-2-classes",
     "title": "Day 2: Functions and classes",
-    "section": "Tutorial #2",
-    "text": "Tutorial #2\n\nObject-oriented programming\nCore concepts:\n\nWriting custom classes\nclass PartyAnimal:\nInitializing classes\nan = PartyAnimal()\nClass inheritance\nclass CricketFan(PartyAnimal):"
+    "section": "Tutorial #2: Classes",
+    "text": "Tutorial #2: Classes\n\nObject-oriented programming\nCore concepts:\n\nWriting custom classes\nclass PartyAnimal:\nInitializing classes\nan = PartyAnimal()\nClass inheritance\nclass CricketFan(PartyAnimal):"
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#tutorial-2-possible-pitfall",
