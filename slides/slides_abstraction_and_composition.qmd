@@ -273,4 +273,4 @@ temps_c = [convert_f_to_c(x) for x in temps_f]
 
 * Take your time understanding functions. 
     * Functions will be more immediately useful to improve your programming!
-* If you have time, try the "Extra" exercise, it will help you think about how functions and classes fit together.
+* If you have time, make sure to try the "Extra" exercise, it will help you think about how functions and classes fit together.
