@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.4.554">
 
   <meta name="author" content="Hamish Gibbs">
-  <title>Foundations of Python - Day 2: Abstraction and composition</title>
+  <title>Foundations of Python - Day 2: Functions and classes</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -391,7 +391,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Day 2: Abstraction and composition</h1>
+  <h1 class="title">Day 2: Functions and classes</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -402,12 +402,26 @@ Hamish Gibbs
 </div>
 
 </section>
+<section id="schedule" class="slide level2">
+<h2>Schedule</h2>
+<ul>
+<li>This morning:
+<ul>
+<li>Tutorials on <strong>functions</strong> and <strong>classes</strong></li>
+</ul></li>
+<li>This afternoon:
+<ul>
+<li>Getting Visual Studio Code set up for everyone.</li>
+<li>Working on the optional tutorial or the “Extra” exercise.</li>
+</ul></li>
+</ul>
+</section>
 <section id="writing-re-usable-code" class="slide level2">
 <h2>Writing re-usable code</h2>
 <ul>
 <li>Code should be like a recipe.
 <ul>
-<li>Generally: good code tells <em>how</em> to do something, not <em>what</em> you’ve done.</li>
+<li>Generally: good code tells <em>how</em> to do something, <strong>and</strong> <em>what</em> you’ve done (separately).</li>
 </ul></li>
 <li>Scripting vs.&nbsp;programming
 <ul>
@@ -427,7 +441,7 @@ Hamish Gibbs
 <ul>
 <li>What’s wrong with this?
 <ul>
-<li>Nothing, it works.</li>
+<li>Nothing! it works.</li>
 <li>But what if we want to change the value of <code>temp_f</code>?</li>
 <li>What if we want to convert multiple Fahrenheit values to Celsius?</li>
 </ul></li>
@@ -485,7 +499,7 @@ Hamish Gibbs
 <li><p>These modules can be <strong>composed</strong> together:</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="kw">def</span> convert_multiple_f_to_c(temps_f):</span>
 <span id="cb5-2"><a></a>    <span class="cf">return</span> [convert_f_to_c(x) <span class="cf">for</span> x <span class="kw">in</span> temps_f]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p>Programming is less about tricky logic problems, more about abstraction and composition.</p></li>
+<li><p>Programming is less about tricky logic problems, more about writing abstractions and composing them together.</p></li>
 </ul>
 </section>
 <section id="scripting-vs.-programming" class="slide level2">
@@ -540,6 +554,20 @@ Hamish Gibbs
 <div class="sourceCode" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a><span class="bu">print</span>(station.convert_temps_f_to_c())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ul>
 </section>
+<section id="who-cares" class="slide level2">
+<h2>Who cares?</h2>
+<ul>
+<li>Tomorrow, we will use classes <em>a lot</em>.
+<ul>
+<li>But, classes written by someone else!</li>
+</ul></li>
+<li>See the <code>pandas</code> DataFrameDescriber class: <a href="https://github.com/pandas-dev/pandas/blob/1e3bf39dc560948aac32a42f8266634d375fa53a/pandas/core/methods/describe.py#L136-L202">here</a>.
+<ul>
+<li>You don’t have to understand what this code does!</li>
+<li>The important thing is that you see how larger libraries are made up of classes.</li>
+</ul></li>
+</ul>
+</section>
 <section id="inheritance" class="slide level2">
 <h2>Inheritance</h2>
 <ul>
@@ -565,6 +593,11 @@ Hamish Gibbs
 <span id="cb10-2"><a></a></span>
 <span id="cb10-3"><a></a>        <span class="kw">def</span> get_temperatures_c(<span class="va">self</span>):</span>
 <span id="cb10-4"><a></a>            <span class="cf">return</span> [<span class="va">self</span>.convert_f_to_c(x) <span class="cf">for</span> x <span class="kw">in</span> <span class="va">self</span>.temps]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul>
+</section>
+<section id="inheritance-2" class="slide level2">
+<h2>Inheritance</h2>
+<ul>
 <li><p>Assuming a <code>EuropeanWeatherStation</code> is always initialized with <code>temps</code> in Celsius:</p>
 <div class="sourceCode" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a>    <span class="kw">class</span> EuropeanWeatherStation(WeatherStation):</span>
 <span id="cb11-2"><a></a></span>
@@ -572,7 +605,7 @@ Hamish Gibbs
 <span id="cb11-4"><a></a>            <span class="cf">return</span> <span class="va">self</span>.temps</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ul>
 </section>
-<section id="inheritance-2" class="slide level2">
+<section id="inheritance-3" class="slide level2">
 <h2>Inheritance</h2>
 <ul>
 <li><p>Inheritance gives a common <strong>interface</strong>.</p></li>
@@ -587,7 +620,7 @@ Hamish Gibbs
 <li><a href="https://www.py4e.com/html3/04-functions">Functions</a></li>
 <li>Core concepts:
 <ul>
-<li><p>Using built-in functions (and the standard library)</p>
+<li><p>Using built-in functions (and the <a href="https://docs.python.org/3/library/index.html">standard library</a>)</p>
 <div class="sourceCode" id="cb13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a><span class="im">import</span> math</span>
 <span id="cb13-2"><a></a>math.log10(<span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 <li><p>Writing your own functions</p>
@@ -599,49 +632,68 @@ Hamish Gibbs
 </ul></li>
 </ul>
 </section>
-<section id="tutorial-2-functions-optional" class="slide level2">
-<h2>Tutorial #2: Functions (Optional)</h2>
-<ul>
-<li><a href="https://docs.python.org/3/tutorial/controlflow.html#defining-functions">More control flow tools §4.7-4.8 (Optional)</a>
-<ul>
-<li><em>This is more of a deep dive. If you feel shaky with the basics of functions, jump ahead to classes, then return to this!</em></li>
-</ul></li>
-<li>Core concepts:
-<ul>
-<li><p>Default arguments</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a></a><span class="kw">def</span> add(x, y <span class="op">=</span> <span class="dv">2</span>):</span>
-<span id="cb16-2"><a></a>    <span class="cf">return</span> x <span class="op">+</span> y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p>Keyword arguments</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a></a>add(<span class="dv">4</span>, x<span class="op">=</span><span class="dv">4</span>) <span class="co"># Error: duplicate value for the same argument</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-</ul></li>
-</ul>
-</section>
-<section id="tutorial-3" class="slide level2">
-<h2>Tutorial #3</h2>
+<section id="tutorial-2" class="slide level2">
+<h2>Tutorial #2</h2>
 <ul>
 <li><p><a href="https://www.py4e.com/html3/14-objects">Object-oriented programming</a></p></li>
 <li><p>Core concepts:</p>
 <ul>
 <li><p>Writing custom classes</p>
-<div class="sourceCode" id="cb18"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a></a><span class="kw">class</span> PartyAnimal:</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="sourceCode" id="cb16"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a></a><span class="kw">class</span> PartyAnimal:</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 <li><p>Initializing classes</p>
-<div class="sourceCode" id="cb19"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a></a>an <span class="op">=</span> PartyAnimal()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="sourceCode" id="cb17"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a></a>an <span class="op">=</span> PartyAnimal()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 <li><p>Class inheritance</p>
-<div class="sourceCode" id="cb20"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a></a><span class="kw">class</span> CricketFan(PartyAnimal):</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="sourceCode" id="cb18"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a></a><span class="kw">class</span> CricketFan(PartyAnimal):</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ul></li>
 </ul>
 </section>
-<section id="tutorial-3-possible-pitfall" class="slide level2">
-<h2>Tutorial #3: possible pitfall</h2>
+<section id="tutorial-2-possible-pitfall" class="slide level2">
+<h2>Tutorial #2: possible pitfall</h2>
 <ul>
-<li><p>Tutorial #3 includes the following code:</p>
-<div class="sourceCode" id="cb21"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a></a><span class="im">from</span> party <span class="im">import</span> PartyAnimal</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Tutorial #2 includes the following code:</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a></a><span class="im">from</span> party <span class="im">import</span> PartyAnimal</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 <li><p>This requires actually breaking our code into different scripts (<code>.py</code> files).</p></li>
 <li><p>We can’t do this because we are still using Colab.</p>
 <ul>
 <li>For now, just carry on in the same Notebook.</li>
 <li>We will introduce <code>.py</code> files this afternoon!</li>
 </ul></li>
+</ul>
+</section>
+<section id="tutorial-3-functions-optional" class="slide level2">
+<h2>Tutorial #3: Functions (Optional)</h2>
+<ul>
+<li><a href="https://docs.python.org/3/tutorial/controlflow.html#defining-functions">More control flow tools §4.7-4.8 (Optional)</a>
+<ul>
+<li><em>This is more of a deep dive. If you feel shaky with the basics of functions, work on that!</em></li>
+</ul></li>
+<li>Core concepts:
+<ul>
+<li><p>Default arguments</p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a></a><span class="kw">def</span> add(x, y <span class="op">=</span> <span class="dv">2</span>):</span>
+<span id="cb20-2"><a></a>    <span class="cf">return</span> x <span class="op">+</span> y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Keyword arguments</p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a></a>add(<span class="dv">4</span>, x<span class="op">=</span><span class="dv">4</span>) <span class="co"># Error: duplicate value for the same argument</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul></li>
+</ul>
+</section>
+<section id="extra" class="slide level2">
+<h2>Extra</h2>
+<ul>
+<li>Try <a href="https://python.pages.doc.ic.ac.uk/2020/modules/module-oop/lab-2">this</a> class composition exercise (Exercise #2).
+<ul>
+<li><em>Define and implement the classes required to represent a music playlist: <code>Artist</code>, <code>Song</code>, <code>Album</code>, and <code>Playlist</code>.</em></li>
+</ul></li>
+</ul>
+</section>
+<section id="recommendations" class="slide level2">
+<h2>Recommendations</h2>
+<ul>
+<li>Take your time understanding functions.
+<ul>
+<li>Functions will be more immediately useful to improve your programming!</li>
+</ul></li>
+<li>If you have time, try the “Extra” exercise, it will help you think about how functions and classes fit together.</li>
 </ul>
 
 <div class="quarto-auto-generated-content">

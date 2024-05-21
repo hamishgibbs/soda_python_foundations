@@ -347,7 +347,7 @@
     "href": "schedule.html#schedule",
     "title": "Course schedule",
     "section": "Schedule",
-    "text": "Schedule\n\nDay 1 (Python basics)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 12:30\nPractical\n1. Variables, expressions, and statements  2. An informal introduction to python §3.1.3  3. Dictionaries §1\n\n\n12:30 – 13:30\nLunch\n\n\n\n13:30 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n14:30 – 16:00\nPractical\n1. Conditional execution  2. Iteration  3. More control flow tools §4.1-4.6\n\n\n\n\n\nDay 2 (Abstraction & composition)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 12:30\nPractical\n1. Functions  2. More control flow tools §4.7-4.8 (Optional)  3. Object-oriented programming\n\n\n12:30 – 13:30\nLunch\n\n\n\n13:30 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n14:30 – 16:00\nPractical\n1. Python Interactive window  2. Continue practicals above\n\n\n\n\n\nDay 3 (Python data science)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 12:30\nPractical\n1. 10 minutes to pandas  2. Chart visualization  3. sklearn - Getting Started  4. Linear model: from regression to sparsity\n\n\n12:30 – 13:30\nLunch\n\n\n\n13:30 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n14:30 – 16:00\nPractical\n1. Setup a GitHub account  2. Create a GitHub repository  3. Commit your code (Add, Commit).  4. Push your code to your repository (Remote, Push)\n\n\n\n\n\nDay 4 (Challenge: regression analysis)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 12:30\nChallenge\n1. Start the Challenge!  For help see: sklearn tutorials and Inside AirBnB.\n\n\n12:30 – 13:30\nLunch\n\n\n\n13:30 – 16:00\nChallenge\n1. Push your solution file to the shared repository.  2. We will discuss / compare solutions!"
+    "text": "Schedule\n\nDay 1 (Python basics)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 12:30\nPractical\n1. Variables, expressions, and statements  2. An informal introduction to python §3.1.3  3. Dictionaries §1\n\n\n12:30 – 13:30\nLunch\n\n\n\n13:30 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n14:30 – 16:00\nPractical\n1. Conditional execution  2. Iteration  3. More control flow tools §4.1-4.6\n\n\n\n\n\nDay 2 (Abstraction & composition)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 12:30\nPractical\n1. Functions  2. Object-oriented programming  3. More control flow tools §4.7-4.8 (Optional)\n\n\n12:30 – 13:30\nLunch\n\n\n\n13:30 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n14:30 – 16:00\nPractical\n1. Python Interactive window  2. Continue practicals above\n\n\n\n\n\nDay 3 (Python data science)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 12:30\nPractical\n1. 10 minutes to pandas  2. Chart visualization  3. sklearn - Getting Started  4. Linear model: from regression to sparsity\n\n\n12:30 – 13:30\nLunch\n\n\n\n13:30 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n14:30 – 16:00\nPractical\n1. Setup a GitHub account  2. Create a GitHub repository  3. Commit your code (Add, Commit).  4. Push your code to your repository (Remote, Push)\n\n\n\n\n\nDay 4 (Challenge: regression analysis)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 12:30\nChallenge\n1. Start the Challenge!  For help see: sklearn tutorials and Inside AirBnB.\n\n\n12:30 – 13:30\nLunch\n\n\n\n13:30 – 16:00\nChallenge\n1. Push your solution file to the shared repository.  2. We will discuss / compare solutions!"
   },
   {
     "objectID": "slides/slides_introduction.html#course-aims",
@@ -511,123 +511,158 @@
     "text": "Help: Regression\n\n\n\nImage credit: sklearn – Choosing the right estimator"
   },
   {
+    "objectID": "slides/slides_abstraction_and_composition.html#schedule",
+    "href": "slides/slides_abstraction_and_composition.html#schedule",
+    "title": "Day 2: Functions and classes",
+    "section": "Schedule",
+    "text": "Schedule\n\nThis morning:\n\nTutorials on functions and classes\n\nThis afternoon:\n\nGetting Visual Studio Code set up for everyone.\nWorking on the optional tutorial or the “Extra” exercise."
+  },
+  {
     "objectID": "slides/slides_abstraction_and_composition.html#writing-re-usable-code",
     "href": "slides/slides_abstraction_and_composition.html#writing-re-usable-code",
-    "title": "Day 2: Abstraction and composition",
+    "title": "Day 2: Functions and classes",
     "section": "Writing re-usable code",
-    "text": "Writing re-usable code\n\nCode should be like a recipe.\n\nGenerally: good code tells how to do something, not what you’ve done.\n\nScripting vs. programming\n\nScripting: Small bits of code that do a single thing.\nProgramming: General-purpose “recipes” for transforming inputs to outputs."
+    "text": "Writing re-usable code\n\nCode should be like a recipe.\n\nGenerally: good code tells how to do something, and what you’ve done (separately).\n\nScripting vs. programming\n\nScripting: Small bits of code that do a single thing.\nProgramming: General-purpose “recipes” for transforming inputs to outputs."
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#example-scripting-in-python",
     "href": "slides/slides_abstraction_and_composition.html#example-scripting-in-python",
-    "title": "Day 2: Abstraction and composition",
+    "title": "Day 2: Functions and classes",
     "section": "Example: scripting in python",
-    "text": "Example: scripting in python\n\nA simple script for converting Fahrenheit to Celsius\n\ntemp_f = 100\n\ntemp_c = 5/9 * (temp_f - 32)\n\nWhat’s wrong with this?\n\nNothing, it works.\nBut what if we want to change the value of temp_f?\nWhat if we want to convert multiple Fahrenheit values to Celsius?"
+    "text": "Example: scripting in python\n\nA simple script for converting Fahrenheit to Celsius\n\ntemp_f = 100\n\ntemp_c = 5/9 * (temp_f - 32)\n\nWhat’s wrong with this?\n\nNothing! it works.\nBut what if we want to change the value of temp_f?\nWhat if we want to convert multiple Fahrenheit values to Celsius?"
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#solution-abstraction",
     "href": "slides/slides_abstraction_and_composition.html#solution-abstraction",
-    "title": "Day 2: Abstraction and composition",
+    "title": "Day 2: Functions and classes",
     "section": "Solution: Abstraction",
     "text": "Solution: Abstraction\n\nWe want to abstract the logic that converts temperatures into a “recipe” with:\n\nInput: any value in Fahrenheit.\nOutput: the converted value in Celsius.\n\nOur “recipe” can be written as a Function."
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#example-programming-in-python",
     "href": "slides/slides_abstraction_and_composition.html#example-programming-in-python",
-    "title": "Day 2: Abstraction and composition",
+    "title": "Day 2: Functions and classes",
     "section": "Example: programming in Python",
     "text": "Example: programming in Python\n\nA function for converting temperatures:\n\ndef convert_f_to_c(temp_f):\n    return 5/9 * (temp_f - 32)\n\nNow, our logic can be applied to multiple values:\n\nprint(convert_f_to_c(100))\nprint(convert_f_to_c(120))\n\nOr we can apply our to function to a list of values:\n\ntemps_f = [100, 120, 80]\ntemps_c = [convert_f_to_c(x) for x in temps_f]"
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#functions",
     "href": "slides/slides_abstraction_and_composition.html#functions",
-    "title": "Day 2: Abstraction and composition",
+    "title": "Day 2: Functions and classes",
     "section": "Functions",
     "text": "Functions\n\nFunctions are a named bundle of logic.\n\nI think of a function as a “pipe” that transforms values into other values.\n\nExample functions (Tip: useful for the challenge!):\n\nmodel = fit_model(train)\nfig = plot_scatterplot(data)\nsave_image(img, path)\n\nAnother analogy: think of functions as the “verbs” and variables as the “nouns” of your program."
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#composition",
     "href": "slides/slides_abstraction_and_composition.html#composition",
-    "title": "Day 2: Abstraction and composition",
+    "title": "Day 2: Functions and classes",
     "section": "Composition",
-    "text": "Composition\n\nFunctions help to break up your code into small, reusable “modules.”\nThese modules can be composed together:\ndef convert_multiple_f_to_c(temps_f):\n    return [convert_f_to_c(x) for x in temps_f]\nProgramming is less about tricky logic problems, more about abstraction and composition."
+    "text": "Composition\n\nFunctions help to break up your code into small, reusable “modules.”\nThese modules can be composed together:\ndef convert_multiple_f_to_c(temps_f):\n    return [convert_f_to_c(x) for x in temps_f]\nProgramming is less about tricky logic problems, more about writing abstractions and composing them together."
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#scripting-vs.-programming",
     "href": "slides/slides_abstraction_and_composition.html#scripting-vs.-programming",
-    "title": "Day 2: Abstraction and composition",
+    "title": "Day 2: Functions and classes",
     "section": "Scripting vs. Programming",
     "text": "Scripting vs. Programming\n\nThe line between scripting and programming is fuzzy.\nOften, you need to re-use bits of a script, so you start re-writing it into functions.\nIf these functions are useful enough, you can incorporate them into a library.\n\nMy own example of this (in R): ggutils."
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#classes-logic-data",
     "href": "slides/slides_abstraction_and_composition.html#classes-logic-data",
-    "title": "Day 2: Abstraction and composition",
+    "title": "Day 2: Functions and classes",
     "section": "Classes: logic + data",
     "text": "Classes: logic + data\n\nFunctions: logic (a “recipe”)\nVariables: data (actual “values”)\nClasses: An abstraction for combining data and logic."
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#classes",
     "href": "slides/slides_abstraction_and_composition.html#classes",
-    "title": "Day 2: Abstraction and composition",
+    "title": "Day 2: Functions and classes",
     "section": "Classes",
     "text": "Classes\n\nClasses have two components:\n\nAttributes: data.\nMethods: functions.\n\n\n    class WeatherStation:\n        def __init__(self, temps_f): # Default initialization method\n            self.temps_f = temps_f # an \"attribute\"\n\n        def convert_f_to_c(temp_f): # A \"method\"\n            return 5/9 * (temp_f - 32)\n\n        def convert_temps_f_to_c(self): # Another \"method\"\n            return [self.convert_f_to_c(x) for x in self.temps_f]\n\nNow, my functions are directly coupled to my data and I have given this Object a name: WeatherStation."
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#using-a-class",
     "href": "slides/slides_abstraction_and_composition.html#using-a-class",
-    "title": "Day 2: Abstraction and composition",
+    "title": "Day 2: Functions and classes",
     "section": "Using a class",
     "text": "Using a class\n\nA class is a general purpose construct, like a function.\nWe have to initialize our class with some data:\nstation = WeatherStation(temps_f = [100, 120, 80])\nHere, station is an instance of the class WeatherStation.\nThen we can use the methods of the class for this instance:\nprint(station.convert_temps_f_to_c())"
   },
   {
+    "objectID": "slides/slides_abstraction_and_composition.html#who-cares",
+    "href": "slides/slides_abstraction_and_composition.html#who-cares",
+    "title": "Day 2: Functions and classes",
+    "section": "Who cares?",
+    "text": "Who cares?\n\nTomorrow, we will use classes a lot.\n\nBut, classes written by someone else!\n\nSee the pandas DataFrameDescriber class: here.\n\nYou don’t have to understand what this code does!\nThe important thing is that you see how larger libraries are made up of classes."
+  },
+  {
     "objectID": "slides/slides_abstraction_and_composition.html#inheritance",
     "href": "slides/slides_abstraction_and_composition.html#inheritance",
-    "title": "Day 2: Abstraction and composition",
+    "title": "Day 2: Functions and classes",
     "section": "Inheritance",
     "text": "Inheritance\n\nClasses can be extended to represent different objects objects with the same interface.\nHere, the WeatherStation has a general purpose method get_temperatures which should always return the temperature in Celsius.\n    class WeatherStation:\n        def __init__(self, temps):\n            self.temps = temps \n\n        def convert_f_to_c(self, temp_f):\n            return 5 / 9 * (temp_f - 32)\n\n        def get_temperatures_c(self):\n            return self.temps"
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#inheritance-1",
     "href": "slides/slides_abstraction_and_composition.html#inheritance-1",
-    "title": "Day 2: Abstraction and composition",
+    "title": "Day 2: Functions and classes",
     "section": "Inheritance",
-    "text": "Inheritance\n\nWe could create two child classes which inherit the WeatherStation interface.\nAssuming an AmericanWeatherStation is always initialized with temps in Fahrenheit:\n    class AmericanWeatherStation(WeatherStation):\n\n        def get_temperatures_c(self):\n            return [self.convert_f_to_c(x) for x in self.temps]\nAssuming a EuropeanWeatherStation is always initialized with temps in Celsius:\n    class EuropeanWeatherStation(WeatherStation):\n\n        def get_temperatures_c(self):\n            return self.temps"
+    "text": "Inheritance\n\nWe could create two child classes which inherit the WeatherStation interface.\nAssuming an AmericanWeatherStation is always initialized with temps in Fahrenheit:\n    class AmericanWeatherStation(WeatherStation):\n\n        def get_temperatures_c(self):\n            return [self.convert_f_to_c(x) for x in self.temps]"
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#inheritance-2",
     "href": "slides/slides_abstraction_and_composition.html#inheritance-2",
-    "title": "Day 2: Abstraction and composition",
+    "title": "Day 2: Functions and classes",
+    "section": "Inheritance",
+    "text": "Inheritance\n\nAssuming a EuropeanWeatherStation is always initialized with temps in Celsius:\n    class EuropeanWeatherStation(WeatherStation):\n\n        def get_temperatures_c(self):\n            return self.temps"
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#inheritance-3",
+    "href": "slides/slides_abstraction_and_composition.html#inheritance-3",
+    "title": "Day 2: Functions and classes",
     "section": "Inheritance",
     "text": "Inheritance\n\nInheritance gives a common interface.\nNow, I can write a function that consumes any WeatherStation object.\n    def get_total_temp_c(station):\n        return sum(station.get_temperatures_c())"
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#tutorial-1-functions",
     "href": "slides/slides_abstraction_and_composition.html#tutorial-1-functions",
-    "title": "Day 2: Abstraction and composition",
+    "title": "Day 2: Functions and classes",
     "section": "Tutorial #1: Functions",
     "text": "Tutorial #1: Functions\n\nFunctions\nCore concepts:\n\nUsing built-in functions (and the standard library)\nimport math\nmath.log10(10)\nWriting your own functions\ndef add_3(x):\n    return x + 3\nComposing functions\ndef add_5(x):\n    return add_3(x) + 2"
   },
   {
-    "objectID": "slides/slides_abstraction_and_composition.html#tutorial-2-functions-optional",
-    "href": "slides/slides_abstraction_and_composition.html#tutorial-2-functions-optional",
-    "title": "Day 2: Abstraction and composition",
-    "section": "Tutorial #2: Functions (Optional)",
-    "text": "Tutorial #2: Functions (Optional)\n\nMore control flow tools §4.7-4.8 (Optional)\n\nThis is more of a deep dive. If you feel shaky with the basics of functions, jump ahead to classes, then return to this!\n\nCore concepts:\n\nDefault arguments\ndef add(x, y = 2):\n    return x + y\nKeyword arguments\nadd(4, x=4) # Error: duplicate value for the same argument"
+    "objectID": "slides/slides_abstraction_and_composition.html#tutorial-2",
+    "href": "slides/slides_abstraction_and_composition.html#tutorial-2",
+    "title": "Day 2: Functions and classes",
+    "section": "Tutorial #2",
+    "text": "Tutorial #2\n\nObject-oriented programming\nCore concepts:\n\nWriting custom classes\nclass PartyAnimal:\nInitializing classes\nan = PartyAnimal()\nClass inheritance\nclass CricketFan(PartyAnimal):"
   },
   {
-    "objectID": "slides/slides_abstraction_and_composition.html#tutorial-3",
-    "href": "slides/slides_abstraction_and_composition.html#tutorial-3",
-    "title": "Day 2: Abstraction and composition",
-    "section": "Tutorial #3",
-    "text": "Tutorial #3\n\nObject-oriented programming\nCore concepts:\n\nWriting custom classes\nclass PartyAnimal:\nInitializing classes\nan = PartyAnimal()\nClass inheritance\nclass CricketFan(PartyAnimal):"
+    "objectID": "slides/slides_abstraction_and_composition.html#tutorial-2-possible-pitfall",
+    "href": "slides/slides_abstraction_and_composition.html#tutorial-2-possible-pitfall",
+    "title": "Day 2: Functions and classes",
+    "section": "Tutorial #2: possible pitfall",
+    "text": "Tutorial #2: possible pitfall\n\nTutorial #2 includes the following code:\nfrom party import PartyAnimal\nThis requires actually breaking our code into different scripts (.py files).\nWe can’t do this because we are still using Colab.\n\nFor now, just carry on in the same Notebook.\nWe will introduce .py files this afternoon!"
   },
   {
-    "objectID": "slides/slides_abstraction_and_composition.html#tutorial-3-possible-pitfall",
-    "href": "slides/slides_abstraction_and_composition.html#tutorial-3-possible-pitfall",
-    "title": "Day 2: Abstraction and composition",
-    "section": "Tutorial #3: possible pitfall",
-    "text": "Tutorial #3: possible pitfall\n\nTutorial #3 includes the following code:\nfrom party import PartyAnimal\nThis requires actually breaking our code into different scripts (.py files).\nWe can’t do this because we are still using Colab.\n\nFor now, just carry on in the same Notebook.\nWe will introduce .py files this afternoon!"
+    "objectID": "slides/slides_abstraction_and_composition.html#tutorial-3-functions-optional",
+    "href": "slides/slides_abstraction_and_composition.html#tutorial-3-functions-optional",
+    "title": "Day 2: Functions and classes",
+    "section": "Tutorial #3: Functions (Optional)",
+    "text": "Tutorial #3: Functions (Optional)\n\nMore control flow tools §4.7-4.8 (Optional)\n\nThis is more of a deep dive. If you feel shaky with the basics of functions, work on that!\n\nCore concepts:\n\nDefault arguments\ndef add(x, y = 2):\n    return x + y\nKeyword arguments\nadd(4, x=4) # Error: duplicate value for the same argument"
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#extra",
+    "href": "slides/slides_abstraction_and_composition.html#extra",
+    "title": "Day 2: Functions and classes",
+    "section": "Extra",
+    "text": "Extra\n\nTry this class composition exercise (Exercise #2).\n\nDefine and implement the classes required to represent a music playlist: Artist, Song, Album, and Playlist."
+  },
+  {
+    "objectID": "slides/slides_abstraction_and_composition.html#recommendations",
+    "href": "slides/slides_abstraction_and_composition.html#recommendations",
+    "title": "Day 2: Functions and classes",
+    "section": "Recommendations",
+    "text": "Recommendations\n\nTake your time understanding functions.\n\nFunctions will be more immediately useful to improve your programming!\n\nIf you have time, try the “Extra” exercise, it will help you think about how functions and classes fit together."
   },
   {
     "objectID": "slides/slides_control_logic.html#tutorial-1-conditional-logic",
