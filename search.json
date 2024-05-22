@@ -305,7 +305,7 @@
     "href": "slides/slides_python_data_science.html#packages-tutorials-1-2-and-3",
     "title": "Python data science",
     "section": "Packages: Tutorials 1, 2, and 3",
-    "text": "Packages: Tutorials 1, 2, and 3\n\nInstall the required packages using your terminal in VSCode\npip install pandas matplotlib sklearn\nTrouble installing? Tell me!"
+    "text": "Packages: Tutorials 1, 2, and 3\n\nInstall the required packages using your terminal in VSCode\npip install pandas matplotlib scikit-learn\nTrouble installing? Tell me!"
   },
   {
     "objectID": "slides/slides_python_data_science.html#extra",
