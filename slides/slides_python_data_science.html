@@ -402,12 +402,34 @@ Hamish Gibbs
 </div>
 
 </section>
+<section id="recap" class="slide level2">
+<h2>Recap</h2>
+<ul>
+<li>Great job!</li>
+<li>We only have 4 days to go from introductory to advanced Python concepts.
+<ul>
+<li>Plus: programming tools like VSCode and <code>git</code>!</li>
+</ul></li>
+<li>Classes and functions can be abstract, but they are the building blocks of what we will do today.
+<ul>
+<li>Hopefully today is more familiar to people who have used R!</li>
+</ul></li>
+</ul>
+</section>
 <section id="today-python-data-science" class="slide level2">
 <h2>Today: Python data science</h2>
 <ul>
 <li>Introduction to Python data science tools.</li>
 <li>Introduction to a basic data science workflow.</li>
 <li>This afternoon: collaborating on a data science project.</li>
+</ul>
+</section>
+<section id="tomorrow" class="slide level2">
+<h2>Tomorrow</h2>
+<ul>
+<li>Data science “challenge”</li>
+<li><em>Predicting the nightly price of AirBnBs in London</em></li>
+<li>See the Guidelines <a href="../challenge.html">here</a>.</li>
 </ul>
 </section>
 <section id="data-science" class="slide level2">
@@ -465,16 +487,34 @@ Hamish Gibbs
 </ul></li>
 </ul>
 </section>
+<section id="python-data-science-tools-1" class="slide level2">
+<h2>Python data science tools</h2>
+<ul>
+<li>Tomorrow, we will use this “stack” to do our data science project</li>
+<li>Exploratory analysis, data transformation
+<ul>
+<li><a href="https://pandas.pydata.org/"><code>pandas</code></a></li>
+</ul></li>
+<li>Regression model fitting and evaluation
+<ul>
+<li><a href="https://scikit-learn.org/stable/"><code>sklearn</code></a></li>
+</ul></li>
+<li>Visualize results
+<ul>
+<li><a href="https://pandas.pydata.org/"><code>pandas</code></a>, <a href="https://matplotlib.org/"><code>matplotlib</code></a></li>
+</ul></li>
+</ul>
+</section>
 <section id="r-equivalents" class="slide level2">
 <h2>R equivalents</h2>
 <ul>
 <li>Python libraries mostly have their R equivalents:
 <ul>
 <li><a href="https://pandas.pydata.org/"><code>pandas</code></a> : <a href="https://dplyr.tidyverse.org/"><code>dplyr</code></a></li>
-<li><a href="https://scikit-learn.org/stable/"><code>sklearn</code></a> : <a href="https://topepo.github.io/caret/"><code>caret</code></a>?</li>
 <li><a href="https://matplotlib.org/"><code>matplotlib</code></a> : <a href="https://ggplot2.tidyverse.org/reference/ggsave.html"><code>ggplot2</code></a></li>
+<li><a href="https://scikit-learn.org/stable/"><code>sklearn</code></a> : <a href="https://topepo.github.io/caret/"><code>caret</code></a>?</li>
 </ul></li>
-<li>See what you prefer, I use both languages very regularly!</li>
+<li>See what you prefer, I use both languages!</li>
 </ul>
 </section>
 <section id="diving-deeper" class="slide level2">
@@ -497,36 +537,36 @@ Hamish Gibbs
 </ul></li>
 </ul>
 </section>
-<section id="tutorial-1-pandas" class="slide level2">
-<h2>Tutorial #1: pandas</h2>
+<section id="tutorial-1-pandas-and-matplotlib" class="slide level2">
+<h2>Tutorial #1: pandas and matplotlib</h2>
 <ul>
-<li><a href="https://pandas.pydata.org/docs/user_guide/10min.html">10 minutes to pandas</a>
-<ul>
-<li><em>This is a detailed tutorial with everything in <code>pandas</code> you will need to know for tomorrow!</em></li>
-</ul></li>
+<li><a href="https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%202%20-%20Selecting%20data%20&amp;%20finding%20the%20most%20common%20complaint%20type.ipynb">pandas-cookbook: Selecting data (Chapter 2)</a></li>
 <li>Core concepts:
 <ul>
-<li>Creating a DataFrame</li>
-<li>Selection</li>
-<li>Missing data</li>
-<li>Grouping</li>
+<li>Reading data from a <code>.csv</code> file</li>
+<li>Inspecting a dataset</li>
+<li>Selecting data</li>
 </ul></li>
 </ul>
 </section>
-<section id="tutorial-2-plotting-in-pandas-with-matplotlib" class="slide level2">
-<h2>Tutorial #2: plotting in pandas with matplotlib</h2>
+<section id="tutorial-2-pandas-and-matplotlib" class="slide level2">
+<h2>Tutorial #2: pandas and matplotlib</h2>
 <ul>
-<li><a href="https://pandas.pydata.org/docs/user_guide/visualization.html">Chart visualization</a>
-<ul>
-<li><em>This picks up where the previous tutorial leaves off.</em></li>
-</ul></li>
+<li><a href="https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%203%20-%20Which%20borough%20has%20the%20most%20noise%20complaints%20%28or%2C%20more%20selecting%20data%29.ipynb">pandas-cookbook: More selecting data (Chapter 3)</a></li>
 <li>Core concepts:
 <ul>
-<li>Different types of visualizations</li>
-<li>Plot formatting</li>
-<li>Subplots</li>
+<li>Selection by multiple columns</li>
+<li>The role of <code>numpy</code> in <code>pandas</code></li>
+<li>Basic plotting (<code>matplotlib</code> in <code>pandas</code>)</li>
 </ul></li>
-<li><strong>Good question:</strong> This is a <code>pandas</code> tutorials. Where is <code>matplotlib</code> in all of this?</li>
+</ul>
+</section>
+<section id="data-tutorials-1-and-2" class="slide level2">
+<h2>Data: Tutorials 1 and 2</h2>
+<ul>
+<li>Tutorials #1 and #2 come from the <a href="https://github.com/jvns/pandas-cookbook">pandas-cookbook</a>.</li>
+<li>Go to the <code>/data</code> folder in the GitHub repository (link above).</li>
+<li>Download the <code>311-service-requests.csv</code> file and store it on your computer.</li>
 </ul>
 </section>
 <section id="tutorial-3-sklearn" class="slide level2">
@@ -534,7 +574,7 @@ Hamish Gibbs
 <ul>
 <li><a href="https://scikit-learn.org/stable/getting_started.html">sklearn - Getting Started</a>
 <ul>
-<li><em>A very basic introduction to the way <code>sklearn</code> models work.</em></li>
+<li><em>Note: just work up to the “Model Evaluation” section.</em></li>
 </ul></li>
 <li>Core concepts:
 <ul>
@@ -547,27 +587,28 @@ Hamish Gibbs
 </ul></li>
 </ul>
 </section>
-<section id="tutorial-4-pandas-matplotlib" class="slide level2">
-<h2>Tutorial #4: pandas / matplotlib</h2>
+<section id="packages-tutorials-1-2-and-3" class="slide level2">
+<h2>Packages: Tutorials 1, 2, and 3</h2>
 <ul>
-<li><a href="https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html#linear-model-from-regression-to-sparsity">Linear model: from regression to sparsity</a></li>
-<li>Core concepts:
-<ul>
-<li><a href="https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html#linear-regression">Linear regression</a>
-<ul>
-<li>I recommend focusing on the (small) linear regression section.</li>
-<li><em>Tip: print out each variable and try to understand how data flows through the model. What format is it in? How could you format a different dataset in the same way?</em></li>
-</ul></li>
-</ul></li>
+<li><p>Install the required packages using your terminal in VSCode</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1"><a></a>pip install pandas matplotlib sklearn</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Trouble installing? Tell me!</p></li>
 </ul>
 </section>
 <section id="extra" class="slide level2">
 <h2>Extra</h2>
 <ul>
-<li>Start working with the <a href="https://github.com/hamishgibbs/sdi_python_foundations/blob/main/data/2020-08-24-listings.csv.gz">dataset</a> we will use tomorrow.
+<li><a href="https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%206%20-%20String%20Operations-%20Which%20month%20was%20the%20snowiest.ipynb">pandas-cookbook: String operations (Chapter 6)</a>
 <ul>
-<li>For help reading the data: <a href="https://pandas.pydata.org/docs/user_guide/io.html">see here</a>.</li>
+<li>This tutorial is about extracting information from text in <code>pandas</code>.</li>
+<li><em>Hint:</em> Some of the most interesting information in tomorrow’s dataset might be in string variables.</li>
 </ul></li>
+</ul>
+</section>
+<section id="extra-1" class="slide level2">
+<h2>Extra</h2>
+<ul>
+<li>Start working with the <a href="https://github.com/hamishgibbs/sdi_python_foundations/blob/main/data">dataset</a> we will use tomorrow.</li>
 <li>Work on a few of the items in the challenge:
 <ul>
 <li><em>What variables are in the dataset?</em></li>
