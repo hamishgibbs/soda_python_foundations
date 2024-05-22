@@ -132,7 +132,7 @@ format: revealjs
 * Install the required packages using your terminal in VSCode
 
     ```shell
-    pip install pandas matplotlib sklearn
+    pip install pandas matplotlib scikit-learn
     ```
 
 * Trouble installing? Tell me!
