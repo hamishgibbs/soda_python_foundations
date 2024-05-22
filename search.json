@@ -119,39 +119,11 @@
     "text": "Version control\n\nWith git you need to be explicit about:\n\nSaving changes (called ‘committing’).\n‘pushing’ local changes to the remote repository.\n‘pulling’ changes from the remote repository.\n‘merging’ changes together.\n\nGood question: Why does this have to be explicit?"
   },
   {
-    "objectID": "slides/slides_collaboration.html#aims-this-afternoon",
-    "href": "slides/slides_collaboration.html#aims-this-afternoon",
-    "title": "Collaboration",
-    "section": "Aims: this afternoon",
-    "text": "Aims: this afternoon\n\nCreate a local git repository with some of the code you have written.\nCreate a remote repository on GitHub.\nPush your code from your local repository to your remote repository."
-  },
-  {
     "objectID": "slides/slides_collaboration.html#aims-tomorrow",
     "href": "slides/slides_collaboration.html#aims-tomorrow",
     "title": "Collaboration",
     "section": "Aims: tomorrow",
     "text": "Aims: tomorrow\n\nAfter the challenge, we will each:\n\nPush our code to a shared repository.\nCompare solutions.\n\nShared repository URL:\n\nsoda_python_foundations_challenge_2024\n\nPlease give me your GitHub usernames today!"
-  },
-  {
-    "objectID": "slides/slides_collaboration.html#tutorial-1",
-    "href": "slides/slides_collaboration.html#tutorial-1",
-    "title": "Collaboration",
-    "section": "Tutorial #1",
-    "text": "Tutorial #1\n\nSetup a GitHub account.\nCreate a GitHub repository.\nCommit your local code (Add, Commit).\nPush your code to your remote repository (Remote)."
-  },
-  {
-    "objectID": "slides/slides_collaboration.html#what-about-github-alternatives",
-    "href": "slides/slides_collaboration.html#what-about-github-alternatives",
-    "title": "Collaboration",
-    "section": "What about GitHub alternatives?",
-    "text": "What about GitHub alternatives?\n\ngit is open source and is the de facto version control software\nGitHub is a for-profit company owned by Microsoft.\nThere are alternatives to GtiHub:\n\nGitLab\nCircleCI\nMany more…"
-  },
-  {
-    "objectID": "slides/slides_collaboration.html#what-about-git-clients",
-    "href": "slides/slides_collaboration.html#what-about-git-clients",
-    "title": "Collaboration",
-    "section": "What about git clients?",
-    "text": "What about git clients?\n\nThere are lots of “easier” ways to interact with git repositories through a graphical user interface (GUI).\n\nExample: GitHub Desktop.\n\nI recommend the command line because:\n\nMost basic git interactions are simple commands.\nYou aren’t linked to a particulat git hosting service."
   },
   {
     "objectID": "slides/slides_collaboration.html#diving-deeper-into-git",
@@ -166,6 +138,13 @@
     "title": "Collaboration",
     "section": "Tip",
     "text": "Tip\n\nGithub’s Education Benefits give you access to a lot of free stuff!\n\nGitHub Copilot\nGitHub Copilot Chat\nFree web hosting"
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#exercise-1",
+    "href": "slides/slides_collaboration.html#exercise-1",
+    "title": "Collaboration",
+    "section": "Exercise #1",
+    "text": "Exercise #1\n\nSetup a GitHub account.\nCreate a GitHub repository.\nCommit your local code (Add, Commit).\nPush your code to your remote repository (Remote)."
   },
   {
     "objectID": "slides/slides_collaboration.html#extra",
