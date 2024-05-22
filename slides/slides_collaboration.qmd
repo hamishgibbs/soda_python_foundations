@@ -63,12 +63,6 @@ format: revealjs
     * 'merging' changes together.
 * ***Good question:** Why does this have to be explicit?*
 
-## Aims: this afternoon
-
-* Create a **local** `git` repository with some of the code you have written.
-* Create a **remote** repository on GitHub.
-* Push your code from your **local** repository to your **remote** repository.
-
 ## Aims: tomorrow
 
 * After the challenge, we will each: 
@@ -77,30 +71,6 @@ format: revealjs
 * Shared repository URL:
     * [soda_python_foundations_challenge_2024](https://github.com/hamishgibbs/soda_python_foundations_challenge_2024)
 * Please give me your GitHub usernames today!
-
-## Tutorial #1
-
-1. Setup a [GitHub](https://github.com/) account.
-2. [Create a GitHub repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository).
-3. Commit your **local** code ([Add](https://github.com/git-guides/git-add), [Commit](https://github.com/git-guides/git-commit)).
-4. Push your code to your **remote** repository ([Remote](https://github.com/git-guides/git-remote)).
-
-## What about GitHub alternatives?
-
-* `git` is open source and is the *de facto* version control software
-*  GitHub is a for-profit company owned by Microsoft.
-* There are alternatives to GtiHub:
-    * [GitLab](https://about.gitlab.com/)
-    * [CircleCI](https://circleci.com/)
-    * Many more...
-
-## What about git clients?
-
-* There are lots of "easier" ways to interact with `git` repositories through a graphical user interface (GUI).
-    * Example: [GitHub Desktop](https://desktop.github.com/).
-* I recommend the command line because: 
-    * Most basic git interactions are simple commands. 
-    * You aren't linked to a particulat `git` hosting service.
 
 ## Diving deeper into `git`
 
@@ -117,6 +87,13 @@ format: revealjs
     * GitHub Copilot
     * GitHub Copilot Chat
     * Free web hosting
+
+## Exercise #1
+
+1. Setup a [GitHub](https://github.com/) account.
+2. [Create a GitHub repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository).
+3. Commit your **local** code ([Add](https://github.com/git-guides/git-add), [Commit](https://github.com/git-guides/git-commit)).
+4. Push your code to your **remote** repository ([Remote](https://github.com/git-guides/git-remote)).
 
 ## Extra
 
