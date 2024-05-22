@@ -102,7 +102,21 @@
     "href": "slides/slides_collaboration.html#git-and-github",
     "title": "Collaboration",
     "section": "git and GitHub",
-    "text": "git and GitHub\n\ngit is an open source version control system.\n\nPurpose: recording and reconciling changes to code.\n\nGitHub is a place to store remote repositories.\n\nHere is the repository for this course!"
+    "text": "git and GitHub\n\ngit is an open source version control system.\n\nPurpose: recording and reconciling changes to code.\n\nGitHub is a place to store remote repositories."
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#why-use-git",
+    "href": "slides/slides_collaboration.html#why-use-git",
+    "title": "Collaboration",
+    "section": "Why use git?",
+    "text": "Why use git?\n\nThe best example:\n\nHere is the repository for this course\n\nYou can:\n\nLook at the history of changes: here\nGo back to an earlier version of the course materials: here"
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#why-use-git-1",
+    "href": "slides/slides_collaboration.html#why-use-git-1",
+    "title": "Collaboration",
+    "section": "Why use git?",
+    "text": "Why use git?\n\ngit lets you:\n\nSave a version of your code online.\nDelete / modify code without losing anything.\n\nI recommend:\n\nBuild a portfolio by saving any programming you do for your courses in GitHub.\nThis can show off your programming experience for jobs / graduate school."
   },
   {
     "objectID": "slides/slides_collaboration.html#google-docs",
@@ -116,21 +130,42 @@
     "href": "slides/slides_collaboration.html#version-control-1",
     "title": "Collaboration",
     "section": "Version control",
-    "text": "Version control\n\nWith git you need to be explicit about:\n\nSaving changes (called ‘committing’).\n‘pushing’ local changes to the remote repository.\n‘pulling’ changes from the remote repository.\n‘merging’ changes together.\n\nGood question: Why does this have to be explicit?"
+    "text": "Version control\n\nWith git you need to be explicit about:\n\nSaving changes (called ‘committing’).\n‘pushing’ local changes to the remote repository.\n‘pulling’ changes from the remote repository.\n‘merging’ changes together.\n\nGood question: Why does this have to be so explicit?"
   },
   {
-    "objectID": "slides/slides_collaboration.html#aims-tomorrow",
-    "href": "slides/slides_collaboration.html#aims-tomorrow",
+    "objectID": "slides/slides_collaboration.html#aims-today",
+    "href": "slides/slides_collaboration.html#aims-today",
     "title": "Collaboration",
-    "section": "Aims: tomorrow",
-    "text": "Aims: tomorrow\n\nAfter the challenge, we will each:\n\nPush our code to a shared repository.\nCompare solutions.\n\nShared repository URL:\n\nsoda_python_foundations_challenge_2024\n\nPlease give me your GitHub usernames today!"
+    "section": "Aims: today",
+    "text": "Aims: today\n\nThis is a high-level introduction to git but it is sufficient for today.\nWe want to:\n\nCreate a place where we can compare everyone’s solutions to the Challenge.\nLet everyone contribute their local code to this remote repository."
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#aims-today-1",
+    "href": "slides/slides_collaboration.html#aims-today-1",
+    "title": "Collaboration",
+    "section": "Aims: today",
+    "text": "Aims: today\n\nClone the shared repository:\ngit clone [repo-url].git\nCopy your code to the cloned repository.\nAdd & commit your changes.\ngit add [myfile].py\ngit commit -m \"Adding my file!\""
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#aims-today-2",
+    "href": "slides/slides_collaboration.html#aims-today-2",
+    "title": "Collaboration",
+    "section": "Aims: today",
+    "text": "Aims: today\n\nPush your code to the remote repository:\ngit push\nPull other changes from the remote repository:\ngit push"
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#other-useful-commands",
+    "href": "slides/slides_collaboration.html#other-useful-commands",
+    "title": "Collaboration",
+    "section": "Other useful commands",
+    "text": "Other useful commands\n\nAfter git add but before git commit:\n\nInspect which files have been created / modified / deleted:\ngit status\nInspect changes to the code since the last commit:\ngit diff --cached"
   },
   {
     "objectID": "slides/slides_collaboration.html#diving-deeper-into-git",
     "href": "slides/slides_collaboration.html#diving-deeper-into-git",
     "title": "Collaboration",
     "section": "Diving deeper into git",
-    "text": "Diving deeper into git\n\nThis is a very basic introduction to git\nAdvanced uses of git / GitHub:\n\nCollaboration on large projects, automated testing, issue / version tracking\n\nIntroductory uses of git / GitHub:\n\nStoring code / not losing what you have done\nBuilding a ‘portfolio’ of coding projects"
+    "text": "Diving deeper into git\n\nThere is more to git:\n\nBranching: creating different versions of the same code base.\nMerging: combining different branches back into the main branch.\n\nAnd more to GitHub:\n\nIssue / project tracking\nAutomated actions"
   },
   {
     "objectID": "slides/slides_collaboration.html#tip",
@@ -140,235 +175,67 @@
     "text": "Tip\n\nGithub’s Education Benefits give you access to a lot of free stuff!\n\nGitHub Copilot\nGitHub Copilot Chat\nFree web hosting"
   },
   {
-    "objectID": "slides/slides_collaboration.html#exercise-1",
-    "href": "slides/slides_collaboration.html#exercise-1",
-    "title": "Collaboration",
-    "section": "Exercise #1",
-    "text": "Exercise #1\n\nSetup a GitHub account.\nCreate a GitHub repository.\nCommit your local code (Add, Commit).\nPush your code to your remote repository (Remote)."
+    "objectID": "slides/slides_more_python_data_science.html#tutorial-3-string-operations",
+    "href": "slides/slides_more_python_data_science.html#tutorial-3-string-operations",
+    "title": "Python data science (continued)",
+    "section": "Tutorial #3: String operations",
+    "text": "Tutorial #3: String operations\n\npandas-cookbook: String operations (Chapter 6)\n\nThis tutorial is about extracting information from text in pandas.\nHint: Some of the most interesting information in tomorrow’s dataset might be in string variables.\n\nCore concepts:\n\nDetecting keywords in strings:\nweather_description.str.contains('Snow')"
   },
   {
-    "objectID": "slides/slides_collaboration.html#extra",
-    "href": "slides/slides_collaboration.html#extra",
-    "title": "Collaboration",
-    "section": "Extra",
-    "text": "Extra\n\nIf you breeze through the GitHub setup / repository creation:\n\nTry editing files in the remote, then pull the changes to your local repository.\nTry creating a local branch, then push the branch to the remote repository.\nTry setting up a repository with someone else, making changes to the same file."
+    "objectID": "slides/slides_more_python_data_science.html#tutorial-4-data-cleaning",
+    "href": "slides/slides_more_python_data_science.html#tutorial-4-data-cleaning",
+    "title": "Python data science (continued)",
+    "section": "Tutorial #4: Data cleaning",
+    "text": "Tutorial #4: Data cleaning\n\npandas-cookbook: Data cleaning (Chapter 7)\nCore concepts:\n\nDetecting nan values stored as strings:\nna_values = ['NO CLUE', 'N/A', '0']\nrequests = pd.read_csv(..., na_values=na_values, ...)\nAltering DataFrame values in-place:\nzero_zips = requests['Incident Zip'] == '00000'\nrequests.loc[zero_zips, 'Incident Zip'] = np.nan"
   },
   {
-    "objectID": "slides/slides_vscode_python.html#jupyter-notebooks-.ipynb",
-    "href": "slides/slides_vscode_python.html#jupyter-notebooks-.ipynb",
-    "title": "From Jupyter to VSCode",
-    "section": "Jupyter notebooks (.ipynb)",
-    "text": "Jupyter notebooks (.ipynb)\n\nGoogle Colab runs a Jupyter Notebook\n\nPros:\n\nMinimal set-up\nInteractive coding\n\nCons:\n\nDifficult to re-use code\nInsufficient for larger projects\nHard to integrate with other programming tools"
+    "objectID": "slides/slides_more_python_data_science.html#tutorial-5-sklearn---linear-regression",
+    "href": "slides/slides_more_python_data_science.html#tutorial-5-sklearn---linear-regression",
+    "title": "Python data science (continued)",
+    "section": "Tutorial #5: sklearn - Linear Regression",
+    "text": "Tutorial #5: sklearn - Linear Regression\n\nsklearn - Linear Regression Example\nCore concepts:\n\nFitting a model to data\nregr.fit(diabetes_X_train, diabetes_y_train)\nMaking predictions with a model\nregr.predict(diabetes_X_test)\nModel evaluation\nmean_squared_error(diabetes_y_test, diabetes_y_pred)"
   },
   {
-    "objectID": "slides/slides_vscode_python.html#python-files-.py",
-    "href": "slides/slides_vscode_python.html#python-files-.py",
-    "title": "From Jupyter to VSCode",
-    "section": "Python files (.py)",
-    "text": "Python files (.py)\n\nIn the scripting vs. programming dichotomy:\n\nJupyter Notebooks are better for scripting.\n\nIn practice, Python programs are usually composed of Functions and Classes in different .py files.\nExample: check out the pandas codebase again.\nWriting Python like this requires a different development environment."
+    "objectID": "slides/slides_more_python_data_science.html#challenge-scaffold",
+    "href": "slides/slides_more_python_data_science.html#challenge-scaffold",
+    "title": "Python data science (continued)",
+    "section": "Challenge scaffold",
+    "text": "Challenge scaffold\n\nchallenge_scaffold.py\n\nLook at the Challenge Guidelines and the project scaffold.\nI will walk through the challenge scaffold!\nUse this scaffold as a starting point for the challenge tomorrow."
   },
   {
-    "objectID": "slides/slides_vscode_python.html#advanced-python-development",
-    "href": "slides/slides_vscode_python.html#advanced-python-development",
-    "title": "From Jupyter to VSCode",
-    "section": "Advanced Python development",
-    "text": "Advanced Python development\n\nEnter: Visual Studio Code (VSCode).\n\nVSCode is an Integrated Development Environment (IDE).\nAnother (probably familiar) IDE: RStudio\n\nIDEs offer an integrated terminal (for running code), auto-complete, debugging, extensions.\nWhy VSCode?\n\nThe best open source IDE (my opinion) with lots of Python extensions.\nOther Python IDE options: Spyder, PyCharm, Sublime."
-  },
-  {
-    "objectID": "slides/slides_vscode_python.html#python-files-.py-1",
-    "href": "slides/slides_vscode_python.html#python-files-.py-1",
-    "title": "From Jupyter to VSCode",
-    "section": "Python files (.py)",
-    "text": "Python files (.py)\n\nProgramming in a text editor (not a Notebook):\n\nPros:\n\nEasy to write re-usable code\nCan scale to larger projects\nEasier to collaborate\n\nCons:\n\nMore difficult setup\nNo interactivity by default"
-  },
-  {
-    "objectID": "slides/slides_vscode_python.html#combined-workflow",
-    "href": "slides/slides_vscode_python.html#combined-workflow",
-    "title": "From Jupyter to VSCode",
-    "section": "Combined workflow",
-    "text": "Combined workflow\n\nWe want:\n\nMinimal set-up\nInteractive coding\nEasy to write re-usable code\nCan scale to larger projects\nEasier to collaborate"
-  },
-  {
-    "objectID": "slides/slides_vscode_python.html#combined-workflow-1",
-    "href": "slides/slides_vscode_python.html#combined-workflow-1",
-    "title": "From Jupyter to VSCode",
-    "section": "Combined workflow",
-    "text": "Combined workflow\n\nCombining VsCode with Python plugins, we get:\n\nMinimal set-up ❌\nInteractive coding ✅\nEasy to write re-usable code ✅\nCan scale to larger projects ✅\nEasier to collaborate ✅"
-  },
-  {
-    "objectID": "slides/slides_vscode_python.html#aims-this-afternoon",
-    "href": "slides/slides_vscode_python.html#aims-this-afternoon",
-    "title": "From Jupyter to VSCode",
-    "section": "Aims: this afternoon",
-    "text": "Aims: this afternoon\n\nUnfortunately, VSCode requires a bit more set up (and can cause installation headaches).\n\nThat’s why I’m here!\n\nAims:\n\nDownload VSCode\nDownload VSCode plugins: Python and Jupyter.\nGet Python code to run interactively in code cells: # %%.\n\nSee: Python Interactive window."
-  },
-  {
-    "objectID": "slides/slides_vscode_python.html#extra",
-    "href": "slides/slides_vscode_python.html#extra",
-    "title": "From Jupyter to VSCode",
-    "section": "Extra",
-    "text": "Extra\n\nIf you breeze through the VSCode setup process:\n\nFinish this morning’s tutorials an extra exercises.\nThen, try to import functions between .py files. [hint]\nThen, try running your .py file from the command line. [hint]\nThen, try to use if __name__ == \"__main__\": in your .py file. [hint]"
-  },
-  {
-    "objectID": "slides/slides_python_data_science.html#recap",
-    "href": "slides/slides_python_data_science.html#recap",
-    "title": "Python data science",
-    "section": "Recap",
-    "text": "Recap\n\nGreat job!\nWe only have 4 days to go from introductory to advanced Python concepts.\n\nPlus: programming tools like VSCode and git!\n\nClasses and functions can be abstract, but they are the building blocks of what we will do today.\n\nHopefully today is more familiar to people who have used R!"
-  },
-  {
-    "objectID": "slides/slides_python_data_science.html#today-python-data-science",
-    "href": "slides/slides_python_data_science.html#today-python-data-science",
-    "title": "Python data science",
-    "section": "Today: Python data science",
-    "text": "Today: Python data science\n\nIntroduction to Python data science tools.\nIntroduction to a basic data science workflow.\nThis afternoon: collaborating on a data science project."
-  },
-  {
-    "objectID": "slides/slides_python_data_science.html#tomorrow",
-    "href": "slides/slides_python_data_science.html#tomorrow",
-    "title": "Python data science",
-    "section": "Tomorrow",
-    "text": "Tomorrow\n\nData science “challenge”\nPredicting the nightly price of AirBnBs in London\nSee the Guidelines here."
-  },
-  {
-    "objectID": "slides/slides_python_data_science.html#data-science",
-    "href": "slides/slides_python_data_science.html#data-science",
-    "title": "Python data science",
-    "section": "Data science",
-    "text": "Data science\n\nDefinition of data science:\n\n“Extracting meaningful insights from data.”\n\nMeaningful is important.\n\nUse the tools of programming / statistics to create meaning from your data.\n\nUsually, there is no “right” answer, just “better” and “worse” answers.\n\nYou exercise a lot of judgement."
-  },
-  {
-    "objectID": "slides/slides_python_data_science.html#data-science-workflow",
-    "href": "slides/slides_python_data_science.html#data-science-workflow",
-    "title": "Python data science",
-    "section": "Data science workflow",
-    "text": "Data science workflow\n\nData science is not just machine learning.\n\nMost data science work is:\n\nData preparation\nData transformation\nMethod selection\n\nStatistics / machine learning\n\nCommunicating results"
-  },
-  {
-    "objectID": "slides/slides_python_data_science.html#python-data-science-tools",
-    "href": "slides/slides_python_data_science.html#python-data-science-tools",
-    "title": "Python data science",
-    "section": "Python data science tools",
-    "text": "Python data science tools\n\nToday, we will learn about the most popular Python data science “stack”\n\nData preparation / data transformation\n\npandas, numpy\n\nStatistics / machine learning\n\nsklearn\n\nCommunicating results\n\nmatplotlib"
-  },
-  {
-    "objectID": "slides/slides_python_data_science.html#python-data-science-tools-1",
-    "href": "slides/slides_python_data_science.html#python-data-science-tools-1",
-    "title": "Python data science",
-    "section": "Python data science tools",
-    "text": "Python data science tools\n\nTomorrow, we will use this “stack” to do our data science project\nExploratory analysis, data transformation\n\npandas\n\nRegression model fitting and evaluation\n\nsklearn\n\nVisualize results\n\npandas, matplotlib"
-  },
-  {
-    "objectID": "slides/slides_python_data_science.html#r-equivalents",
-    "href": "slides/slides_python_data_science.html#r-equivalents",
-    "title": "Python data science",
-    "section": "R equivalents",
-    "text": "R equivalents\n\nPython libraries mostly have their R equivalents:\n\npandas : dplyr\nmatplotlib : ggplot2\nsklearn : caret?\n\nSee what you prefer, I use both languages!"
-  },
-  {
-    "objectID": "slides/slides_python_data_science.html#diving-deeper",
-    "href": "slides/slides_python_data_science.html#diving-deeper",
-    "title": "Python data science",
-    "section": "Diving deeper",
-    "text": "Diving deeper\n\nPython has many other options for data science tools.\nAlternatives to pandas:\n\npolars (Like Python’s version of data.table)\ndask\n\nAlternatives to sklearn:\n\n…?\n\nAlternatives to matplotlib:\n\nseaborn\nplotnine (R users might like this one!)"
-  },
-  {
-    "objectID": "slides/slides_python_data_science.html#tutorial-1-pandas-and-matplotlib",
-    "href": "slides/slides_python_data_science.html#tutorial-1-pandas-and-matplotlib",
-    "title": "Python data science",
-    "section": "Tutorial #1: pandas and matplotlib",
-    "text": "Tutorial #1: pandas and matplotlib\n\npandas-cookbook: Selecting data (Chapter 2)\nCore concepts:\n\nReading data from a .csv file\nInspecting a dataset\nSelecting data"
-  },
-  {
-    "objectID": "slides/slides_python_data_science.html#tutorial-2-pandas-and-matplotlib",
-    "href": "slides/slides_python_data_science.html#tutorial-2-pandas-and-matplotlib",
-    "title": "Python data science",
-    "section": "Tutorial #2: pandas and matplotlib",
-    "text": "Tutorial #2: pandas and matplotlib\n\npandas-cookbook: More selecting data (Chapter 3)\nCore concepts:\n\nSelection by multiple columns\nThe role of numpy in pandas\nBasic plotting (matplotlib in pandas)"
-  },
-  {
-    "objectID": "slides/slides_python_data_science.html#data-tutorials-1-and-2",
-    "href": "slides/slides_python_data_science.html#data-tutorials-1-and-2",
-    "title": "Python data science",
-    "section": "Data: Tutorials 1 and 2",
-    "text": "Data: Tutorials 1 and 2\n\nTutorials #1 and #2 come from the pandas-cookbook.\nGo to the /data folder in the GitHub repository (link above).\nDownload the 311-service-requests.csv file and store it on your computer."
-  },
-  {
-    "objectID": "slides/slides_python_data_science.html#tutorial-3-sklearn",
-    "href": "slides/slides_python_data_science.html#tutorial-3-sklearn",
-    "title": "Python data science",
-    "section": "Tutorial #3: sklearn",
-    "text": "Tutorial #3: sklearn\n\nsklearn - Getting Started\n\nNote: just work up to the “Model Evaluation” section.\n\nCore concepts:\n\nFitting a model to data\nclf.fit(X, y)\nMaking predictions with a model\nclf.predict(X)\nModel evaluation\nresult = cross_validate(lr, X, y)"
-  },
-  {
-    "objectID": "slides/slides_python_data_science.html#packages-tutorials-1-2-and-3",
-    "href": "slides/slides_python_data_science.html#packages-tutorials-1-2-and-3",
-    "title": "Python data science",
-    "section": "Packages: Tutorials 1, 2, and 3",
-    "text": "Packages: Tutorials 1, 2, and 3\n\nInstall the required packages using your terminal in VSCode\npip install pandas matplotlib scikit-learn\nTrouble installing? Tell me!"
-  },
-  {
-    "objectID": "slides/slides_python_data_science.html#extra",
-    "href": "slides/slides_python_data_science.html#extra",
-    "title": "Python data science",
-    "section": "Extra",
-    "text": "Extra\n\npandas-cookbook: String operations (Chapter 6)\n\nThis tutorial is about extracting information from text in pandas.\nHint: Some of the most interesting information in tomorrow’s dataset might be in string variables."
-  },
-  {
-    "objectID": "slides/slides_python_data_science.html#extra-1",
-    "href": "slides/slides_python_data_science.html#extra-1",
-    "title": "Python data science",
+    "objectID": "slides/slides_more_python_data_science.html#extra",
+    "href": "slides/slides_more_python_data_science.html#extra",
+    "title": "Python data science (continued)",
     "section": "Extra",
     "text": "Extra\n\nStart working with the dataset we will use tomorrow.\nWork on a few of the items in the challenge:\n\nWhat variables are in the dataset?\nWhat are the data types of the variables?\nIs there any missing data?"
   },
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "The Python Tutorial: the official python tutorial. Can be quite detail-heavy, but it is also a great reference.\nPython For Everyone: the most popular course for learning Python. This course has lots of great resources and exercises.\nReal Python: lots of in-depth articles and interesting Python projects. They also offer paid content. I always recommend sticking to the free stuff!"
+    "objectID": "slides/slides_regression.html#challenge-statement",
+    "href": "slides/slides_regression.html#challenge-statement",
+    "title": "Challenge: regression analysis",
+    "section": "Challenge statement",
+    "text": "Challenge statement\nObjective: Predict the nightly price of AirBnB listings in London based on their characteristics.\nData source: Inside AirBnB\nDataset: 2020-08-24-listings.csv.gz\nGuidelines: Challenge"
   },
   {
-    "objectID": "resources.html#python",
-    "href": "resources.html#python",
-    "title": "Resources",
-    "section": "",
-    "text": "The Python Tutorial: the official python tutorial. Can be quite detail-heavy, but it is also a great reference.\nPython For Everyone: the most popular course for learning Python. This course has lots of great resources and exercises.\nReal Python: lots of in-depth articles and interesting Python projects. They also offer paid content. I always recommend sticking to the free stuff!"
+    "objectID": "slides/slides_regression.html#challenge-scaffold",
+    "href": "slides/slides_regression.html#challenge-scaffold",
+    "title": "Challenge: regression analysis",
+    "section": "Challenge scaffold",
+    "text": "Challenge scaffold\n\nBecause we have so little time, I have made a “scaffold of the project”\n\nchallenge_scaffold.py\n\nThis is a bad solution, but it should be give you a foundation to improve from!"
   },
   {
-    "objectID": "resources.html#git",
-    "href": "resources.html#git",
-    "title": "Resources",
-    "section": "Git",
-    "text": "Git\n\nGit Guides (GitHub): a useful resource for basic git commands and installation instructions.\nCheatsheet: Resolving Conflicts in a Git Repository: my own cheatsheet on how to fix a common issue for people learning git and working in shared repositories.\nVisualizing Git: a fun tool to visualize how git works. Playing around with this can help you “get” how different commands interact with each other."
+    "objectID": "slides/slides_regression.html#aims",
+    "href": "slides/slides_regression.html#aims",
+    "title": "Challenge: regression analysis",
+    "section": "Aims",
+    "text": "Aims\n\nSee the Challenge Guidelines.\nBy the end of the session:\n\nAim to make progress on each major item in the Guidelines.\nStart simple, then refine your solution iteratively."
   },
   {
-    "objectID": "resources.html#personal-projects",
-    "href": "resources.html#personal-projects",
-    "title": "Resources",
-    "section": "Personal projects",
-    "text": "Personal projects\nI recommend finding personally compelling reasons to learn Python, beyond what is available in online tutorials.\nHere are a few of the small projects I have made to learn about different aspects of Python programming:\n\nhttps://github.com/hamishgibbs/lit_review_graph\n\nAn app to visualize the citation network connecting academic publications.\n\nhttps://github.com/hamishgibbs/meal_prep_ai\n\nThe backend to an AI chatbot that can make my weekly grocery shopping list.\n\nhttps://github.com/hamishgibbs/yui\n\nA very simple command line todo list.\n\nhttps://github.com/hamishgibbs/scrape_transfermarkt\n\nA web scraper to download football match attendance counts."
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Course schedule",
-    "section": "",
-    "text": "Dates: 20th to 23rd May, 2024.\nTime: 10:00 – 16:00 every day.\nLocation: 1-19 Torrington Place, Room B07."
-  },
-  {
-    "objectID": "schedule.html#where-and-when",
-    "href": "schedule.html#where-and-when",
-    "title": "Course schedule",
-    "section": "",
-    "text": "Dates: 20th to 23rd May, 2024.\nTime: 10:00 – 16:00 every day.\nLocation: 1-19 Torrington Place, Room B07."
-  },
-  {
-    "objectID": "schedule.html#schedule",
-    "href": "schedule.html#schedule",
-    "title": "Course schedule",
-    "section": "Schedule",
-    "text": "Schedule\n\nDay 1 (Python basics)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 12:30\nPractical\n1. Variables, expressions, and statements  2. An informal introduction to python §3.1.3  3. Dictionaries §1\n\n\n12:30 – 13:30\nLunch\n\n\n\n13:30 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n14:30 – 16:00\nPractical\n1. Conditional execution  2. Iteration  3. More control flow tools §4.1-4.6\n\n\n\n\n\nDay 2 (Abstraction & composition)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 12:30\nPractical\n1. Functions  2. Object-oriented programming  3. More control flow tools §4.7-4.8 (Optional)\n\n\n12:30 – 13:30\nLunch\n\n\n\n13:30 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n14:30 – 16:00\nPractical\n1. Python Interactive window  2. Continue practicals above  3. Solution for the “Extra” exercise.\n\n\n\n\n\nDay 3 (Python data science)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 12:30\nPractical\n1. pandas-cookbook: Selecting data (Chapter 2)  2. pandas-cookbook: More selecting data (Chapter 3)\n\n\n12:30 – 13:30\nLunch\n\n\n\n13:30 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n14:30 – 16:00\nPractical\n3. pandas-cookbook: String operations (Chapter 6)  4. pandas-cookbook: Data cleaning (Chapter 7)  5. sklearn - Linear Regression Example  6. challenge_scaffold.py\n\n\n\n\n\nDay 4 (Challenge: regression analysis)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 12:30\nChallenge\n1. Start the Challenge!  For help see: sklearn tutorials and Inside AirBnB.\n\n\n12:30 – 13:30\nLunch\n\n\n\n13:30 – 16:00\nChallenge\n1. Push your solution file to the shared repository.  2. We will discuss / compare solutions!"
+    "objectID": "slides/slides_regression.html#help-regression",
+    "href": "slides/slides_regression.html#help-regression",
+    "title": "Challenge: regression analysis",
+    "section": "Help: Regression",
+    "text": "Help: Regression\n\n\n\nImage credit: sklearn – Choosing the right estimator"
   },
   {
     "objectID": "slides/slides_introduction.html#course-aims",
@@ -504,32 +371,200 @@
     "text": "Setting up Colab\n\nDoes everyone have a Google account?\nGo to colab.research.google.com.\nOpen a new notebook.\n\nRename your notebook.\nGet started!"
   },
   {
-    "objectID": "slides/slides_regression.html#challenge-statement",
-    "href": "slides/slides_regression.html#challenge-statement",
-    "title": "Challenge: regression analysis",
-    "section": "Challenge statement",
-    "text": "Challenge statement\nObjective: Predict the nightly price of AirBnB listings in London based on their characteristics.\nData source: Inside AirBnB\nDataset: 2020-08-24-listings.csv.gz\nGuidelines: Challenge"
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Course schedule",
+    "section": "",
+    "text": "Dates: 20th to 23rd May, 2024.\nTime: 10:00 – 16:00 every day.\nLocation: 1-19 Torrington Place, Room B07."
   },
   {
-    "objectID": "slides/slides_regression.html#challenge-scaffold",
-    "href": "slides/slides_regression.html#challenge-scaffold",
-    "title": "Challenge: regression analysis",
-    "section": "Challenge scaffold",
-    "text": "Challenge scaffold\n\nBecause we have so little time, I have made a “scaffold of the project”\n\nchallenge_scaffold.py\n\nThis is a bad solution, but it should be give you a foundation to improve from!"
+    "objectID": "schedule.html#where-and-when",
+    "href": "schedule.html#where-and-when",
+    "title": "Course schedule",
+    "section": "",
+    "text": "Dates: 20th to 23rd May, 2024.\nTime: 10:00 – 16:00 every day.\nLocation: 1-19 Torrington Place, Room B07."
   },
   {
-    "objectID": "slides/slides_regression.html#aims",
-    "href": "slides/slides_regression.html#aims",
-    "title": "Challenge: regression analysis",
-    "section": "Aims",
-    "text": "Aims\n\nSee the Challenge Guidelines.\nBy the end of the session:\n\nAim to make progress on each major item in the Guidelines.\nStart simple, then refine your solution iteratively."
+    "objectID": "schedule.html#schedule",
+    "href": "schedule.html#schedule",
+    "title": "Course schedule",
+    "section": "Schedule",
+    "text": "Schedule\n\nDay 1 (Python basics)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 12:30\nPractical\n1. Variables, expressions, and statements  2. An informal introduction to python §3.1.3  3. Dictionaries §1\n\n\n12:30 – 13:30\nLunch\n\n\n\n13:30 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n14:30 – 16:00\nPractical\n1. Conditional execution  2. Iteration  3. More control flow tools §4.1-4.6\n\n\n\n\n\nDay 2 (Abstraction & composition)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 12:30\nPractical\n1. Functions  2. Object-oriented programming  3. More control flow tools §4.7-4.8 (Optional)\n\n\n12:30 – 13:30\nLunch\n\n\n\n13:30 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n14:30 – 16:00\nPractical\n1. Python Interactive window  2. Continue practicals above  3. Solution for the “Extra” exercise.\n\n\n\n\n\nDay 3 (Python data science)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 12:30\nPractical\n1. pandas-cookbook: Selecting data (Chapter 2)  2. pandas-cookbook: More selecting data (Chapter 3)\n\n\n12:30 – 13:30\nLunch\n\n\n\n13:30 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n14:30 – 16:00\nPractical\n3. pandas-cookbook: String operations (Chapter 6)  4. pandas-cookbook: Data cleaning (Chapter 7)  5. sklearn - Linear Regression Example  6. challenge_scaffold.py\n\n\n\n\n\nDay 4 (Challenge: regression analysis)\n\n\n\nTime\nSession Type\nContent\n\n\n\n\n10:00 – 11:00\nLecture / Live Coding\n[PDF] [HTML]\n\n\n11:00 – 12:30\nChallenge\n1. Start the Challenge!  For help see: sklearn tutorials and Inside AirBnB.\n\n\n12:30 – 13:30\nLunch\n\n\n\n13:30 – 14:30\nLecture / Live Coding\n[PDF] [HTML]\n\n\n14:30 – 16:00\nChallenge\n1. Push your solution file to the shared repository.  2. We will discuss / compare solutions!"
   },
   {
-    "objectID": "slides/slides_regression.html#help-regression",
-    "href": "slides/slides_regression.html#help-regression",
-    "title": "Challenge: regression analysis",
-    "section": "Help: Regression",
-    "text": "Help: Regression\n\n\n\nImage credit: sklearn – Choosing the right estimator"
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "The Python Tutorial: the official python tutorial. Can be quite detail-heavy, but it is also a great reference.\nPython For Everyone: the most popular course for learning Python. This course has lots of great resources and exercises.\nReal Python: lots of in-depth articles and interesting Python projects. They also offer paid content. I always recommend sticking to the free stuff!"
+  },
+  {
+    "objectID": "resources.html#python",
+    "href": "resources.html#python",
+    "title": "Resources",
+    "section": "",
+    "text": "The Python Tutorial: the official python tutorial. Can be quite detail-heavy, but it is also a great reference.\nPython For Everyone: the most popular course for learning Python. This course has lots of great resources and exercises.\nReal Python: lots of in-depth articles and interesting Python projects. They also offer paid content. I always recommend sticking to the free stuff!"
+  },
+  {
+    "objectID": "resources.html#git",
+    "href": "resources.html#git",
+    "title": "Resources",
+    "section": "Git",
+    "text": "Git\n\nGit Guides (GitHub): a useful resource for basic git commands and installation instructions.\nCheatsheet: Resolving Conflicts in a Git Repository: my own cheatsheet on how to fix a common issue for people learning git and working in shared repositories.\nVisualizing Git: a fun tool to visualize how git works. Playing around with this can help you “get” how different commands interact with each other."
+  },
+  {
+    "objectID": "resources.html#personal-projects",
+    "href": "resources.html#personal-projects",
+    "title": "Resources",
+    "section": "Personal projects",
+    "text": "Personal projects\nI recommend finding personally compelling reasons to learn Python, beyond what is available in online tutorials.\nHere are a few of the small projects I have made to learn about different aspects of Python programming:\n\nhttps://github.com/hamishgibbs/lit_review_graph\n\nAn app to visualize the citation network connecting academic publications.\n\nhttps://github.com/hamishgibbs/meal_prep_ai\n\nThe backend to an AI chatbot that can make my weekly grocery shopping list.\n\nhttps://github.com/hamishgibbs/yui\n\nA very simple command line todo list.\n\nhttps://github.com/hamishgibbs/scrape_transfermarkt\n\nA web scraper to download football match attendance counts."
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#recap",
+    "href": "slides/slides_python_data_science.html#recap",
+    "title": "Python data science",
+    "section": "Recap",
+    "text": "Recap\n\nGreat job!\nWe only have 4 days to go from introductory to advanced Python concepts.\n\nPlus: programming tools like VSCode and git!\n\nClasses and functions can be abstract, but they are the building blocks of what we will do today.\n\nHopefully today is more familiar to people who have used R!"
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#today-python-data-science",
+    "href": "slides/slides_python_data_science.html#today-python-data-science",
+    "title": "Python data science",
+    "section": "Today: Python data science",
+    "text": "Today: Python data science\n\nIntroduction to Python data science tools.\nIntroduction to a basic data science workflow.\nThis afternoon: collaborating on a data science project."
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#tomorrow",
+    "href": "slides/slides_python_data_science.html#tomorrow",
+    "title": "Python data science",
+    "section": "Tomorrow",
+    "text": "Tomorrow\n\nData science “challenge”\nPredicting the nightly price of AirBnBs in London\nSee the Guidelines here."
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#data-science",
+    "href": "slides/slides_python_data_science.html#data-science",
+    "title": "Python data science",
+    "section": "Data science",
+    "text": "Data science\n\nDefinition of data science:\n\n“Extracting meaningful insights from data.”\n\nMeaningful is important.\n\nUse the tools of programming / statistics to create meaning from your data.\n\nUsually, there is no “right” answer, just “better” and “worse” answers.\n\nYou exercise a lot of judgement."
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#data-science-workflow",
+    "href": "slides/slides_python_data_science.html#data-science-workflow",
+    "title": "Python data science",
+    "section": "Data science workflow",
+    "text": "Data science workflow\n\nData science is not just machine learning.\n\nMost data science work is:\n\nData preparation\nData transformation\nMethod selection\n\nStatistics / machine learning\n\nCommunicating results"
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#python-data-science-tools",
+    "href": "slides/slides_python_data_science.html#python-data-science-tools",
+    "title": "Python data science",
+    "section": "Python data science tools",
+    "text": "Python data science tools\n\nToday, we will learn about the most popular Python data science “stack”\n\nData preparation / data transformation\n\npandas, numpy\n\nStatistics / machine learning\n\nsklearn\n\nCommunicating results\n\nmatplotlib"
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#python-data-science-tools-1",
+    "href": "slides/slides_python_data_science.html#python-data-science-tools-1",
+    "title": "Python data science",
+    "section": "Python data science tools",
+    "text": "Python data science tools\n\nTomorrow, we will use this “stack” to do our data science project\nExploratory analysis, data transformation\n\npandas\n\nRegression model fitting and evaluation\n\nsklearn\n\nVisualize results\n\npandas, matplotlib"
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#r-equivalents",
+    "href": "slides/slides_python_data_science.html#r-equivalents",
+    "title": "Python data science",
+    "section": "R equivalents",
+    "text": "R equivalents\n\nPython libraries mostly have their R equivalents:\n\npandas : dplyr\nmatplotlib : ggplot2\nsklearn : caret?\n\nSee what you prefer, I use both languages!"
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#diving-deeper",
+    "href": "slides/slides_python_data_science.html#diving-deeper",
+    "title": "Python data science",
+    "section": "Diving deeper",
+    "text": "Diving deeper\n\nPython has many other options for data science tools.\nAlternatives to pandas:\n\npolars (Like Python’s version of data.table)\ndask\n\nAlternatives to sklearn:\n\n…?\n\nAlternatives to matplotlib:\n\nseaborn\nplotnine (R users might like this one!)"
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#tutorial-1-selecting-data",
+    "href": "slides/slides_python_data_science.html#tutorial-1-selecting-data",
+    "title": "Python data science",
+    "section": "Tutorial #1: Selecting data",
+    "text": "Tutorial #1: Selecting data\n\npandas-cookbook: Selecting data (Chapter 2)\nCore concepts:\n\nReading data from a .csv file\nInspecting a dataset\nSelecting data"
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#tutorial-2-more-selecting-data",
+    "href": "slides/slides_python_data_science.html#tutorial-2-more-selecting-data",
+    "title": "Python data science",
+    "section": "Tutorial #2: More selecting data",
+    "text": "Tutorial #2: More selecting data\n\npandas-cookbook: More selecting data (Chapter 3)\nCore concepts:\n\nSelection by multiple columns\nThe role of numpy in pandas\nBasic plotting (matplotlib in pandas)"
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#data-tutorials-1-and-2",
+    "href": "slides/slides_python_data_science.html#data-tutorials-1-and-2",
+    "title": "Python data science",
+    "section": "Data: Tutorials 1 and 2",
+    "text": "Data: Tutorials 1 and 2\n\nTutorials #1 and #2 come from the pandas-cookbook.\nGo to the /data folder in the GitHub repository (link above).\nDownload the 311-service-requests.csv file and store it on your computer."
+  },
+  {
+    "objectID": "slides/slides_python_data_science.html#packages-tutorials-1-and-2",
+    "href": "slides/slides_python_data_science.html#packages-tutorials-1-and-2",
+    "title": "Python data science",
+    "section": "Packages: Tutorials 1 and 2",
+    "text": "Packages: Tutorials 1 and 2\n\nInstall the required packages using your terminal in VSCode\npip install pandas matplotlib scikit-learn\nTrouble installing? Tell me!"
+  },
+  {
+    "objectID": "slides/slides_vscode_python.html#jupyter-notebooks-.ipynb",
+    "href": "slides/slides_vscode_python.html#jupyter-notebooks-.ipynb",
+    "title": "From Jupyter to VSCode",
+    "section": "Jupyter notebooks (.ipynb)",
+    "text": "Jupyter notebooks (.ipynb)\n\nGoogle Colab runs a Jupyter Notebook\n\nPros:\n\nMinimal set-up\nInteractive coding\n\nCons:\n\nDifficult to re-use code\nInsufficient for larger projects\nHard to integrate with other programming tools"
+  },
+  {
+    "objectID": "slides/slides_vscode_python.html#python-files-.py",
+    "href": "slides/slides_vscode_python.html#python-files-.py",
+    "title": "From Jupyter to VSCode",
+    "section": "Python files (.py)",
+    "text": "Python files (.py)\n\nIn the scripting vs. programming dichotomy:\n\nJupyter Notebooks are better for scripting.\n\nIn practice, Python programs are usually composed of Functions and Classes in different .py files.\nExample: check out the pandas codebase again.\nWriting Python like this requires a different development environment."
+  },
+  {
+    "objectID": "slides/slides_vscode_python.html#advanced-python-development",
+    "href": "slides/slides_vscode_python.html#advanced-python-development",
+    "title": "From Jupyter to VSCode",
+    "section": "Advanced Python development",
+    "text": "Advanced Python development\n\nEnter: Visual Studio Code (VSCode).\n\nVSCode is an Integrated Development Environment (IDE).\nAnother (probably familiar) IDE: RStudio\n\nIDEs offer an integrated terminal (for running code), auto-complete, debugging, extensions.\nWhy VSCode?\n\nThe best open source IDE (my opinion) with lots of Python extensions.\nOther Python IDE options: Spyder, PyCharm, Sublime."
+  },
+  {
+    "objectID": "slides/slides_vscode_python.html#python-files-.py-1",
+    "href": "slides/slides_vscode_python.html#python-files-.py-1",
+    "title": "From Jupyter to VSCode",
+    "section": "Python files (.py)",
+    "text": "Python files (.py)\n\nProgramming in a text editor (not a Notebook):\n\nPros:\n\nEasy to write re-usable code\nCan scale to larger projects\nEasier to collaborate\n\nCons:\n\nMore difficult setup\nNo interactivity by default"
+  },
+  {
+    "objectID": "slides/slides_vscode_python.html#combined-workflow",
+    "href": "slides/slides_vscode_python.html#combined-workflow",
+    "title": "From Jupyter to VSCode",
+    "section": "Combined workflow",
+    "text": "Combined workflow\n\nWe want:\n\nMinimal set-up\nInteractive coding\nEasy to write re-usable code\nCan scale to larger projects\nEasier to collaborate"
+  },
+  {
+    "objectID": "slides/slides_vscode_python.html#combined-workflow-1",
+    "href": "slides/slides_vscode_python.html#combined-workflow-1",
+    "title": "From Jupyter to VSCode",
+    "section": "Combined workflow",
+    "text": "Combined workflow\n\nCombining VsCode with Python plugins, we get:\n\nMinimal set-up ❌\nInteractive coding ✅\nEasy to write re-usable code ✅\nCan scale to larger projects ✅\nEasier to collaborate ✅"
+  },
+  {
+    "objectID": "slides/slides_vscode_python.html#aims-this-afternoon",
+    "href": "slides/slides_vscode_python.html#aims-this-afternoon",
+    "title": "From Jupyter to VSCode",
+    "section": "Aims: this afternoon",
+    "text": "Aims: this afternoon\n\nUnfortunately, VSCode requires a bit more set up (and can cause installation headaches).\n\nThat’s why I’m here!\n\nAims:\n\nDownload VSCode\nDownload VSCode plugins: Python and Jupyter.\nGet Python code to run interactively in code cells: # %%.\n\nSee: Python Interactive window."
+  },
+  {
+    "objectID": "slides/slides_vscode_python.html#extra",
+    "href": "slides/slides_vscode_python.html#extra",
+    "title": "From Jupyter to VSCode",
+    "section": "Extra",
+    "text": "Extra\n\nIf you breeze through the VSCode setup process:\n\nFinish this morning’s tutorials an extra exercises.\nThen, try to import functions between .py files. [hint]\nThen, try running your .py file from the command line. [hint]\nThen, try to use if __name__ == \"__main__\": in your .py file. [hint]"
   },
   {
     "objectID": "slides/slides_abstraction_and_composition.html#schedule",

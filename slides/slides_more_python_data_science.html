@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.4.554">
 
   <meta name="author" content="Hamish Gibbs">
-  <title>Foundations of Python - Python data science</title>
+  <title>Foundations of Python - Python data science (continued)</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -391,7 +391,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Python data science</h1>
+  <h1 class="title">Python data science (continued)</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -402,179 +402,72 @@ Hamish Gibbs
 </div>
 
 </section>
-<section id="recap" class="slide level2">
-<h2>Recap</h2>
+<section id="tutorial-3-string-operations" class="slide level2">
+<h2>Tutorial #3: String operations</h2>
 <ul>
-<li>Great job!</li>
-<li>We only have 4 days to go from introductory to advanced Python concepts.
+<li><a href="https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%206%20-%20String%20Operations-%20Which%20month%20was%20the%20snowiest.ipynb">pandas-cookbook: String operations (Chapter 6)</a>
 <ul>
-<li>Plus: programming tools like VSCode and <code>git</code>!</li>
+<li>This tutorial is about extracting information from text in <code>pandas</code>.</li>
+<li><em>Hint: Some of the most interesting information in tomorrow’s dataset might be in string variables.</em></li>
 </ul></li>
-<li>Classes and functions can be abstract, but they are the building blocks of what we will do today.
-<ul>
-<li>Hopefully today is more familiar to people who have used R!</li>
-</ul></li>
-</ul>
-</section>
-<section id="today-python-data-science" class="slide level2">
-<h2>Today: Python data science</h2>
-<ul>
-<li>Introduction to Python data science tools.</li>
-<li>Introduction to a basic data science workflow.</li>
-<li>This afternoon: collaborating on a data science project.</li>
-</ul>
-</section>
-<section id="tomorrow" class="slide level2">
-<h2>Tomorrow</h2>
-<ul>
-<li>Data science “challenge”</li>
-<li><em>Predicting the nightly price of AirBnBs in London</em></li>
-<li>See the Guidelines <a href="../challenge.html">here</a>.</li>
-</ul>
-</section>
-<section id="data-science" class="slide level2">
-<h2>Data science</h2>
-<ul>
-<li>Definition of data science:
-<ul>
-<li><em>“Extracting meaningful insights from data.”</em></li>
-</ul></li>
-<li><em>Meaningful</em> is important.
-<ul>
-<li>Use the tools of programming / statistics to create meaning from your data.</li>
-</ul></li>
-<li>Usually, there is no “right” answer, just “better” and “worse” answers.
-<ul>
-<li>You exercise a lot of judgement.</li>
-</ul></li>
-</ul>
-</section>
-<section id="data-science-workflow" class="slide level2">
-<h2>Data science workflow</h2>
-<ul>
-<li>Data science is <strong>not</strong> just machine learning.
-<ul>
-<li>Most data science work is:
-<ul>
-<li>Data preparation</li>
-<li>Data transformation</li>
-<li>Method selection
-<ul>
-<li><em>Statistics / machine learning</em></li>
-</ul></li>
-<li>Communicating results</li>
-</ul></li>
-</ul></li>
-</ul>
-</section>
-<section id="python-data-science-tools" class="slide level2">
-<h2>Python data science tools</h2>
-<ul>
-<li>Today, we will learn about the most popular Python data science “stack”
-<ul>
-<li>Data preparation / data transformation
-<ul>
-<li><a href="https://pandas.pydata.org/"><code>pandas</code></a>, <a href="https://numpy.org/"><code>numpy</code></a></li>
-</ul></li>
-<li>Statistics / machine learning
-<ul>
-<li><a href="https://scikit-learn.org/stable/"><code>sklearn</code></a></li>
-</ul></li>
-<li>Communicating results
-<ul>
-<li><a href="https://matplotlib.org/"><code>matplotlib</code></a></li>
-</ul></li>
-</ul></li>
-</ul>
-</section>
-<section id="python-data-science-tools-1" class="slide level2">
-<h2>Python data science tools</h2>
-<ul>
-<li>Tomorrow, we will use this “stack” to do our data science project</li>
-<li>Exploratory analysis, data transformation
-<ul>
-<li><a href="https://pandas.pydata.org/"><code>pandas</code></a></li>
-</ul></li>
-<li>Regression model fitting and evaluation
-<ul>
-<li><a href="https://scikit-learn.org/stable/"><code>sklearn</code></a></li>
-</ul></li>
-<li>Visualize results
-<ul>
-<li><a href="https://pandas.pydata.org/"><code>pandas</code></a>, <a href="https://matplotlib.org/"><code>matplotlib</code></a></li>
-</ul></li>
-</ul>
-</section>
-<section id="r-equivalents" class="slide level2">
-<h2>R equivalents</h2>
-<ul>
-<li>Python libraries mostly have their R equivalents:
-<ul>
-<li><a href="https://pandas.pydata.org/"><code>pandas</code></a> : <a href="https://dplyr.tidyverse.org/"><code>dplyr</code></a></li>
-<li><a href="https://matplotlib.org/"><code>matplotlib</code></a> : <a href="https://ggplot2.tidyverse.org/reference/ggsave.html"><code>ggplot2</code></a></li>
-<li><a href="https://scikit-learn.org/stable/"><code>sklearn</code></a> : <a href="https://topepo.github.io/caret/"><code>caret</code></a>?</li>
-</ul></li>
-<li>See what you prefer, I use both languages!</li>
-</ul>
-</section>
-<section id="diving-deeper" class="slide level2">
-<h2>Diving deeper</h2>
-<ul>
-<li>Python has many other options for data science tools.</li>
-<li>Alternatives to <a href="https://pandas.pydata.org/"><code>pandas</code></a>:
-<ul>
-<li><a href="https://pola.rs/"><code>polars</code></a> <em>(Like Python’s version of <a href="https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html"><code>data.table</code></a>)</em></li>
-<li><a href="https://www.dask.org/"><code>dask</code></a></li>
-</ul></li>
-<li>Alternatives to <a href="https://scikit-learn.org/stable/"><code>sklearn</code></a>:
-<ul>
-<li>…?</li>
-</ul></li>
-<li>Alternatives to <a href="https://matplotlib.org/"><code>matplotlib</code></a>:
-<ul>
-<li><a href="https://seaborn.pydata.org/"><code>seaborn</code></a></li>
-<li><a href="https://plotnine.org/"><code>plotnine</code></a> <em>(R users might like this one!)</em></li>
-</ul></li>
-</ul>
-</section>
-<section id="tutorial-1-selecting-data" class="slide level2">
-<h2>Tutorial #1: Selecting data</h2>
-<ul>
-<li><a href="https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%202%20-%20Selecting%20data%20&amp;%20finding%20the%20most%20common%20complaint%20type.ipynb">pandas-cookbook: Selecting data (Chapter 2)</a></li>
 <li>Core concepts:
 <ul>
-<li>Reading data from a <code>.csv</code> file</li>
-<li>Inspecting a dataset</li>
-<li>Selecting data</li>
+<li><p>Detecting keywords in strings:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>weather_description.<span class="bu">str</span>.contains(<span class="st">'Snow'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ul></li>
 </ul>
 </section>
-<section id="tutorial-2-more-selecting-data" class="slide level2">
-<h2>Tutorial #2: More selecting data</h2>
+<section id="tutorial-4-data-cleaning" class="slide level2">
+<h2>Tutorial #4: Data cleaning</h2>
 <ul>
-<li><a href="https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%203%20-%20Which%20borough%20has%20the%20most%20noise%20complaints%20%28or%2C%20more%20selecting%20data%29.ipynb">pandas-cookbook: More selecting data (Chapter 3)</a></li>
+<li><a href="https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%207%20-%20Cleaning%20up%20messy%20data.ipynb">pandas-cookbook: Data cleaning (Chapter 7)</a></li>
 <li>Core concepts:
 <ul>
-<li>Selection by multiple columns</li>
-<li>The role of <code>numpy</code> in <code>pandas</code></li>
-<li>Basic plotting (<code>matplotlib</code> in <code>pandas</code>)</li>
+<li><p>Detecting <code>nan</code> values stored as strings:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a>na_values <span class="op">=</span> [<span class="st">'NO CLUE'</span>, <span class="st">'N/A'</span>, <span class="st">'0'</span>]</span>
+<span id="cb2-2"><a></a>requests <span class="op">=</span> pd.read_csv(..., na_values<span class="op">=</span>na_values, ...)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Altering <code>DataFrame</code> values in-place:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a>zero_zips <span class="op">=</span> requests[<span class="st">'Incident Zip'</span>] <span class="op">==</span> <span class="st">'00000'</span></span>
+<span id="cb3-2"><a></a>requests.loc[zero_zips, <span class="st">'Incident Zip'</span>] <span class="op">=</span> np.nan</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ul></li>
 </ul>
 </section>
-<section id="data-tutorials-1-and-2" class="slide level2">
-<h2>Data: Tutorials 1 and 2</h2>
+<section id="tutorial-5-sklearn---linear-regression" class="slide level2">
+<h2>Tutorial #5: sklearn - Linear Regression</h2>
 <ul>
-<li>Tutorials #1 and #2 come from the <a href="https://github.com/jvns/pandas-cookbook">pandas-cookbook</a>.</li>
-<li>Go to the <code>/data</code> folder in the GitHub repository (link above).</li>
-<li>Download the <code>311-service-requests.csv</code> file and store it on your computer.</li>
+<li><a href="https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html">sklearn - Linear Regression Example</a></li>
+<li>Core concepts:
+<ul>
+<li><p>Fitting a model to data</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a>regr.fit(diabetes_X_train, diabetes_y_train)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Making predictions with a model</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a>regr.predict(diabetes_X_test)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Model evaluation</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a>mean_squared_error(diabetes_y_test, diabetes_y_pred)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul></li>
 </ul>
 </section>
-<section id="packages-tutorials-1-and-2" class="slide level2">
-<h2>Packages: Tutorials 1 and 2</h2>
+<section id="challenge-scaffold" class="slide level2">
+<h2>Challenge scaffold</h2>
 <ul>
-<li><p>Install the required packages using your terminal in VSCode</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>pip install pandas matplotlib scikit-learn</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p>Trouble installing? Tell me!</p></li>
+<li><a href="https://github.com/hamishgibbs/soda_python_foundations/blob/main/challenge_scaffold.py">challenge_scaffold.py</a>
+<ul>
+<li>Look at the <a href="../challenge.html">Challenge Guidelines</a> and the project scaffold.</li>
+<li>I will walk through the challenge scaffold!</li>
+<li>Use this scaffold as a starting point for the challenge tomorrow.</li>
+</ul></li>
+</ul>
+</section>
+<section id="extra" class="slide level2">
+<h2>Extra</h2>
+<ul>
+<li>Start working with the <a href="https://github.com/hamishgibbs/sdi_python_foundations/blob/main/data">dataset</a> we will use tomorrow.</li>
+<li>Work on a few of the items in the challenge:
+<ul>
+<li><em>What variables are in the dataset?</em></li>
+<li><em>What are the data types of the variables?</em></li>
+<li><em>Is there any missing data?</em></li>
+</ul></li>
 </ul>
 
 <div class="quarto-auto-generated-content">
