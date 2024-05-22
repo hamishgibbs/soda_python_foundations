@@ -16,7 +16,7 @@ format: revealjs
     * A place to store a shared version of our code.
     * A way to track changes to different parts of the code.
 * Solution: 
-    * A "repository" to share our code
+    * A "repository" to store our code
     * A [version control](https://en.wikipedia.org/wiki/Version_control) system to track changes to the code
 
 ## Local vs. Remote code
@@ -26,7 +26,7 @@ format: revealjs
     * **Local:** 
         * *Think: a file folder on your computer.*
     * **Remote:** 
-        * *Think: a Google Drive folder.*
+        * *Think: a GitHub repository*
 
 ## Local vs. Remote code
 
@@ -57,10 +57,10 @@ format: revealjs
 ## Version control
 
 * With `git` you need to be explicit about:
-    * Saving **local** changes.
-    * 'Pushing' **local** changes to the **remote** repository.
-    * 'Pulling' changes from the **remote** repository.
-    * Merging changes together.
+    * Saving changes (called 'committing').
+    * 'pushing' **local** changes to the **remote** repository.
+    * 'pulling' changes from the **remote** repository.
+    * 'merging' changes together.
 * ***Good question:** Why does this have to be explicit?*
 
 ## Aims: this afternoon
@@ -76,6 +76,7 @@ format: revealjs
     * Compare solutions.
 * Shared repository URL:
     * [soda_python_foundations_challenge_2024](https://github.com/hamishgibbs/soda_python_foundations_challenge_2024)
+* Please give me your GitHub usernames today!
 
 ## Tutorial #1
 
@@ -84,12 +85,14 @@ format: revealjs
 3. Commit your **local** code ([Add](https://github.com/git-guides/git-add), [Commit](https://github.com/git-guides/git-commit)).
 4. Push your code to your **remote** repository ([Remote](https://github.com/git-guides/git-remote)).
 
-## Extra
+## Diving deeper into `git`
 
-* If you breeze through the GitHub setup / repository creation:
-    * Try editing files in the **remote**, then `pull` the changes to your **local** repository.
-    * Try creating a **local** `branch`, then `push` the branch to the **remote** repository.
-    * Try setting up a repository with someone else, making changes to the same file.
+* This is a very basic introduction to `git`
+* Advanced uses of `git` / GitHub:
+    * Collaboration on large projects, automated testing, issue / version tracking
+* Introductory uses of `git` / GitHub:
+    * Storing code / not losing what you have done
+    * Building a 'portfolio' of coding projects
 
 ## Tip
 
@@ -109,8 +112,15 @@ format: revealjs
 
 ## What about git clients?
 
-* There are lots of (allegedly) "easier" ways to interact with `git` repositories through a graphical user interface (GUI).
+* There are lots of "easier" ways to interact with `git` repositories through a graphical user interface (GUI).
     * Example: [GitHub Desktop](https://desktop.github.com/).
 * I recommend the command line because: 
     * Most basic git interactions are simple commands. 
     * You aren't linked to a particulat `git` hosting service.
+
+## Extra
+
+* If you breeze through the GitHub setup / repository creation:
+    * Try editing files in the **remote**, then `pull` the changes to your **local** repository.
+    * Try creating a **local** `branch`, then `push` the branch to the **remote** repository.
+    * Try setting up a repository with someone else, making changes to the same file.

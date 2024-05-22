@@ -4,11 +4,25 @@ author: Hamish Gibbs
 format: revealjs
 ---
 
+## Recap
+
+* Great job!
+* We only have 4 days to go from introductory to advanced Python concepts. 
+    * Plus: programming tools like VSCode and `git`!
+* Classes and functions can be abstract, but they are the building blocks of what we will do today.
+    * Hopefully today is more familiar to people who have used R!
+
 ## Today: Python data science
 
 * Introduction to Python data science tools.
 * Introduction to a basic data science workflow.
 * This afternoon: collaborating on a data science project.
+
+## Tomorrow
+
+* Data science "challenge"
+* *Predicting the nightly price of AirBnBs in London*
+* See the Guidelines [here](../challenge.qmd).
 
 ## Data science
 
@@ -39,13 +53,23 @@ format: revealjs
     * Communicating results
         * [`matplotlib`](https://matplotlib.org/)
 
+## Python data science tools
+
+* Tomorrow, we will use this "stack" to do our data science project
+* Exploratory analysis, data transformation
+    * [`pandas`](https://pandas.pydata.org/)
+* Regression model fitting and evaluation
+    * [`sklearn`](https://scikit-learn.org/stable/)
+* Visualize results
+    * [`pandas`](https://pandas.pydata.org/), [`matplotlib`](https://matplotlib.org/)
+
 ## R equivalents
 
 * Python libraries mostly have their R equivalents:
     * [`pandas`](https://pandas.pydata.org/) : [`dplyr`](https://dplyr.tidyverse.org/)
-    * [`sklearn`](https://scikit-learn.org/stable/) : [`caret`](https://topepo.github.io/caret/)?
     * [`matplotlib`](https://matplotlib.org/) : [`ggplot2`](https://ggplot2.tidyverse.org/reference/ggsave.html)
-* See what you prefer, I use both languages very regularly!
+    * [`sklearn`](https://scikit-learn.org/stable/) : [`caret`](https://topepo.github.io/caret/)?
+* See what you prefer, I use both languages!
 
 ## Diving deeper
 
@@ -59,31 +83,32 @@ format: revealjs
     * [`seaborn`](https://seaborn.pydata.org/)
     * [`plotnine`](https://plotnine.org/) *(R users might like this one!)*
 
-## Tutorial #1: pandas
+## Tutorial #1: pandas and matplotlib
 
-* [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
-    * *This is a detailed tutorial with everything in `pandas` you will need to know for tomorrow!*
+* [pandas-cookbook: Selecting data (Chapter 2)](https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%202%20-%20Selecting%20data%20&%20finding%20the%20most%20common%20complaint%20type.ipynb)
 * Core concepts: 
-    * Creating a DataFrame
-    * Selection
-    * Missing data
-    * Grouping
+    * Reading data from a `.csv` file
+    * Inspecting a dataset
+    * Selecting data
 
-## Tutorial #2: plotting in pandas with matplotlib
+## Tutorial #2: pandas and matplotlib
 
-* [Chart visualization](https://pandas.pydata.org/docs/user_guide/visualization.html)
-    * *This picks up where the previous tutorial leaves off.*
+* [pandas-cookbook: More selecting data (Chapter 3)](https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%203%20-%20Which%20borough%20has%20the%20most%20noise%20complaints%20%28or%2C%20more%20selecting%20data%29.ipynb)
 * Core concepts: 
-    * Different types of visualizations
-    * Plot formatting
-    * Subplots
+    * Selection by multiple columns
+    * The role of `numpy` in `pandas`
+    * Basic plotting (`matplotlib` in `pandas`)
 
-* **Good question:** This is a `pandas` tutorials. Where is `matplotlib` in all of this?
+## Data: Tutorials 1 and 2
+
+* Tutorials #1 and #2 come from the [pandas-cookbook](https://github.com/jvns/pandas-cookbook).
+* Go to the `/data` folder in the GitHub repository (link above).
+* Download the `311-service-requests.csv` file and store it on your computer.
 
 ## Tutorial #3: sklearn
 
 * [sklearn - Getting Started](https://scikit-learn.org/stable/getting_started.html)
-    * *A very basic introduction to the way `sklearn` models work.* 
+    * *Note: just work up to the "Model Evaluation" section.* 
 * Core concepts: 
     * Fitting a model to data
     
@@ -102,19 +127,25 @@ format: revealjs
         result = cross_validate(lr, X, y)
         ```
 
+## Packages: Tutorials 1, 2, and 3
 
-## Tutorial #4: pandas / matplotlib
+* Install the required packages using your terminal in VSCode
 
-* [Linear model: from regression to sparsity](https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html#linear-model-from-regression-to-sparsity)
-* Core concepts: 
-    * [Linear regression](https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html#linear-regression)
-        * I recommend focusing on the (small) linear regression section.
-        * *Tip: print out each variable and try to understand how data flows through the model. What format is it in? How could you format a different dataset in the same way?*
+    ```shell
+    pip install pandas matplotlib sklearn
+    ```
+
+* Trouble installing? Tell me!
 
 ## Extra
 
-* Start working with the [dataset](https://github.com/hamishgibbs/sdi_python_foundations/blob/main/data/2020-08-24-listings.csv.gz) we will use tomorrow. 
-    * For help reading the data: [see here](https://pandas.pydata.org/docs/user_guide/io.html).
+* [pandas-cookbook: String operations (Chapter 6)](https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%206%20-%20String%20Operations-%20Which%20month%20was%20the%20snowiest.ipynb)
+    * This tutorial is about extracting information from text in `pandas`.
+    * *Hint:* Some of the most interesting information in tomorrow's dataset might be in string variables.
+
+## Extra
+
+* Start working with the [dataset](https://github.com/hamishgibbs/sdi_python_foundations/blob/main/data) we will use tomorrow. 
 * Work on a few of the items in the challenge: 
     * *What variables are in the dataset?*
     * *What are the data types of the variables?*
