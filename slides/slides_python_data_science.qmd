@@ -83,7 +83,7 @@ format: revealjs
     * [`seaborn`](https://seaborn.pydata.org/)
     * [`plotnine`](https://plotnine.org/) *(R users might like this one!)*
 
-## Tutorial #1: pandas and matplotlib
+## Tutorial #1: Selecting data
 
 * [pandas-cookbook: Selecting data (Chapter 2)](https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%202%20-%20Selecting%20data%20&%20finding%20the%20most%20common%20complaint%20type.ipynb)
 * Core concepts: 
@@ -91,7 +91,7 @@ format: revealjs
     * Inspecting a dataset
     * Selecting data
 
-## Tutorial #2: pandas and matplotlib
+## Tutorial #2: More selecting data
 
 * [pandas-cookbook: More selecting data (Chapter 3)](https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%203%20-%20Which%20borough%20has%20the%20most%20noise%20complaints%20%28or%2C%20more%20selecting%20data%29.ipynb)
 * Core concepts: 
@@ -105,29 +105,7 @@ format: revealjs
 * Go to the `/data` folder in the GitHub repository (link above).
 * Download the `311-service-requests.csv` file and store it on your computer.
 
-## Tutorial #3: sklearn
-
-* [sklearn - Getting Started](https://scikit-learn.org/stable/getting_started.html)
-    * *Note: just work up to the "Model Evaluation" section.* 
-* Core concepts: 
-    * Fitting a model to data
-    
-        ```python
-        clf.fit(X, y)
-        ```
-    * Making predictions with a model
-
-        ```python
-        clf.predict(X)
-        ```
-    
-    * Model evaluation
-    
-        ```python
-        result = cross_validate(lr, X, y)
-        ```
-
-## Packages: Tutorials 1, 2, and 3
+## Packages: Tutorials 1 and 2
 
 * Install the required packages using your terminal in VSCode
 
@@ -136,17 +114,3 @@ format: revealjs
     ```
 
 * Trouble installing? Tell me!
-
-## Extra
-
-* [pandas-cookbook: String operations (Chapter 6)](https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%206%20-%20String%20Operations-%20Which%20month%20was%20the%20snowiest.ipynb)
-    * This tutorial is about extracting information from text in `pandas`.
-    * *Hint:* Some of the most interesting information in tomorrow's dataset might be in string variables.
-
-## Extra
-
-* Start working with the [dataset](https://github.com/hamishgibbs/sdi_python_foundations/blob/main/data) we will use tomorrow. 
-* Work on a few of the items in the challenge: 
-    * *What variables are in the dataset?*
-    * *What are the data types of the variables?*
-    * *Is there any missing data?*

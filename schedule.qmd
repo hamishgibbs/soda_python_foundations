@@ -40,7 +40,7 @@ author: Hamish Gibbs
 | 10:00 – 11:00 | Lecture / Live Coding | [[PDF]](./slides/slides_python_data_science.pdf) [[HTML]](./slides/slides_python_data_science.qmd) |
 | 11:00 – 12:30 | Practical | 1. [pandas-cookbook: Selecting data (Chapter 2)](https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%202%20-%20Selecting%20data%20&%20finding%20the%20most%20common%20complaint%20type.ipynb) <br> 2. [pandas-cookbook: More selecting data (Chapter 3)](https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%203%20-%20Which%20borough%20has%20the%20most%20noise%20complaints%20%28or%2C%20more%20selecting%20data%29.ipynb) |
 | 12:30 – 13:30 | Lunch | 
-| 13:30 – 14:30 | Lecture / Live Coding | [[PDF]](./slides/slides_collaboration.pdf) [[HTML]](./slides/slides_collaboration.qmd) |
+| 13:30 – 14:30 | Lecture / Live Coding | [[PDF]](./slides/slides_more_python_data_science.pdf) [[HTML]](./slides/slides_more_python_data_science.qmd) |
 | 14:30 – 16:00 | Practical | 3. [pandas-cookbook: String operations (Chapter 6)](https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%206%20-%20String%20Operations-%20Which%20month%20was%20the%20snowiest.ipynb) <br> 4. [pandas-cookbook: Data cleaning (Chapter 7)](https://nbviewer.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%207%20-%20Cleaning%20up%20messy%20data.ipynb) <br> 5. [sklearn - Linear Regression Example](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html) <br> 6. [challenge_scaffold.py](https://github.com/hamishgibbs/soda_python_foundations/blob/main/challenge_scaffold.py)|
 
 ### Day 4 (Challenge: regression analysis)
@@ -50,4 +50,5 @@ author: Hamish Gibbs
 | 10:00 – 11:00 | Lecture / Live Coding | [[PDF]](./slides/slides_regression.pdf) [[HTML]](./slides/slides_regression.qmd) |
 | 11:00 – 12:30 | Challenge | 1. Start the [Challenge](./challenge.qmd)! <br> For help see: [sklearn](https://scikit-learn.org/stable/tutorial/index.html) tutorials and [Inside AirBnB](https://insideairbnb.com/). |
 | 12:30 – 13:30 | Lunch | 
-| 13:30 – 16:00 | Challenge | 1. Push your solution file to the [shared repository](https://github.com/hamishgibbs/sdi_python_foundations_2024). <br> 2. We will discuss / compare solutions! |
+| 13:30 – 14:30 | Lecture / Live Coding | [[PDF]](./slides/slides_collaboration.pdf) [[HTML]](./slides/slides_collaboration.qmd) |
+| 14:30 – 16:00 | Challenge | 1. Push your solution file to the [shared repository](https://github.com/hamishgibbs/sdi_python_foundations_2024). <br> 2. We will discuss / compare solutions! |

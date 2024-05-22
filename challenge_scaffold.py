@@ -6,6 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_percentage_error
 import matplotlib.pyplot as plt
 import numpy as np
+from sklearn.tree import DecisionTreeRegressor
 #%%
 # Read the dataset with pandas.
 listings = pd.read_csv("./data/2020-08-24-listings.csv.gz")
@@ -41,8 +42,11 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # Fit the regression model.
 model = LinearRegression()
 model.fit(X_train, y_train)
-#%%
 model.coef_
+#%%
+# Try a different model:
+# model = DecisionTreeRegressor(random_state=0)
+# model.fit(X_train, y_train)
 #%%
 # Evaluate the model performance (very bad!).
 y_pred = model.predict(X_test)

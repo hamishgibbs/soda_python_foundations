@@ -44,7 +44,23 @@ format: revealjs
 * **git** is an open source version control system. 
     * Purpose: recording and reconciling changes to code.
 * **GitHub** is a place to store **remote** repositories. 
-    * Here is the repository for [this course](https://github.com/hamishgibbs/soda_python_foundations)!
+
+## Why use git?
+
+* The best example: 
+    * Here is the repository for [this course](https://github.com/hamishgibbs/soda_python_foundations)
+* You can:
+    * Look at the history of changes: [here](https://github.com/hamishgibbs/soda_python_foundations/commits/main/)
+    * Go back to an earlier version of the course materials: [here](https://github.com/hamishgibbs/soda_python_foundations/tree/c9036a351a9f1e4aa45939cd5b7c11dbfb0c248a)
+
+## Why use git?
+
+* `git` lets you: 
+    * Save a version of your code online.
+    * Delete / modify code without losing anything.
+* I recommend: 
+    * Build a portfolio by saving any programming you do for your courses in GitHub. 
+    * This can show off your programming experience for jobs / graduate school.
 
 ## Google docs
 
@@ -52,7 +68,7 @@ format: revealjs
     * I make a change to a document.
     * You make changes to the same document.
     * Our changes are combined together.
-* Except: `git` is *very manual*.
+* **Except:** `git` is *very manual*.
 
 ## Version control
 
@@ -61,25 +77,67 @@ format: revealjs
     * 'pushing' **local** changes to the **remote** repository.
     * 'pulling' changes from the **remote** repository.
     * 'merging' changes together.
-* ***Good question:** Why does this have to be explicit?*
+* ***Good question:** Why does this have to be so explicit?*
 
-## Aims: tomorrow
+## Aims: today
 
-* After the challenge, we will each: 
-    * Push our code to a shared repository.
-    * Compare solutions.
-* Shared repository URL:
-    * [soda_python_foundations_challenge_2024](https://github.com/hamishgibbs/soda_python_foundations_challenge_2024)
-* Please give me your GitHub usernames today!
+* This is a high-level introduction to `git` but it is sufficient for today.
+* We want to: 
+    * Create a place where we can compare everyone's solutions to the Challenge.
+    * Let everyone contribute their **local** code to this **remote** repository.
+
+## Aims: today
+
+1. Clone the [shared repository](https://github.com/hamishgibbs/soda_python_foundations_challenge_2024): 
+
+    ```shell
+    git clone [repo-url].git
+    ```
+2. Copy your code to the cloned repository.
+3. Add & commit your changes.
+
+    ```shell
+    git add [myfile].py
+    git commit -m "Adding my file!"
+    ```
+
+## Aims: today
+
+4. Push your code to the **remote** repository:
+
+    ```shell
+    git push
+    ```
+
+4. Pull other changes from the **remote** repository:
+
+    ```shell
+    git push
+    ```
+
+## Other useful commands
+
+* After `git add` but before `git commit`:
+    * Inspect which files have been created / modified / deleted:
+        
+        ```shell
+        git status
+        ```
+    
+    * Inspect changes to the code since the last commit:
+
+        ```shell
+        git diff --cached
+        ```
 
 ## Diving deeper into `git`
 
-* This is a very basic introduction to `git`
-* Advanced uses of `git` / GitHub:
-    * Collaboration on large projects, automated testing, issue / version tracking
-* Introductory uses of `git` / GitHub:
-    * Storing code / not losing what you have done
-    * **Building a 'portfolio' of coding projects**
+* There is more to `git`:
+    * **Branching**: creating different versions of the same code base.
+    * **Merging**: combining different branches back into the `main` branch.
+* And more to GitHub:
+    * Issue / project tracking
+    * Automated actions
 
 ## Tip
 
@@ -87,17 +145,3 @@ format: revealjs
     * GitHub Copilot
     * GitHub Copilot Chat
     * Free web hosting
-
-## Exercise #1
-
-1. Setup a [GitHub](https://github.com/) account.
-2. [Create a GitHub repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository).
-3. Commit your **local** code ([Add](https://github.com/git-guides/git-add), [Commit](https://github.com/git-guides/git-commit)).
-4. Push your code to your **remote** repository ([Remote](https://github.com/git-guides/git-remote)).
-
-## Extra
-
-* If you breeze through the GitHub setup / repository creation:
-    * Try editing files in the **remote**, then `pull` the changes to your **local** repository.
-    * Try creating a **local** `branch`, then `push` the branch to the **remote** repository.
-    * Try setting up a repository with someone else, making changes to the same file.
