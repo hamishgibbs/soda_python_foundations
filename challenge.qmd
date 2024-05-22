@@ -61,6 +61,7 @@ Consider:
 * What data format does your regression analysis need?
 * Which variables are / are not relevant to your methodology?
 * Do you need to transform these variables in any way?
+* Does restricting the dataset to certain property types / locations improve predictability?
 
 By the end of the session, aim to make progress on each major item in the Guidelines. Start simple, then refine your solution iteratively. 
 
