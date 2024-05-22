@@ -85,22 +85,6 @@ format: revealjs
 3. Commit your **local** code ([Add](https://github.com/git-guides/git-add), [Commit](https://github.com/git-guides/git-commit)).
 4. Push your code to your **remote** repository ([Remote](https://github.com/git-guides/git-remote)).
 
-## Diving deeper into `git`
-
-* This is a very basic introduction to `git`
-* Advanced uses of `git` / GitHub:
-    * Collaboration on large projects, automated testing, issue / version tracking
-* Introductory uses of `git` / GitHub:
-    * Storing code / not losing what you have done
-    * Building a 'portfolio' of coding projects
-
-## Tip
-
-* Github's Education Benefits give you access to a lot of [free stuff](https://education.github.com/benefits)!
-    * GitHub Copilot
-    * GitHub Copilot Chat
-    * Free web hosting
-
 ## What about GitHub alternatives?
 
 * `git` is open source and is the *de facto* version control software
@@ -117,6 +101,22 @@ format: revealjs
 * I recommend the command line because: 
     * Most basic git interactions are simple commands. 
     * You aren't linked to a particulat `git` hosting service.
+
+## Diving deeper into `git`
+
+* This is a very basic introduction to `git`
+* Advanced uses of `git` / GitHub:
+    * Collaboration on large projects, automated testing, issue / version tracking
+* Introductory uses of `git` / GitHub:
+    * Storing code / not losing what you have done
+    * **Building a 'portfolio' of coding projects**
+
+## Tip
+
+* Github's Education Benefits give you access to a lot of [free stuff](https://education.github.com/benefits)!
+    * GitHub Copilot
+    * GitHub Copilot Chat
+    * Free web hosting
 
 ## Extra
 
