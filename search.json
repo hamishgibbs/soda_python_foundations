@@ -140,20 +140,6 @@
     "text": "Tutorial #1\n\nSetup a GitHub account.\nCreate a GitHub repository.\nCommit your local code (Add, Commit).\nPush your code to your remote repository (Remote)."
   },
   {
-    "objectID": "slides/slides_collaboration.html#diving-deeper-into-git",
-    "href": "slides/slides_collaboration.html#diving-deeper-into-git",
-    "title": "Collaboration",
-    "section": "Diving deeper into git",
-    "text": "Diving deeper into git\n\nThis is a very basic introduction to git\nAdvanced uses of git / GitHub:\n\nCollaboration on large projects, automated testing, issue / version tracking\n\nIntroductory uses of git / GitHub:\n\nStoring code / not losing what you have done\nBuilding a ‘portfolio’ of coding projects"
-  },
-  {
-    "objectID": "slides/slides_collaboration.html#tip",
-    "href": "slides/slides_collaboration.html#tip",
-    "title": "Collaboration",
-    "section": "Tip",
-    "text": "Tip\n\nGithub’s Education Benefits give you access to a lot of free stuff!\n\nGitHub Copilot\nGitHub Copilot Chat\nFree web hosting"
-  },
-  {
     "objectID": "slides/slides_collaboration.html#what-about-github-alternatives",
     "href": "slides/slides_collaboration.html#what-about-github-alternatives",
     "title": "Collaboration",
@@ -166,6 +152,20 @@
     "title": "Collaboration",
     "section": "What about git clients?",
     "text": "What about git clients?\n\nThere are lots of “easier” ways to interact with git repositories through a graphical user interface (GUI).\n\nExample: GitHub Desktop.\n\nI recommend the command line because:\n\nMost basic git interactions are simple commands.\nYou aren’t linked to a particulat git hosting service."
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#diving-deeper-into-git",
+    "href": "slides/slides_collaboration.html#diving-deeper-into-git",
+    "title": "Collaboration",
+    "section": "Diving deeper into git",
+    "text": "Diving deeper into git\n\nThis is a very basic introduction to git\nAdvanced uses of git / GitHub:\n\nCollaboration on large projects, automated testing, issue / version tracking\n\nIntroductory uses of git / GitHub:\n\nStoring code / not losing what you have done\nBuilding a ‘portfolio’ of coding projects"
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#tip",
+    "href": "slides/slides_collaboration.html#tip",
+    "title": "Collaboration",
+    "section": "Tip",
+    "text": "Tip\n\nGithub’s Education Benefits give you access to a lot of free stuff!\n\nGitHub Copilot\nGitHub Copilot Chat\nFree web hosting"
   },
   {
     "objectID": "slides/slides_collaboration.html#extra",
