@@ -144,11 +144,18 @@
     "href": "slides/slides_collaboration.html#aims-today-1",
     "title": "Collaboration",
     "section": "Aims: today",
-    "text": "Aims: today\n\nClone the shared repository:\ngit clone [repo-url].git\nCopy your code to the cloned repository.\nAdd & commit your changes.\ngit add [myfile].py\ngit commit -m \"Adding my file!\""
+    "text": "Aims: today\n\nClone the shared repository:\ngit clone [repo-url].git\nCopy your code to the cloned repository."
   },
   {
     "objectID": "slides/slides_collaboration.html#aims-today-2",
     "href": "slides/slides_collaboration.html#aims-today-2",
+    "title": "Collaboration",
+    "section": "Aims: today",
+    "text": "Aims: today\n\nCreate your own branch.\ngit checkout -b [my-branch]\nAdd & commit your changes.\ngit add [myfile].py\ngit commit -m \"Adding my file!\""
+  },
+  {
+    "objectID": "slides/slides_collaboration.html#aims-today-3",
+    "href": "slides/slides_collaboration.html#aims-today-3",
     "title": "Collaboration",
     "section": "Aims: today",
     "text": "Aims: today\n\nPush your code to the remote repository:\ngit push\nPull other changes from the remote repository:\ngit push"
