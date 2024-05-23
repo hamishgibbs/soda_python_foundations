@@ -94,7 +94,16 @@ format: revealjs
     git clone [repo-url].git
     ```
 2. Copy your code to the cloned repository.
-3. Add & commit your changes.
+
+## Aims: today
+
+3. Create your own **branch**.
+    
+    ```shell
+    git checkout -b [my-branch]
+    ```
+
+4. Add & commit your changes.
 
     ```shell
     git add [myfile].py
@@ -103,13 +112,13 @@ format: revealjs
 
 ## Aims: today
 
-4. Push your code to the **remote** repository:
+5. Push your code to the **remote** repository:
 
     ```shell
     git push
     ```
 
-4. Pull other changes from the **remote** repository:
+6. Pull other changes from the **remote** repository:
 
     ```shell
     git push
