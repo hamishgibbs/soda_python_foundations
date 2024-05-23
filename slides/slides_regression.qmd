@@ -26,7 +26,7 @@ format: revealjs
     * Aim to make progress on each major item in the Guidelines. 
     * Start simple, then refine your solution. 
 
-## Aims: This afternoons
+## Aims: This afternoon
 
 * After lunch: introduction to `git` and GitHub.
 * We will contribute our code to a [shared repository](https://github.com/hamishgibbs/soda_python_foundations_challenge_2024).
