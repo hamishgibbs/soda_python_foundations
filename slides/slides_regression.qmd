@@ -24,11 +24,11 @@ format: revealjs
 * See the [Challenge Guidelines](https://hamishgibbs.github.io/soda_python_foundations/challenge.html#guidelines).
 * By the end of the session:
     * Aim to make progress on each major item in the Guidelines. 
-    * Start simple, then refine your solution iteratively. 
+    * Start simple, then refine your solution. 
 
-## Help: Regression
+## Aims: This afternoons
 
-<p align="center">
-  <img src="https://scikit-learn.org/stable/_static/ml_map.png" alt="Git Repos">
-</p>
-<small>Image credit: [sklearn – Choosing the right estimator](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)</small>
+* After lunch: introduction to `git` and GitHub.
+* We will contribute our code to a [shared repository](https://github.com/hamishgibbs/soda_python_foundations_challenge_2024).
+* We will discuss everyone's solutions and have some cookies.
+  * *Any dietary restrictions?*
